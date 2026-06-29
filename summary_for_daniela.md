@@ -2,7 +2,7 @@
 
 **Group Members:** Rogie P. Bacanto & Daniela S. Ungab
 **Subject:** CS Thesis Writing 1 (BSCS-4, NDMC)
-**Adviser:** Ms. Rezzie R. Cadungog
+**Adviser:** Ms. Doris Ann Mariano
 
 ---
 
