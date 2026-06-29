@@ -8,7 +8,7 @@ This repository contains the preparation workspace for the BS in Computer Scienc
 
 ## Thesis Information
 - **Subject:** CS Thesis Writing 1
-- **Adviser:** Ms. Rezzie R. Cadungog
+- **Adviser:** Ms. Doris
 - **Milestone:** Week 4 Title Defense (July 13-19, 2026)
 
 ## Workspace Structure
