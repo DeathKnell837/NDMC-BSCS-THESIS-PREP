@@ -50,9 +50,9 @@ This workspace customizations file provides context and instructions to the Anti
 2. **Title 2:** Deep Learning-Based Detection and Classification of Malicious URLs for Phishing Prevention
    * **Domain:** Deep Learning / Natural Language Processing / Cybersecurity (1D CNN / LSTM / GRU)
    * **Scope:** Input a URL string $\rightarrow$ analyze character sequence and structure using deep neural networks $\rightarrow$ classify as benign or malicious (phishing, malware, defacement) $\rightarrow$ alert user.
-3. **Title 3 (Backup Topic):** Deepfake Detection System
-   * **Domain:** Computer Vision / Deep Learning (CNN)
-   * **Scope:** Upload photo/video $\rightarrow$ AI detects face swaps or AI-generated media (Midjourney, DALL-E) $\rightarrow$ outputs confidence score and manipulation heat map.
+3. **Title 3:** *To be selected by Daniela S. Ungab*
+   * **Domain:** AI / Computer Science
+   * **Status:** Pending decision.
 
 ---
 

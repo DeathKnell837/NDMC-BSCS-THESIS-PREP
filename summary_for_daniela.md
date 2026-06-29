@@ -25,7 +25,7 @@ We must present exactly **3 thesis titles** at the Week 4 title defense. The pan
 |---|---|---|
 | **Title 1** | **Structural Crack Detection and Severity Classification** | AI + Computer Vision + Civil Safety |
 | **Title 2** | **Malicious URL Detection & Phishing Prevention** | AI + Natural Language Processing + Cybersecurity |
-| **Title 3** | **Deepfake Image/Video Detection** | AI + Computer Vision + Cybersecurity |
+| **Title 3** | **To Be Decided (TBD)** | ❓ *Daniela's Selection* |
 
 ---
 
@@ -68,22 +68,15 @@ Traditional manual inspections of cracked buildings are slow, subjective, and pr
 
 ---
 
-## Title 3: 🕵️‍♂️ Deepfake Image/Video Detection System
+## Title 3: ❓ Pending Daniela's Selection
 
-### Robust Title
-> *"A Convolutional Neural Network Approach for Real-Time Detection and Classification of Deepfake Images and AI-Generated Media"*
+### Description
+This slot is reserved for Daniela's preferred topic to complete our list of 3 titles for the defense.
 
-### The Problem
-With the rise of Midjourney, DALL-E, and advanced face-swap models, fake media is widely used for scams, identity theft, and spreading misinformation online.
-
-### Unique Features
-*   **Multiclass Detection:** Detects face-swaps, AI-generated art, and manipulated images.
-*   **Manipulation Heat Map:** Highlights exactly which region of the image shows signs of AI manipulation or pixel tempering.
-*   **Video Analysis:** Scans uploads frame-by-frame for temporal inconsistencies.
-
-### Research Agenda
-*   **Agenda 1:** Emerging Tech (AI/Computer Vision)
-*   **SDG:** SDG 16 (Peace, Justice & Strong Institutions)
+### Suggested Options:
+*   **🍫 Cacao Bean Quality Grading:** AI / Computer Vision system for local cacao farming.
+*   **🤟 Filipino Sign Language Recognition:** AI system for deaf accessibility (FSL translation).
+*   **🔥 Smoke & Fire Detection:** Real-time computer vision detection using CCTV.
 
 ---
 
