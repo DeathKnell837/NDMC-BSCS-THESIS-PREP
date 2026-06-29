@@ -10,98 +10,80 @@
 
 | Week | Dates | What We Do |
 |---|---|---|
-| **Week 1** | June 22-28 (NOW) | Research & Topic Selection |
-| **Week 2** | June 29 - July 5 | Research & Topic Selection |
-| **Week 3** | July 6-12 | Research & Topic Selection |
+| **Week 1** | June 22-28 (Completed) | Research & Topic Selection |
+| **Week 2** | June 29 - July 5 (NOW) | Refine Titles, Gather References, and Outline Chapter 1 |
+| **Week 3** | July 6-12 | Finalize Title Defense Slides & Practice |
 | **Week 4** | **July 13-19** | **🚨 TITLE DEFENSE (defend 3 titles to panelists)** |
 
 ---
 
-## What We Need: 3 Thesis Titles
+## Our 3 Thesis Titles for the Defense
 
-We must present **3 thesis titles** at the Week 4 title defense. The panel picks the best one. All 3 use the same core technology: **AI / Computer Vision / Deep Learning (CNN)**.
+We must present exactly **3 thesis titles** at the Week 4 title defense. The panel will pick the best one. All 3 use the same core technology: **AI / Deep Learning / Convolutional Neural Networks (CNN)**.
 
-| Slot | Topic | Status |
+| Slot | Topic / Title | Domain |
 |---|---|---|
-| **Title 1** | 🏚️ Post-Earthquake Structural Damage Assessment | ✅ Decided by Rogie |
-| **Title 2** | 🔍 Deepfake Detection | ✅ Decided by Rogie |
-| **Title 3** | ❓ **Daniela's pick** | ❓ Waiting for Daniela |
-
-### Options for Title 3 (Daniela picks one):
-- 🍫 Cacao Bean Quality Grading (agriculture, Cotabato-specific)
-- 🤟 Filipino Sign Language Recognition (accessibility)
-- 🔥 Smoke/Fire Detection from CCTV (disaster/safety)
-- 🐟 Fish Freshness Detection (local markets)
-- Or suggest your own idea!
+| **Title 1** | **Structural Crack Detection and Severity Classification** | AI + Computer Vision + Civil Safety |
+| **Title 2** | **Malicious URL Detection & Phishing Prevention** | AI + Natural Language Processing + Cybersecurity |
+| **Title 3** | **Deepfake Image/Video Detection** | AI + Computer Vision + Cybersecurity |
 
 ---
 
-## Title 1: 🏚️ Post-Earthquake Structural Damage Assessment System
+## Title 1: 🏚️ Structural Crack Detection and Severity Classification System
+
+### Robust Title
+> *"A Deep Learning-Based Structural Crack Detection and Severity Classification System Using Convolutional Neural Networks with Transfer Learning for Building Safety Assessment"*
 
 ### The Problem
-After an earthquake (like the one this year), inspecting buildings for damage is slow and manual. There aren't enough structural engineers to check every building quickly.
+Traditional manual inspections of cracked buildings are slow, subjective, and prone to human error. Following earthquakes or during regular maintenance, licensed structural engineers are in short supply.
 
-### What It Does
-An AI-powered web app where an inspector photographs a building's walls, columns, ceiling, and foundation. The AI analyzes each photo and gives an overall safety assessment.
+### Unique Features
+*   **Explainable AI (Grad-CAM):** Generates a heatmap over the concrete surface, showing the panel exactly which crack features the AI is focusing on to make its decision.
+*   **Physical Width Measurement (mm):** Converts image pixels into physical millimeters using a calibration algorithm (with a standard reference object) to grade severity objectively.
+*   **Building-Level Safety Aggregator:** Allows inspectors to create a "Building Profile" and take multiple photos (walls, columns, foundation). The system combines these to calculate an overall building safety index (Safe, Caution, Danger) based on structural engineering heuristics.
 
-### Full Feature List
-| # | Feature | Description |
-|---|---|---|
-| 1 | Crack/damage detection | AI detects cracks, spalling, exposed rebar |
-| 2 | Crack type classification | Hairline, linear, branching, alligator pattern |
-| 3 | Severity scoring | Rates damage 1-10 |
-| 4 | Risk level | 🟢 SAFE → 🟡 CAUTION → 🟠 DANGER → 🔴 EVACUATE |
-| 5 | Heat map overlay | Highlights where damage is in the photo |
-| 6 | Multi-photo inspection | Take 4-12 photos per building (walls, columns, ceiling, floor) |
-| 7 | Overall building score | Combines all photos into one assessment |
-| 8 | Damage map (blueprint-style) | Visual map showing where damage is in the building |
-| 9 | PDF report | Auto-generated damage report for LGU/DPWH |
-| 10 | GPS-tagged map dashboard | See all inspected buildings on a map, color-coded by risk |
-| 11 | Priority ranking | Rank which buildings need repair first |
-| 12 | Before vs After comparison | Compare old vs post-earthquake photos |
-| 13 | Inspection history | Track damage over time |
-| 14 | Multi-user access | Multiple inspectors can use it |
-| 15 | Offline mode | Works without internet after disaster |
-| 16 | Building shape templates | Pick building layout for the damage map |
-
-### Possible Title
-> *"A Deep Learning-Based Post-Earthquake Structural Damage Assessment System Using Convolutional Neural Networks with Transfer Learning"*
-
-### Research Agenda: Agenda 1 (Emerging Technologies) | SDG 9 & SDG 11
+### Research Agenda
+*   **Agenda 1:** Emerging Technologies in Computer Science (AI)
+*   **SDGs:** SDG 9 (Industry, Innovation & Infrastructure), SDG 11 (Sustainable Cities)
 
 ---
 
-## Title 2: 🔍 Deepfake Detection System
+## Title 2: 🔍 Malicious URL Detection & Phishing Prevention System
+
+### Robust Title
+> *"Character-Level Deep Learning-Based Detection and Classification of Malicious URLs Using Hybrid CNN-LSTM Networks for Phishing Prevention"*
 
 ### The Problem
-AI-generated fake images and videos are everywhere (Midjourney, DALL-E, face swaps). People get scammed, misinformation spreads, and nobody can tell what's real anymore.
+ centrale database-driven blocklists (like Google Safe Browsing) cannot detect "zero-day" phishing links that were created 5 minutes ago. Attackers frequently spoof local services (e.g., GCash, BDO/BPI) using these new URLs.
 
-### What It Does
-A web app where you upload a photo or video, and the AI tells you if it's real or fake, with a confidence score and a heat map showing which part was manipulated.
+### Unique Features
+*   **Zero-Day Proactive Analysis:** Instead of matching against a database, the AI analyzes the *character patterns* of a raw URL string (e.g., character sequences, keywords, subdomains) to predict maliciousness.
+*   **Redirect Resolver Integration:** Traces shorteners (e.g., `bit.ly` or `tinyurl`) to extract the final destination domain *before* sending it to the model.
+*   **Explainability Heatmaps:** Visualizes which character sequences/substrings (e.g., `login`, `verification`) contributed most to the malicious classification.
+*   **Chrome Extension:** Runs the model locally in milliseconds to intercept pages in real-time.
 
-### Full Feature List
-| # | Feature | Description |
-|---|---|---|
-| 1 | Real vs Fake image detection | Is this photo real or AI-generated? |
-| 2 | Face swap detection | Detect if someone's face was swapped |
-| 3 | AI-generated image detection | Catch Midjourney, DALL-E, Stable Diffusion images |
-| 4 | AI-generated text detection | Check if text was written by ChatGPT |
-| 5 | Manipulation heat map | Shows WHERE the image was faked |
-| 6 | Confidence score | "94.7% likely fake" |
-| 7 | Video analysis | Frame-by-frame deepfake detection |
-| 8 | Single image upload | Upload one image → get result |
-| 9 | Batch upload | Upload multiple images at once |
-| 10 | URL paste check | Paste image URL → auto-check |
-| 11 | Side-by-side comparison | Show original vs manipulated areas |
-| 12 | Detection report | Explains why AI flagged it as fake |
-| 13 | History log | Record of all checked images |
-| 14 | Dashboard | Stats: checked, fake, real |
-| 15 | Share result | Share analysis as a link |
+### Research Agenda
+*   **Agenda 1:** Emerging Tech (AI/NLP) + **Agenda 4:** Cybersecurity Threat Detection
+*   **SDG:** SDG 16 (Peace, Justice & Strong Institutions)
 
-### Possible Title
+---
+
+## Title 3: 🕵️‍♂️ Deepfake Image/Video Detection System
+
+### Robust Title
 > *"A Convolutional Neural Network Approach for Real-Time Detection and Classification of Deepfake Images and AI-Generated Media"*
 
-### Research Agenda: Agenda 1 (Emerging Tech) + Agenda 4 (Cybersecurity) | SDG 16
+### The Problem
+With the rise of Midjourney, DALL-E, and advanced face-swap models, fake media is widely used for scams, identity theft, and spreading misinformation online.
+
+### Unique Features
+*   **Multiclass Detection:** Detects face-swaps, AI-generated art, and manipulated images.
+*   **Manipulation Heat Map:** Highlights exactly which region of the image shows signs of AI manipulation or pixel tempering.
+*   **Video Analysis:** Scans uploads frame-by-frame for temporal inconsistencies.
+
+### Research Agenda
+*   **Agenda 1:** Emerging Tech (AI/Computer Vision)
+*   **SDG:** SDG 16 (Peace, Justice & Strong Institutions)
 
 ---
 
@@ -109,9 +91,9 @@ A web app where you upload a photo or video, and the AI tells you if it's real o
 
 | Component | Technology | Cost |
 |---|---|---|
-| AI Model | Python + TensorFlow/Keras (CNN with Transfer Learning) | FREE |
+| AI Model | Python + TensorFlow/Keras | FREE |
 | Model Training | Google Colab (free GPU in browser) | FREE |
-| Web App | Next.js or React | FREE |
+| Web App Frontend | React / Next.js | FREE |
 | Hosting | Vercel (test via phone browser) | FREE |
 | Native App (later) | React Native or Flutter + TensorFlow Lite | FREE |
 | Datasets | Kaggle / public datasets | FREE |
@@ -122,15 +104,5 @@ A web app where you upload a photo or video, and the AI tells you if it's real o
 
 ## How the Work is Split
 
-| Who | What They Do |
-|---|---|
-| **AI Assistant** | Writes all code, builds the AI model, writes thesis chapters, finds verified references |
-| **Rogie & Daniela** | Run the training on Google Colab (click "Run"), understand the code for defense, collect local photos if needed, present at defense |
-
----
-
-## What Daniela Needs to Do
-
-1. ✅ **Pick Title 3** from the options above (or suggest her own idea)
-2. ✅ **Confirm** she's okay with Title 1 (Earthquake Damage) and Title 2 (Deepfake Detection)
-3. ✅ Tell Rogie so we can start preparing all 3 titles for the Week 4 defense
+*   **AI Assistant:** Writes all code, trains the model templates, drafts thesis chapters, and compiles verified references.
+*   **Rogie & Daniela:** Run the training on Google Colab (just click "Run"), collect some local test samples, study the concepts for the defense, and present the slides.
