@@ -44,14 +44,15 @@ This workspace customizations file provides context and instructions to the Anti
 
 ## 3. Currently Planned Thesis Titles
 
-1. **Title 1 (Main Topic):** Post-Earthquake Structural Damage Assessment System
+1. **Title 1:** A Deep Learning-Based Structural Crack Detection and Severity Classification System Using Convolutional Neural Networks with Transfer Learning for Building Safety Assessment
    * **Domain:** Computer Vision / Deep Learning (CNN with Transfer Learning)
-   * **Scope:** Analyze images of walls/columns $\rightarrow$ detect cracks, spalling, exposed rebar $\rightarrow$ rate severity 1-10 $\rightarrow$ output safety status (Safe, Caution, Danger, Evacuate) $\rightarrow$ generate building damage map (blueprint-style) and LGU inspection PDF report.
-2. **Title 2 (Backup Topic):** Deepfake Detection System
+   * **Scope:** Analyze images of concrete surfaces/structures $\rightarrow$ detect cracks $\rightarrow$ classify severity (minor, moderate, severe) $\rightarrow$ output safety status (Safe, Caution, Danger) $\rightarrow$ generate building damage map (blueprint-style) and inspection PDF report.
+2. **Title 2:** Deep Learning-Based Detection and Classification of Malicious URLs for Phishing Prevention
+   * **Domain:** Deep Learning / Natural Language Processing / Cybersecurity (1D CNN / LSTM / GRU)
+   * **Scope:** Input a URL string $\rightarrow$ analyze character sequence and structure using deep neural networks $\rightarrow$ classify as benign or malicious (phishing, malware, defacement) $\rightarrow$ alert user.
+3. **Title 3 (Backup Topic):** Deepfake Detection System
    * **Domain:** Computer Vision / Deep Learning (CNN)
    * **Scope:** Upload photo/video $\rightarrow$ AI detects face swaps or AI-generated media (Midjourney, DALL-E) $\rightarrow$ outputs confidence score and manipulation heat map.
-3. **Title 3 (Backup Topic):** *To be chosen by Daniela S. Ungab*
-   * *Under consideration:* Cacao Bean Quality Grading, Filipino Sign Language Recognition, or Smoke/Fire Detection.
 
 ---
 

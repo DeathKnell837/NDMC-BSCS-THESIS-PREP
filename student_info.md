@@ -12,8 +12,11 @@
 
 ## Thesis Details (CS Thesis Writing 1)
 * **Subject**: CS Thesis Writing 1 (Enrolled)
-* **Topic**: Not yet selected
 * **Teacher Note**: Teacher is highly particular about titles
+
+### Confirmed Titles
+1. **Title 1:** *"A Deep Learning-Based Structural Crack Detection and Severity Classification System Using Convolutional Neural Networks with Transfer Learning for Building Safety Assessment"*
+2. **Title 2:** *"Deep Learning-Based Detection and Classification of Malicious URLs for Phishing Prevention"*
 
 ### Group Members
 * Rogie P. Bacanto (BSCS-4)
