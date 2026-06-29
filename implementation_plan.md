@@ -205,9 +205,9 @@ For each title, prepare:
 - [ ] **Algorithm Selection**: Detail the specific algorithm(s) and why they were chosen
 - [ ] **Dataset Plan**: Identify if using public dataset (Kaggle, UCI, etc.) or self-collected data
 - [ ] **Tech Stack**: Choose programming languages, frameworks, and tools
-- [ ] **Evaluation Metrics**: Define how success is measured (accuracy, precision, recall, F1, etc.)
-- [ ] **Statistical Tools**: Identify tools for data analysis (e.g., SPSS, Python scipy, t-test, ANOVA)
-- [ ] **Instrument Validation**: Plan the 7-step process if creating a researcher-made questionnaire
+- [ ] **Evaluation Metrics**: Define model success metrics (accuracy, precision, recall, F1) and system usability metrics (System Usability Scale - SUS score / ISO 25010)
+- [ ] **Statistical Tools**: Identify tools for statistical analysis of model performance and survey data (mean, standard deviation, and SUS calculations)
+- [ ] **Usability Survey Instrument**: Prepare the adopted standard survey (SUS / ISO 25010) via Google Forms (bypassing the 7-step researcher-made validation pipeline)
 - [ ] **Ethical Considerations**: Reference the Belmont Report (1978) — respect for persons, beneficence, justice
 
 ### Deliverable
