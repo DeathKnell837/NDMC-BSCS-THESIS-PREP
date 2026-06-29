@@ -10,7 +10,7 @@ This workspace customizations file provides context and instructions to the Anti
 * **Rogie P. Bacanto** (BSCS-4)
 * **Daniela S. Ungab** (BSCS-4)
 * **School:** Notre Dame of Midsayap College (NDMC), College of Information Technology and Engineering (CITE)
-* **Adviser:** Ms. Rezzie R. Cadungog
+* **Adviser:** Ms. Doris Ann Mariano
 * **Current Subject:** CS Thesis Writing 1 (Enrolled, June 2026)
 
 ### Timeline & Milestones
