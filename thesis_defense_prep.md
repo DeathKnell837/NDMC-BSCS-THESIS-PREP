@@ -67,9 +67,9 @@ Although numerous crack detection models exist, most are limited to binary class
 ```
 
 ## 6. Verified References
-1. C. V. Dung, "Autonomous concrete crack detection using deep fully convolutional neural network," *Automation in Construction*, vol. 99, pp. 52-58, Mar. 2019. [Online]. Available: https://doi.org/10.1016/j.autcon.2018.11.028
-2. Q. Zou, Z. Zhang, Q. Li, X. Qi, Q. Wang, and Z. Wang, "DeepCrack: Learning Hierarchical Convolutional Features for Crack Detection," *IEEE Transactions on Image Processing*, vol. 28, no. 3, pp. 1498-1512, Mar. 2018. [Online]. Available: https://doi.org/10.1109/TIP.2018.2878959
-3. V. Suthar, A. Choudhary, and R. K. Lomotey, "Concrete Crack Detection and Segregation: A Feature Fusion, Crack Isolation, and Explainable AI-Based Approach," *Journal of Imaging*, vol. 10, no. 5, p. 115, May 2024. [Online]. Available: https://doi.org/10.3390/jimaging10050115
+1. C. V. Dung and L. D. Anh, "Autonomous concrete crack detection using deep fully convolutional neural network," *Automation in Construction*, vol. 99, pp. 52-58, Mar. 2019. [Online]. Available: https://doi.org/10.1016/j.autcon.2018.11.028
+2. Q. Zou, Z. Zhang, Q. Li, X. Qi, Q. Wang, and S. Wang, "DeepCrack: Learning Hierarchical Convolutional Features for Crack Detection," *IEEE Transactions on Image Processing*, vol. 28, no. 3, pp. 1498-1512, Mar. 2018. [Online]. Available: https://doi.org/10.1109/TIP.2018.2878966
+3. R. A. Swarna, M. M. Hossain, M. R. Khatun, M. M. Rahman, and A. Munir, "Concrete Crack Detection and Segregation: A Feature Fusion, Crack Isolation, and Explainable AI-Based Approach," *Journal of Imaging*, vol. 10, no. 9, p. 215, Sep. 2024. [Online]. Available: https://doi.org/10.3390/jimaging10090215
 
 ---
 ---
@@ -133,6 +133,6 @@ Despite the high accuracy reported in recent deep learning URL research, two cri
 ```
 
 ## 6. Verified References
-1. S. Saha, A. K. Sandhu, and S. Kumar, "An Effective Phishing Detection Model Based on Character Level Convolutional Neural Network from URL," *Applied Sciences*, vol. 10, no. 9, p. 3155, May 2020. [Online]. Available: https://doi.org/10.3390/app10093155
-2. H. Zaimi, A. L. Naimi, and M. Y. Al-Sarem, "Phishing URL Detection Using Transformer-Based Architecture and Contextual Content Features," *Sensors*, vol. 26, no. 2, p. 412, Jan. 2026. [Online]. Available: https://doi.org/10.3390/s26020412
-3. R. Ali, M. A. Akhter, and S. U. Khan, "Deep learning approach for malicious URL detection using CNN, RNN, LSTM and bi-lstm models," *Journal of Cybersecurity*, vol. 8, no. 1, pp. 45-56, Feb. 2024. [Online]. Available: https://doi.org/10.1093/cybsec/tyad012
+1. A. Aljofey, Q. Jiang, Q. Qu, M. Huang, and J. P. Niyigena, "An Effective Phishing Detection Model Based on Character Level Convolutional Neural Network from URL," *Electronics*, vol. 9, no. 9, p. 1514, Sep. 2020. [Online]. Available: https://doi.org/10.3390/electronics9091514
+2. Q. E. U. Haq, M. H. Faheem, and I. Ahmad, "Detecting Phishing URLs Based on a Deep Learning Approach to Prevent Cyber-Attacks," *Applied Sciences*, vol. 14, no. 22, p. 10086, Nov. 2024. [Online]. Available: https://doi.org/10.3390/app142210086
+3. N. Gupta, S. Thapliyal, A. Sharma, J. Sheladia, M. Wazid, and D. Giri, "Deep Learning Approach for Malicious URL Detection using CNN, RNN, LSTM and Bi-LSTM models," in *2024 6th International Conference on Computational Intelligence and Networks (CINE)*, Dec. 2024. [Online]. Available: https://doi.org/10.1109/CINE63708.2024.10881598
