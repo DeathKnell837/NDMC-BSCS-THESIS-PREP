@@ -136,3 +136,70 @@ Despite the high accuracy reported in recent deep learning URL research, two cri
 1. A. Aljofey, Q. Jiang, Q. Qu, M. Huang, and J. P. Niyigena, "An Effective Phishing Detection Model Based on Character Level Convolutional Neural Network from URL," *Electronics*, vol. 9, no. 9, p. 1514, Sep. 2020. [Online]. Available: https://doi.org/10.3390/electronics9091514
 2. Q. E. U. Haq, M. H. Faheem, and I. Ahmad, "Detecting Phishing URLs Based on a Deep Learning Approach to Prevent Cyber-Attacks," *Applied Sciences*, vol. 14, no. 22, p. 10086, Nov. 2024. [Online]. Available: https://doi.org/10.3390/app142210086
 3. N. Gupta, S. Thapliyal, A. Sharma, J. Sheladia, M. Wazid, and D. Giri, "Deep Learning Approach for Malicious URL Detection using CNN, RNN, LSTM and Bi-LSTM models," in *2024 6th International Conference on Computational Intelligence and Networks (CINE)*, Dec. 2024. [Online]. Available: https://doi.org/10.1109/CINE63708.2024.10881598
+
+---
+---
+
+# Topic 3: Deepfake Detection & AI-Generated Image Classification
+
+## 1. Robust Title
+> **"A Deep Learning-Based Deepfake Detection and AI-Generated Image Classification System Using Convolutional Neural Networks for Digital Authenticity Verification"**
+
+## 2. Research Questions (Statement of the Problem)
+The study aims to develop a deep learning-based system to detect and classify deepfakes and AI-generated synthetic images to verify digital authenticity. Specifically, it seeks to answer the following:
+1. What is the classification performance (accuracy, precision, recall, and F1-score) of the proposed CNN models (MesoNet, ResNet50, and EfficientNet) when trained on deepfake and synthetic image datasets?
+2. How can Explainable AI (XAI) using Gradient-weighted Class Activation Mapping (Grad-CAM) be integrated to locate and visualize visual artifacts (e.g., blending boundaries, reflection inconsistencies) in detected deepfake images?
+3. How effectively can the model classify synthetic images based on their generation source (e.g., Generative Adversarial Networks (GANs), Diffusion Models, or Face-Swaps)?
+4. What is the level of usability and effectiveness of the developed web-based verification system as evaluated by digital media editors, cybersecurity practitioners, and general internet users?
+
+## 3. Unique Features & Loophole Defenses
+
+### Loophole: "Why do we need this? Major social media platforms already have their own deepfake detectors."
+*   **Defense:** Proprietary commercial detection systems are closed-source and run entirely on private cloud networks, making them inaccessible to local developers, security inspectors, or Philippine academic institutions. Our system is an open-source, lightweight web application that allows local users to directly upload and inspect suspicious media files for immediate local verification.
+
+### Loophole: "How do we know the model isn't just looking at the background color or image dimensions to predict if it's AI-generated?"
+*   **Defense:** We implement **Explainable AI (XAI) using Grad-CAM**. This generates visual heatmaps that highlight the specific pixel regions the network used to make its classification decision. This proves that the AI is focusing on actual generative artifact anomalies (such as facial blending boundaries, pupil asymmetry, and ear shapes) rather than random background elements or noise.
+
+### Loophole: "How do you distinguish between GANs (like StyleGAN) and Diffusion models (like Midjourney)?"
+*   **Defense:** Instead of just a binary "Real/Fake" classifier, our network uses a **multi-generator classification head**. This architecture separates the fine-grained visual differences of different generator backends, allowing cybersecurity investigators to trace the origin engine of the forged media.
+
+---
+
+## 4. Draft Background of the Study (1.1)
+
+### Global Context
+The rapid advancement of Generative Artificial Intelligence (GenAI), specifically Generative Adversarial Networks (GANs) and Latent Diffusion Models (such as Stable Diffusion, Midjourney, and DALL-E), has made it possible to synthesize highly realistic fake media, commonly referred to as deepfakes. While these tools offer vast creative potential, they pose unprecedented global threats to digital security, including identity theft, sophisticated financial fraud, and political disinformation campaigns. Modern AI generators produce synthetic faces that are indistinguishable from real human photographs to the human eye, rendering manual verification obsolete [1]. To address this challenge, researchers have turned to deep learning, training convolutional neural networks (CNNs) to detect microscopic visual artifacts, frequency anomalies, and structural errors left behind during the AI generation process [2].
+
+### National Context
+In the Philippines, the proliferation of deepfakes and AI-generated synthetic images represents a growing cybersecurity threat. With over 85 million active social media users, the local population is highly exposed to online disinformation and digital manipulation. Fraudsters are increasingly exploiting AI generators to create fake profile pictures and forged identity documents, bypassing Know-Your-Customer (KYC) registration systems for local mobile wallets like GCash and online banking platforms. Local fact-checkers and law enforcement agencies face severe backlogs due to the lack of specialized tools to quickly identify manipulated media. Despite these challenges, there is a scarcity of localized, open-source verification systems designed to protect Filipino internet users from synthetic media scams [3].
+
+### Local Context
+At the local level, schools, government offices, and local businesses in Cotabato and Midsayap are highly vulnerable to digital identity scams. With the transition to online registration portals at Notre Dame of Midsayap College, students and administrative staff frequently handle digital media files without verification. A lack of cybersecurity awareness makes local users easy targets for social engineering campaigns utilizing highly realistic AI-generated avatars. This local risk justifies the need for this study. By building an accessible, web-based verification platform, local students and community members can upload suspicious profile photos or digital media to verify authenticity before engaging in online transactions [4].
+
+### Research Gap
+While deepfake detection research has advanced, most existing models are restricted to binary classification (real vs. fake) and operate as "black boxes" without explanation. They do not classify the specific AI generation engine (GAN vs. Diffusion) nor explain *where* the model is looking to determine fake features. This study bridges these gaps by proposing a multi-classification CNN model integrated with Grad-CAM explainability, enabling local users to see why an image was flagged and identify the underlying generative engine.
+
+---
+
+## 5. Theoretical & Conceptual Framework
+*   **Major Theory:** **Connectionist Theory / Artificial Neural Network (ANN) Theory** — Guides how deep convolutional networks learn to detect generative noise.
+*   **Minor Theory:** **Visual Literacy Theory** — Frames the explainability aspect, showing how human users interpret AI-generated heatmaps to improve their visual verification skills.
+
+### Research Paradigm (IPO Model)
+```
+┌─────────────────────────┐      ┌─────────────────────────┐      ┌─────────────────────────┐
+│         INPUT           │      │        PROCESS          │      │         OUTPUT          │
+├─────────────────────────┤      ├─────────────────────────┤      ├─────────────────────────┤
+│ • Dataset Images        │      │ • Facial Landmark Crop  │      │ • Authenticity Status   │
+│   (CIFAKE/FaceForensics)│ ───> │ • Model Fine-Tuning     │ ───> │   (Real vs. Synthetic)  │
+│ • User-Uploaded Images  │      │   (EfficientNet/ResNet) │      │ • Source Class Label    │
+│                         │      │ • Grad-CAM Generation   │      │   (GAN, Diffusion, etc.)│
+│                         │      │                         │      │ • Feature Heatmap Overlay│
+└─────────────────────────┘      └─────────────────────────┘      └─────────────────────────┘
+```
+
+## 6. Verified References
+1. S.-Y. Wang, O. Wang, R. Zhang, A. Owens, and A. A. Efros, "CNN-Generated Images Are Surprisingly Easy to Spot... Currently," in *2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, Jun. 2020. [Online]. Available: https://doi.org/10.1109/CVPR42600.2020.00872
+2. D. Afchar, V. Nozick, J. Yamagishi, and I. Echizen, "MesoNet: a Compact Facial Video Forgery Detection Network," in *2018 IEEE International Workshop on Information Forensics and Security (WIFS)*, Dec. 2018. [Online]. Available: https://doi.org/10.1109/WIFS.2018.8630761
+3. J. J. Bird and A. Lotfi, "CIFAKE: Image Classification and Explainable Identification of AI-Generated Synthetic Images," *IEEE Access*, vol. 12, pp. 15641-15650, 2024. [Online]. Available: https://doi.org/10.1109/ACCESS.2024.3356122
+
