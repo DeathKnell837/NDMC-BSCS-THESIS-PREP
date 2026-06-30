@@ -19,20 +19,20 @@
 
 ## Our 3 Thesis Titles for the Defense
 
-We must present exactly **3 thesis titles** at the Week 4 title defense. The panel will pick the best one. All 3 use the same core technology: **AI / Deep Learning / Convolutional Neural Networks (CNN)**.
+We must present exactly **3 thesis titles** at the Week 4 title defense. The panel will pick the best one. All 3 use advanced Artificial Intelligence (Machine Learning / Computer Vision / Natural Language Processing) to solve critical real-world problems.
 
 | Slot | Topic / Title | Domain |
 |---|---|---|
-| **Title 1** | **Structural Crack Detection and Severity Classification** | AI + Computer Vision + Civil Safety |
-| **Title 2** | **Malicious URL Detection & Phishing Prevention** | AI + Natural Language Processing + Cybersecurity |
-| **Title 3** | **To Be Decided (TBD)** | ❓ *Daniela's Selection* |
+| **Title 1** | **Automated Structural Health Monitoring** | Computer Vision / Civil Safety |
+| **Title 2** | **Proactive Phishing Interception** | NLP / Cybersecurity |
+| **Title 3** | **Digital Authenticity Verification** | Image Forensics / Multimedia Security |
 
 ---
 
-## Title 1: 🏚️ Structural Crack Detection and Severity Classification System
+## Title 1: 🏚️ Automated Concrete Crack Analysis System
 
 ### Robust Title
-> *"A Deep Learning-Based Structural Crack Detection and Severity Classification System Using Convolutional Neural Networks with Transfer Learning for Building Safety Assessment"*
+> *"Automated Structural Health Monitoring: Concrete Crack Classification and Millimetric Severity Profiling Using Explainable Transfer Learning"*
 
 ### The Problem
 Traditional manual inspections of cracked buildings are slow, subjective, and prone to human error. Following earthquakes or during regular maintenance, licensed structural engineers are in short supply.
@@ -40,21 +40,21 @@ Traditional manual inspections of cracked buildings are slow, subjective, and pr
 ### Unique Features
 *   **Explainable AI (Grad-CAM):** Generates a heatmap over the concrete surface, showing the panel exactly which crack features the AI is focusing on to make its decision.
 *   **Physical Width Measurement (mm):** Converts image pixels into physical millimeters using a calibration algorithm (with a standard reference object) to grade severity objectively.
-*   **Building-Level Safety Aggregator:** Allows inspectors to create a "Building Profile" and take multiple photos (walls, columns, foundation). The system combines these to calculate an overall building safety index (Safe, Caution, Danger) based on structural engineering heuristics.
+*   **Building-Level Safety Aggregator:** Combines multiple damage photos of walls, columns, and foundations to calculate an overall building safety index (Safe, Caution, Danger) based on structural engineering heuristics.
 
-### Research Agenda
+### Research Agenda & SDGs
 *   **Agenda 1:** Emerging Technologies in Computer Science (AI)
 *   **SDGs:** SDG 9 (Industry, Innovation & Infrastructure), SDG 11 (Sustainable Cities)
 
 ---
 
-## Title 2: 🔍 Malicious URL Detection & Phishing Prevention System
+## Title 2: 🔍 Proactive Phishing Interception System
 
 ### Robust Title
-> *"Character-Level Deep Learning-Based Detection and Classification of Malicious URLs Using Hybrid CNN-LSTM Networks for Phishing Prevention"*
+> *"Proactive Phishing Interception: Deconstructing Malicious URL Patterns in Real-Time Using Hybrid Neural Networks"*
 
 ### The Problem
- centrale database-driven blocklists (like Google Safe Browsing) cannot detect "zero-day" phishing links that were created 5 minutes ago. Attackers frequently spoof local services (e.g., GCash, BDO/BPI) using these new URLs.
+Central database-driven blocklists (like Google Safe Browsing) cannot detect "zero-day" phishing links that were created 5 minutes ago. Attackers frequently spoof local services (e.g., GCash, BDO/BPI) using these new URLs.
 
 ### Unique Features
 *   **Zero-Day Proactive Analysis:** Instead of matching against a database, the AI analyzes the *character patterns* of a raw URL string (e.g., character sequences, keywords, subdomains) to predict maliciousness.
@@ -62,39 +62,28 @@ Traditional manual inspections of cracked buildings are slow, subjective, and pr
 *   **Explainability Heatmaps:** Visualizes which character sequences/substrings (e.g., `login`, `verification`) contributed most to the malicious classification.
 *   **Chrome Extension:** Runs the model locally in milliseconds to intercept pages in real-time.
 
-### Research Agenda
+### Research Agenda & SDGs
 *   **Agenda 1:** Emerging Tech (AI/NLP) + **Agenda 4:** Cybersecurity Threat Detection
 *   **SDG:** SDG 16 (Peace, Justice & Strong Institutions)
 
 ---
 
-## Title 3: ❓ Pending Daniela's Selection
+## Title 3: 🛡️ Digital Authenticity Verification System
 
-This slot is reserved for Daniela's preferred topic to complete our list of 3 titles for the defense. Here are the two best candidate options we can propose:
+### Robust Title
+> *"Digital Authenticity Verification: Classifying GAN and Diffusion-Generated Image Artifacts via Multi-Engine Neural Networks"*
 
-### 🏆 Option A: Emotion Detection (EASIEST to Build & Survey)
-> *"A Deep Learning-Based Facial Emotion Recognition System Using Convolutional Neural Networks with Transfer Learning for Real-Time Affective State Monitoring"*
+### The Problem
+The rise of generative AI makes it easy to create highly realistic fake profile pictures, scams, and identity fraud (e.g., bypassing GCash/bank ID verification using fake selfies). These fakes are indistinguishable to the human eye.
 
-*   **The Problem:** Instructors and guidance counselors cannot manually monitor student stress levels, anxiety, or emotional burnout. 
-*   **Unique Features:** Real-time webcam tracking, student stress-level mapping, and Explainable AI (Grad-CAM) to verify facial feature detection.
-*   **Why it's easy:** Uses the free **FER2013** dataset (35,000+ pre-labeled images). Respondents can be anyone (classmates/teachers testing their webcam).
+### Unique Features
+*   **Generative Artifact Detector:** Inspects microscopic pixel patterns and frequency anomalies that are invisible to humans.
+*   **Explainable AI (Grad-CAM):** Highlights the specific parts of the face (e.g., eyes, ears, jawline blending) where the AI detected fake generation artifacts.
+*   **Multi-Engine Classification:** Identifies the type of fake (e.g., GAN-generated, Diffusion-generated, or Face-swapped) to trace the source engine.
 
-### 🏆 Option B: Deepfake Detection (STRONGEST CS Cybersecurity Topic)
-> *"A Deep Learning-Based Deepfake Detection and AI-Generated Image Classification System Using Convolutional Neural Networks for Digital Authenticity Verification"*
-
-*   **The Problem:** The rise of generative AI makes it easy to create highly realistic fake profile pictures, scams, and identity fraud (e.g., bypassing GCash/bank ID verification using fake selfies).
-*   **Unique Features:**
-    *   **Generative Artifact Detector:** Inspects microscopic pixel patterns and frequency anomalies that are invisible to humans.
-    *   **Explainable AI (Grad-CAM):** Highlights the specific parts of the face (e.g., eyes, ears, jawline blending) where the AI detected fake generation artifacts.
-    *   **Multi-Engine Classification:** Identifies the type of fake (e.g., GAN-generated, Diffusion-generated, or Face-swapped).
-*   **Why it's strong:** It addresses high-priority cybersecurity agendas and is highly respected by panels. Uses free datasets like **CIFAKE** and **FaceForensics++**.
-
----
-
-### Other Backup Options (If Daniela Prefers Something Else):
-*   **🍫 Cacao Bean Quality Grading:** AI / Computer Vision system for local cacao farming.
-*   **🤟 Filipino Sign Language Recognition:** AI system for deaf accessibility (FSL translation).
-*   **🔥 Smoke & Fire Detection:** Real-time computer vision detection using CCTV.
+### Research Agenda & SDGs
+*   **Agenda 1:** Emerging Tech (AI/Vision) + **Agenda 4:** Cybersecurity Threat Detection
+*   **SDG:** SDG 16 (Peace, Justice & Strong Institutions)
 
 ---
 

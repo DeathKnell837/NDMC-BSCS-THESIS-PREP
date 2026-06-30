@@ -7,7 +7,7 @@ This document contains the robust title formulations, research questions, unique
 # Topic 1: Concrete Crack Detection & Severity Classification
 
 ## 1. Robust Title
-> **"A Deep Learning-Based Structural Crack Detection and Severity Classification System Using Convolutional Neural Networks with Transfer Learning for Building Safety Assessment"**
+> **"Automated Structural Health Monitoring: Concrete Crack Classification and Millimetric Severity Profiling Using Explainable Transfer Learning"**
 
 ## 2. Research Questions (Statement of the Problem)
 The study aims to develop a deep learning-based system to detect and classify concrete cracks for building safety assessment. Specifically, it seeks to answer the following:
@@ -77,7 +77,7 @@ Although numerous crack detection models exist, most are limited to binary class
 # Topic 2: Malicious URL Detection for Phishing Prevention
 
 ## 1. Robust Title
-> **"Character-Level Deep Learning-Based Detection and Classification of Malicious URLs Using Hybrid CNN-LSTM Networks for Phishing Prevention"**
+> **"Proactive Phishing Interception: Deconstructing Malicious URL Patterns in Real-Time Using Hybrid Neural Networks"**
 
 ## 2. Research Questions (Statement of the Problem)
 The study aims to develop a character-level deep learning system using a hybrid CNN-LSTM network to detect and classify malicious URLs. Specifically, it seeks to answer the following:
@@ -143,7 +143,7 @@ Despite the high accuracy reported in recent deep learning URL research, two cri
 # Topic 3: Deepfake Detection & AI-Generated Image Classification
 
 ## 1. Robust Title
-> **"A Deep Learning-Based Deepfake Detection and AI-Generated Image Classification System Using Convolutional Neural Networks for Digital Authenticity Verification"**
+> **"Digital Authenticity Verification: Classifying GAN and Diffusion-Generated Image Artifacts via Multi-Engine Neural Networks"**
 
 ## 2. Research Questions (Statement of the Problem)
 The study aims to develop a deep learning-based system to detect and classify deepfakes and AI-generated synthetic images to verify digital authenticity. Specifically, it seeks to answer the following:

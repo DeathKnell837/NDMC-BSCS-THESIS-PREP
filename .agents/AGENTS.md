@@ -44,15 +44,15 @@ This workspace customizations file provides context and instructions to the Anti
 
 ## 3. Currently Planned Thesis Titles
 
-1. **Title 1:** A Deep Learning-Based Structural Crack Detection and Severity Classification System Using Convolutional Neural Networks with Transfer Learning for Building Safety Assessment
-   * **Domain:** Computer Vision / Deep Learning (CNN with Transfer Learning)
-   * **Scope:** Analyze images of concrete surfaces/structures $\rightarrow$ detect cracks $\rightarrow$ classify severity (minor, moderate, severe) $\rightarrow$ output safety status (Safe, Caution, Danger) $\rightarrow$ generate building damage map (blueprint-style) and inspection PDF report.
-2. **Title 2:** Deep Learning-Based Detection and Classification of Malicious URLs for Phishing Prevention
-   * **Domain:** Deep Learning / Natural Language Processing / Cybersecurity (1D CNN / LSTM / GRU)
-   * **Scope:** Input a URL string $\rightarrow$ analyze character sequence and structure using deep neural networks $\rightarrow$ classify as benign or malicious (phishing, malware, defacement) $\rightarrow$ alert user.
-3. **Title 3:** *To be selected by Daniela S. Ungab*
-   * **Domain:** AI / Computer Science
-   * **Status:** Pending decision.
+1. **Title 1:** Automated Structural Health Monitoring: Concrete Crack Classification and Millimetric Severity Profiling Using Explainable Transfer Learning
+   * **Domain:** Computer Vision / Civil Safety & Structural Health Monitoring
+   * **Scope:** Analyze concrete surface images $\rightarrow$ detect cracks $\rightarrow$ classify severity (minor, moderate, severe) $\rightarrow$ estimate physical width in mm using calibration reference $\rightarrow$ aggregate multiple damage photos into building safety index (Safe, Caution, Danger) $\rightarrow$ generate Grad-CAM explanation heatmap.
+2. **Title 2:** Proactive Phishing Interception: Deconstructing Malicious URL Patterns in Real-Time Using Hybrid Neural Networks
+   * **Domain:** Cybersecurity / Natural Language Processing
+   * **Scope:** Input raw URL string $\rightarrow$ trace and resolve redirect paths (unmask shortened URLs like `bit.ly`) $\rightarrow$ extract character sequence embeddings $\rightarrow$ classify as benign or malicious using hybrid CNN-LSTM network $\rightarrow$ highlight malicious sub-components using attention mechanisms.
+3. **Title 3:** Digital Authenticity Verification: Classifying GAN and Diffusion-Generated Image Artifacts via Multi-Engine Neural Networks
+   * **Domain:** Image Forensics / Cybersecurity & Multimedia Security
+   * **Scope:** Input user image files $\rightarrow$ detect facial landmark regions $\rightarrow$ inspect microscopic pixel anomalies and frequency artifacts $\rightarrow$ classify image as real or synthetic and identify the origin generator engine (e.g., GAN vs. Diffusion) $\rightarrow$ visualize artifacts using Grad-CAM heatmaps.
 
 ---
 

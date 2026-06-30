@@ -15,8 +15,9 @@
 * **Teacher Note**: Teacher is highly particular about titles
 
 ### Confirmed Titles
-1. **Title 1:** *"A Deep Learning-Based Structural Crack Detection and Severity Classification System Using Convolutional Neural Networks with Transfer Learning for Building Safety Assessment"*
-2. **Title 2:** *"Deep Learning-Based Detection and Classification of Malicious URLs for Phishing Prevention"*
+1. **Title 1:** *"Automated Structural Health Monitoring: Concrete Crack Classification and Millimetric Severity Profiling Using Explainable Transfer Learning"*
+2. **Title 2:** *"Proactive Phishing Interception: Deconstructing Malicious URL Patterns in Real-Time Using Hybrid Neural Networks"*
+3. **Title 3:** *"Digital Authenticity Verification: Classifying GAN and Diffusion-Generated Image Artifacts via Multi-Engine Neural Networks"*
 
 ### Group Members
 * Rogie P. Bacanto (BSCS-4)
