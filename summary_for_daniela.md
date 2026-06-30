@@ -73,7 +73,17 @@ Traditional manual inspections of cracked buildings are slow, subjective, and pr
 ### Description
 This slot is reserved for Daniela's preferred topic to complete our list of 3 titles for the defense.
 
-### Suggested Options:
+### 🏆 Top Recommendation: Emotion Detection (EASIEST to Build & Survey)
+> *"A Deep Learning-Based Facial Emotion Recognition System Using Convolutional Neural Networks with Transfer Learning for Real-Time Affective State Monitoring"*
+
+**Why this is the easiest option:**
+*   **Free dataset:** FER2013 — 35,887 labeled images across 7 emotions (angry, disgust, fear, happy, sad, surprise, neutral). No need to collect data.
+*   **Easy to build:** Same CNN + Transfer Learning pipeline as Title 1. Web app with webcam (TensorFlow.js).
+*   **Easy to survey:** Any NDMC student or teacher can test it — just sit in front of a webcam, make expressions, rate usability via SUS (10 questions on Google Forms).
+*   **Social relevance:** Can frame as a mental health awareness screening tool — very timely for schools.
+*   **Different from Title 1 & 2:** Title 1 = cracks (structures), Title 2 = URLs (text), Title 3 = faces (human). Three completely different domains → panel sees diversity.
+
+### Other Options (If Daniela Prefers Something Else):
 *   **🍫 Cacao Bean Quality Grading:** AI / Computer Vision system for local cacao farming.
 *   **🤟 Filipino Sign Language Recognition:** AI system for deaf accessibility (FSL translation).
 *   **🔥 Smoke & Fire Detection:** Real-time computer vision detection using CCTV.
