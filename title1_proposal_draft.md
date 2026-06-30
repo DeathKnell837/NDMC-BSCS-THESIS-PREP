@@ -1,6 +1,26 @@
 # NOTRE DAME OF MIDSAYAP COLLEGE
 ## College of Information Technology and Engineering (CITE)
+## Midsayap, Cotabato, Philippines
 ### Bachelor of Science in Computer Science
+
+### AUTOMATED STRUCTURAL HEALTH MONITORING: CONCRETE CRACK CLASSIFICATION AND MILLIMETRIC SEVERITY PROFILING USING EXPLAINABLE TRANSFER LEARNING
+
+### A Thesis Proposal
+### Presented to the Faculty of the
+### College of Information Technology and Engineering
+### Notre Dame of Midsayap College
+
+### In Partial Fulfillment
+### of the Requirements for the Degree
+### Bachelor of Science in Computer Science
+
+### ROGIE P. BACANTO
+### DANIELA S. UNGAB
+
+### MS. DORIS ANN MARIANO
+### Thesis Adviser
+
+### June 2026
 
 ---
 
