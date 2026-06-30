@@ -70,20 +70,28 @@ Traditional manual inspections of cracked buildings are slow, subjective, and pr
 
 ## Title 3: ❓ Pending Daniela's Selection
 
-### Description
-This slot is reserved for Daniela's preferred topic to complete our list of 3 titles for the defense.
+This slot is reserved for Daniela's preferred topic to complete our list of 3 titles for the defense. Here are the two best candidate options we can propose:
 
-### 🏆 Top Recommendation: Emotion Detection (EASIEST to Build & Survey)
+### 🏆 Option A: Emotion Detection (EASIEST to Build & Survey)
 > *"A Deep Learning-Based Facial Emotion Recognition System Using Convolutional Neural Networks with Transfer Learning for Real-Time Affective State Monitoring"*
 
-**Why this is the easiest option:**
-*   **Free dataset:** FER2013 — 35,887 labeled images across 7 emotions (angry, disgust, fear, happy, sad, surprise, neutral). No need to collect data.
-*   **Easy to build:** Same CNN + Transfer Learning pipeline as Title 1. Web app with webcam (TensorFlow.js).
-*   **Easy to survey:** Any NDMC student or teacher can test it — just sit in front of a webcam, make expressions, rate usability via SUS (10 questions on Google Forms).
-*   **Social relevance:** Can frame as a mental health awareness screening tool — very timely for schools.
-*   **Different from Title 1 & 2:** Title 1 = cracks (structures), Title 2 = URLs (text), Title 3 = faces (human). Three completely different domains → panel sees diversity.
+*   **The Problem:** Instructors and guidance counselors cannot manually monitor student stress levels, anxiety, or emotional burnout. 
+*   **Unique Features:** Real-time webcam tracking, student stress-level mapping, and Explainable AI (Grad-CAM) to verify facial feature detection.
+*   **Why it's easy:** Uses the free **FER2013** dataset (35,000+ pre-labeled images). Respondents can be anyone (classmates/teachers testing their webcam).
 
-### Other Options (If Daniela Prefers Something Else):
+### 🏆 Option B: Deepfake Detection (STRONGEST CS Cybersecurity Topic)
+> *"A Deep Learning-Based Deepfake Detection and AI-Generated Image Classification System Using Convolutional Neural Networks for Digital Authenticity Verification"*
+
+*   **The Problem:** The rise of generative AI makes it easy to create highly realistic fake profile pictures, scams, and identity fraud (e.g., bypassing GCash/bank ID verification using fake selfies).
+*   **Unique Features:**
+    *   **Generative Artifact Detector:** Inspects microscopic pixel patterns and frequency anomalies that are invisible to humans.
+    *   **Explainable AI (Grad-CAM):** Highlights the specific parts of the face (e.g., eyes, ears, jawline blending) where the AI detected fake generation artifacts.
+    *   **Multi-Engine Classification:** Identifies the type of fake (e.g., GAN-generated, Diffusion-generated, or Face-swapped).
+*   **Why it's strong:** It addresses high-priority cybersecurity agendas and is highly respected by panels. Uses free datasets like **CIFAKE** and **FaceForensics++**.
+
+---
+
+### Other Backup Options (If Daniela Prefers Something Else):
 *   **🍫 Cacao Bean Quality Grading:** AI / Computer Vision system for local cacao farming.
 *   **🤟 Filipino Sign Language Recognition:** AI system for deaf accessibility (FSL translation).
 *   **🔥 Smoke & Fire Detection:** Real-time computer vision detection using CCTV.
