@@ -81,12 +81,28 @@ To ensure the project is easy to build and test locally:
 ---
 
 ## 📁 Key Project Files
-*   [student_info.md](file:///c:/Users/USER/Desktop/THESIS/student_info.md) — Student profile, scheduler, and confirmed titles list.
-*   [bscs_thesis_guidelines.md](file:///c:/Users/USER/Desktop/THESIS/bscs_thesis_guidelines.md) — NDMC-specific paper formatting rules (A4 size, margins, citation styles).
-*   [thesis_defense_prep.md](file:///c:/Users/USER/Desktop/THESIS/thesis_defense_prep.md) — Complete defense preparation sheet containing Statement of the Problem (SOP) questions, loophole defenses, theoretical frameworks, and draft Background of the Study (1.1) sections.
-*   [summary_for_daniela.md](file:///c:/Users/USER/Desktop/THESIS/summary_for_daniela.md) — Clean, shareable review sheet for Daniela.
-*   [implementation_plan.md](file:///c:/Users/USER/Desktop/THESIS/implementation_plan.md) — 10-phase thesis completion plan.
-*   `.agents/AGENTS.md` — Custom AI workspace rules to maintain project guidelines.
+All critical documents are stored in the root folder of this repository:
+*   [student_info.md](file:///C:/Users/ADMIN/OneDrive/Desktop/THESIS/NDMC-BSCS-THESIS-PREP/student_info.md) — Student profiles and timeline checklists.
+*   [bscs_thesis_guidelines.md](file:///C:/Users/ADMIN/OneDrive/Desktop/THESIS/NDMC-BSCS-THESIS-PREP/bscs_thesis_guidelines.md) — Recap of formatting styles and CITE research agenda details.
+*   [thesis_defense_prep.md](file:///C:/Users/ADMIN/OneDrive/Desktop/THESIS/NDMC-BSCS-THESIS-PREP/thesis_defense_prep.md) — Defense prep document containing SOPs, loopholes, and draft Backgrounds.
+*   [summary_for_daniela.md](file:///C:/Users/ADMIN/OneDrive/Desktop/THESIS/NDMC-BSCS-THESIS-PREP/summary_for_daniela.md) — Quick summary sheet for Daniela.
+*   [implementation_plan.md](file:///C:/Users/ADMIN/OneDrive/Desktop/THESIS/NDMC-BSCS-THESIS-PREP/implementation_plan.md) — Step-by-step model training and proposal coding plan.
+*   [title1_proposal_draft.md](file:///C:/Users/ADMIN/OneDrive/Desktop/THESIS/NDMC-BSCS-THESIS-PREP/title1_proposal_draft.md) — Structural Crack Detection draft proposal text.
+
+### 📚 Official CITE Guidelines (PDFs)
+*   [NDMC Thesis Guidelines v5 - 2025.pdf](file:///C:/Users/ADMIN/OneDrive/Desktop/THESIS/NDMC-BSCS-THESIS-PREP/NDMC%20Thesis%20Guidelines%20v5%20-%202025.pdf) — Academic writing format, margins, and chapter details.
+*   [CITE Research Agenda for 2024-2030.pdf](file:///C:/Users/ADMIN/OneDrive/Desktop/THESIS/NDMC-BSCS-THESIS-PREP/CITE%20Research%20Agenda%20for%202024-2030.pdf) — Official agenda listing (Emerging Tech & Cybersecurity alignment).
+*   [Research Outline for CITE 2024.pdf](file:///C:/Users/ADMIN/OneDrive/Desktop/THESIS/NDMC-BSCS-THESIS-PREP/Research%20Outline%20for%20CITE%202024.pdf) — Specific outline guidelines.
+
+---
+
+## 🎨 CITE Formatting Guidelines Cheat Sheet
+To ensure our proposals do not get rejected by CITE panel for formatting layout:
+*   **Paper Size:** A4
+*   **Margins:** Left: **1.50 in** (for binding) | Right: **1.0 in** | Top: **1.20 in** | Bottom: **1.0 in**
+*   **Spacing:** Double-spaced body text, 12pt Times New Roman, justified.
+*   **Citations:** Strict **IEEE numeric format** (e.g., `[1]`, `[2]`).
+*   **Casing Color:** **Gray** hard-bound casing (assigned color for CITE).
 
 ---
 
