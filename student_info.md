@@ -18,8 +18,10 @@
 1. **Title 1:** *"Automated Structural Health Monitoring: Concrete Crack Classification and Millimetric Severity Profiling Using Explainable Transfer Learning"*
 2. **Title 2:** *"Proactive Phishing Interception: Deconstructing Malicious URL Patterns in Real-Time Using Hybrid Neural Networks"*
 3. **Title 3:** *"Digital Authenticity Verification: Classifying GAN and Diffusion-Generated Image Artifacts via Multi-Engine Neural Networks"*
+4. **Title 4 (Backup):** *"Vehicle Schedule Optimization for Inter-Municipal Buses Terminating at the Midsayap Public Terminal Using Tabu Search"*
 
 ### Group Members
+
 * Rogie P. Bacanto (BSCS-4)
 * Daniela S. Ungab (BSCS-4)
 
