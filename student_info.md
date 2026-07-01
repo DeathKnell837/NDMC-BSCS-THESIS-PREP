@@ -15,7 +15,7 @@
 * **Teacher Note**: Teacher is highly particular about titles
 
 ### Confirmed Titles
-1. **Title 1:** *"Automated Structural Health Monitoring: Concrete Crack Classification and Millimetric Severity Profiling Using Explainable Transfer Learning"*
+1. **Title 1:** *"Concrete Crack Classification and Millimetric Severity Profiling Using Explainable Transfer Learning"*
 2. **Title 2:** *"Proactive Phishing Interception: Deconstructing Malicious URL Patterns in Real-Time Using Hybrid Neural Networks"*
 3. **Title 3:** *"Digital Authenticity Verification: Classifying GAN and Diffusion-Generated Image Artifacts via Multi-Engine Neural Networks"*
 

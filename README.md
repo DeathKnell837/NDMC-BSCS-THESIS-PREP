@@ -15,12 +15,13 @@ Welcome to the central information center for the BS Computer Science (BSCS) the
 
 ## 📅 Timeline & Key Milestones
 Our target is the **Title Defense in Week 4**, where we will present three research titles to the panel.
+**IMPORTANT:** The Topic and Statement of the Problem must be finalized and submitted to the Dean/Panel at least **5 days prior to the defense date** (Submission deadline: **July 8, 2026**).
 
 | Week | Dates | Milestone / Task | Description |
 |---|---|---|---|
 | **Week 1** | June 22-28 | **Topic Exploration** | Brainstormed domains, researched guidelines, and draft structures. (Completed) |
 | **Week 2** | June 29 - July 5 | **Reference Compilation** | Finalizing titles, matching references, and drafting Chapter 1.1. (NOW) |
-| **Week 3** | July 6-12 | **Defense Preparation** | Building slides and preparing for potential panel questions. |
+| **Week 3** | July 6-12 | **Defense Submission & Prep** | **🚨 Submit Topic & SOP proposals by July 8** (5 days before defense). Prepare slides. |
 | **Week 4** | **July 13-19, 2026** | **🚨 TITLE DEFENSE** | Presenting 3 robust titles to the panel for approval. |
 | **Week 5+** | July 20 onwards | **Proposal Writing** | Writing Chapters 1 & 2 of the approved title. |
 
@@ -30,7 +31,7 @@ Our target is the **Title Defense in Week 4**, where we will present three resea
 We have finalized exactly **3 distinct, non-repetitive titles** aligned with the CITE Research Agenda. All topics leverage advanced Artificial Intelligence (AI) but apply to completely different domains.
 
 ### 🏚️ Title 1: Concrete Crack Classification & Width Profiling
-*   **Robust Title:** **"Automated Structural Health Monitoring: Concrete Crack Classification and Millimetric Severity Profiling Using Explainable Transfer Learning"**
+*   **Robust Title:** **"Concrete Crack Classification and Millimetric Severity Profiling Using Explainable Transfer Learning"**
 *   **Domain:** Computer Vision / Civil Safety & Structural Health Monitoring
 *   **Research Agenda:** Agenda 1: Emerging Technologies in Computer Science
 *   **SDGs:** SDG 9 (Industry & Infrastructure), SDG 11 (Sustainable Cities)

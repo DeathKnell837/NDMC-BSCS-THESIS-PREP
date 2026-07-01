@@ -1,13 +1,15 @@
 # Robust Thesis Title Proposals & Defense Prep
 
-This document contains the robust title formulations, research questions, unique features, loopholes, theoretical frameworks, and full draft **Background of the Study (1.1)** sections for both confirmed thesis topics.
+This document contains the robust title formulations, research questions, unique features, loopholes, theoretical frameworks, and full draft **Background of the Study (1.1)** sections for the 3 confirmed thesis topics.
+
+> **CRITICAL DEADLINE:** Under school regulations, the finalized thesis topic proposals and Statement of the Problem (SOP) must be prepared and submitted to the CITE Dean/Panel at least **5 days prior to the title defense date** (Submission deadline: **July 8, 2026**).
 
 ---
 
 # Topic 1: Concrete Crack Detection & Severity Classification
 
 ## 1. Robust Title
-> **"Automated Structural Health Monitoring: Concrete Crack Classification and Millimetric Severity Profiling Using Explainable Transfer Learning"**
+> **"Concrete Crack Classification and Millimetric Severity Profiling Using Explainable Transfer Learning"**
 
 ## 2. Research Questions (Statement of the Problem)
 The study aims to develop a deep learning-based system to detect and classify concrete cracks for building safety assessment. Specifically, it seeks to answer the following:

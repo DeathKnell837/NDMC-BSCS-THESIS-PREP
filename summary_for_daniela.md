@@ -7,12 +7,13 @@
 ---
 
 ## ⏰ Our Timeline
+**Note:** The final Topic and Statement of the Problem (SOP) must be submitted at least **5 days before the defense** (Submission deadline: **July 8, 2026**).
 
 | Week | Dates | What We Do |
 |---|---|---|
 | **Week 1** | June 22-28 (Completed) | Research & Topic Selection |
 | **Week 2** | June 29 - July 5 (NOW) | Refine Titles, Gather References, and Outline Chapter 1 |
-| **Week 3** | July 6-12 | Finalize Title Defense Slides & Practice |
+| **Week 3** | July 6-12 | **🚨 Submit Topic & SOP by July 8** |
 | **Week 4** | **July 13-19** | **🚨 TITLE DEFENSE (defend 3 titles to panelists)** |
 
 ---
@@ -23,18 +24,16 @@ We must present exactly **3 thesis titles** at the Week 4 title defense. The pan
 
 | Slot | Topic / Title | Domain |
 |---|---|---|
-| **Title 1** | **Automated Structural Health Monitoring** | Computer Vision / Civil Safety |
+| **Title 1** | **Concrete Crack Classification** | Computer Vision / Civil Safety |
 | **Title 2** | **Proactive Phishing Interception** | NLP / Cybersecurity |
 | **Title 3** | **Digital Authenticity Verification** | Image Forensics / Multimedia Security |
 
-
-
 ---
 
-## Title 1: 🏚️ Automated Concrete Crack Analysis System
+## Title 1: 🏚️ Concrete Crack Classification System
 
 ### Robust Title
-> *"Automated Structural Health Monitoring: Concrete Crack Classification and Millimetric Severity Profiling Using Explainable Transfer Learning"*
+> *"Concrete Crack Classification and Millimetric Severity Profiling Using Explainable Transfer Learning"*
 
 ### The Problem
 Traditional manual inspections of cracked buildings are slow, subjective, and prone to human error. Following earthquakes or during regular maintenance, licensed structural engineers are in short supply.
