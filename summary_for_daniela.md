@@ -123,10 +123,10 @@ If the panel rejects any of our primary 3 titles, we can instantly pivot to one 
 *   **CITE Agenda:** Agenda 4 (Cybersecurity Threat Detection).
 *   **Real-world Usefulness:** Protects patient privacy. It allows remote rural health clinics in Cotabato to securely transmit sensitive medical images (like X-Rays/MRIs) to major hospitals in Midsayap by hiding encrypted diagnostic data invisibly inside the image pixels, preventing interception by hackers.
 
-### Backup 3: Hybrid Genetic-Tabu Route Optimization
+### Backup 3: Exam Proctor Scheduling Optimization
 *   **Algorithm:** Hybrid Genetic Algorithm (GA) + Tabu Search (TS).
-*   **CITE Agenda:** Agenda 2 (Big Data Analytics) or Agenda 1 (Emerging Tech).
-*   **Real-world Usefulness:** Saves lives during emergencies. It uses historic accident data to optimize the location of municipal ambulance stations and fire houses in Cotabato to reduce emergency response times down to the absolute minimum.
+*   **CITE Agenda:** Agenda 1 (Emerging Tech / Algorithms).
+*   **Real-world Usefulness:** Resolves administrative bottlenecks. Instead of CITE department heads spending days manually assigning instructors to proctor exams (which leads to room conflicts and unequal workloads), the hybrid algorithm automatically generates conflict-free schedules based on teacher availability and room capacities inside Notre Dame of Midsayap College.
 
 ### Backup 4: Generative Multispectral Crop Health Mapping
 *   **Algorithm:** Conditional Generative Adversarial Networks (cGAN).
