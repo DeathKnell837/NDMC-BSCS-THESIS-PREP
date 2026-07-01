@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Cyber-Shield Link Interceptor",
+  "version": "1.0",
+  "description": "Proactive character-level phishing URL interception using hybrid neural network logic.",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}

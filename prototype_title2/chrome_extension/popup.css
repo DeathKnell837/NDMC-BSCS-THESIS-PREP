@@ -1,0 +1,131 @@
+body {
+  width: 320px;
+  background-color: #07090e;
+  color: #fff;
+  font-family: system-ui, -apple-system, sans-serif;
+  margin: 0;
+  padding: 12px;
+}
+
+.header {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  padding-bottom: 10px;
+  margin-bottom: 12px;
+}
+
+.logo {
+  font-weight: 700;
+  font-size: 13px;
+  color: #00f2fe;
+  letter-spacing: 0.5px;
+  margin-bottom: 2px;
+}
+
+.status-indicator {
+  font-size: 10px;
+  color: #8c9ba5;
+}
+
+.input-section {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+#url-input {
+  flex: 1;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  color: #fff;
+  border-radius: 6px;
+  padding: 8px 10px;
+  font-size: 11px;
+}
+
+#url-input:focus {
+  outline: none;
+  border-color: #00f2fe;
+}
+
+#scan-btn {
+  background: linear-gradient(135deg, #00f2fe, #4facfe);
+  border: none;
+  color: #000;
+  font-weight: 700;
+  border-radius: 6px;
+  padding: 0 14px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.verdict-card {
+  padding: 12px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.verdict-card.safe {
+  background: rgba(57, 224, 155, 0.08);
+  border: 1px solid rgba(57, 224, 155, 0.3);
+}
+
+.verdict-card.danger {
+  background: rgba(255, 8, 68, 0.08);
+  border: 1px solid rgba(255, 8, 68, 0.3);
+}
+
+.pct {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.deconstruction-box {
+  background: rgba(255, 255, 255, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.box-title {
+  font-size: 9px;
+  text-transform: uppercase;
+  color: #8c9ba5;
+  margin-bottom: 6px;
+  letter-spacing: 0.5px;
+}
+
+.heatmap {
+  font-size: 10px;
+  line-height: 1.6;
+  word-break: break-all;
+  font-family: monospace;
+}
+
+.char {
+  display: inline-block;
+  padding: 0 1px;
+  border-radius: 2px;
+}
+
+.footer {
+  text-align: center;
+  font-size: 9px;
+  color: #8c9ba5;
+  margin-top: 15px;
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  padding-top: 8px;
+}

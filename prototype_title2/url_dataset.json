@@ -1,0 +1,4802 @@
+[
+  {
+    "url": "https://google.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://www.canva.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://zoom.us",
+    "label": 0
+  },
+  {
+    "url": "https://www.facebook.com",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-card-signin-portal.online/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.canva.com/",
+    "label": 0
+  },
+  {
+    "url": "http://maya-gcash-activation-portal.cf/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://online-bpi-update.cf/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://gcash-card-login-portal.cc/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.cf/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.bpiexpressonline.com/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://www.youtube.com/",
+    "label": 0
+  },
+  {
+    "url": "https://online-bpi-banking.ml/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.ndmc.edu.ph/support/help",
+    "label": 0
+  },
+  {
+    "url": "http://dilg-member-verification-portal.ml/verify",
+    "label": 1
+  },
+  {
+    "url": "https://online-landbank-rewards-claim.online/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://stackoverflow.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.cf/verify",
+    "label": 1
+  },
+  {
+    "url": "https://ndmc.edu.ph/contact",
+    "label": 0
+  },
+  {
+    "url": "https://github.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://www.google.com",
+    "label": 0
+  },
+  {
+    "url": "http://paymaya-account-portal.club/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://support-service-service.site/login",
+    "label": 1
+  },
+  {
+    "url": "https://canva.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://microsoft.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "http://security-update.gq/login",
+    "label": 1
+  },
+  {
+    "url": "http://update-account-service.cf/login",
+    "label": 1
+  },
+  {
+    "url": "http://service-security.info/login",
+    "label": 1
+  },
+  {
+    "url": "https://amazon.com/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://gcash.com/login",
+    "label": 0
+  },
+  {
+    "url": "https://bdo.com.ph/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://wikipedia.org/support/help",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-card-secure-portal.xyz/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.zoom.us/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://www.google.com",
+    "label": 0
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.cf/verify",
+    "label": 1
+  },
+  {
+    "url": "https://facebook.com/support/help",
+    "label": 0
+  },
+  {
+    "url": "http://service-update-security.gq/login",
+    "label": 1
+  },
+  {
+    "url": "https://online-bdo-account.cf/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://update-login.ml/login",
+    "label": 1
+  },
+  {
+    "url": "http://service-update.info/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.github.com/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://sss.gov.ph",
+    "label": 0
+  },
+  {
+    "url": "https://sss.gov.ph",
+    "label": 0
+  },
+  {
+    "url": "https://www.wikipedia.org/index.html",
+    "label": 0
+  },
+  {
+    "url": "http://maya-login-portal.club/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.pagibigfund.gov.ph/support/help",
+    "label": 0
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.online/verify",
+    "label": 1
+  },
+  {
+    "url": "https://online-metrobank-gcash-activation.xyz/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://reddit.com/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://maya.ph/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://www.zoom.us/",
+    "label": 0
+  },
+  {
+    "url": "https://online-bpi-gcash-activation.cc/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://gcash-card-account-portal.tk/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.shopee.ph",
+    "label": 0
+  },
+  {
+    "url": "http://update-security-service.site/login",
+    "label": 1
+  },
+  {
+    "url": "https://shopee.ph/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "http://service-update-bdo-online.cf/login",
+    "label": 1
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.gq/verify",
+    "label": 1
+  },
+  {
+    "url": "http://update-activation-service.online/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.pagibigfund.gov.ph/contact",
+    "label": 0
+  },
+  {
+    "url": "https://www.gov.ph/about",
+    "label": 0
+  },
+  {
+    "url": "https://online-metrobank-confirm.top/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://online-bpi-refund-claim.xyz/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.gov.ph/home",
+    "label": 0
+  },
+  {
+    "url": "http://update-security.club/login",
+    "label": 1
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.online/verify",
+    "label": 1
+  },
+  {
+    "url": "https://online-landbank-account.xyz/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://online-bdo-confirm.info/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://security-service-update.cc/login",
+    "label": 1
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.site/verify",
+    "label": 1
+  },
+  {
+    "url": "http://paymaya-refund-claim-portal.xyz/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://bdo.com.ph/",
+    "label": 0
+  },
+  {
+    "url": "https://bpiexpressonline.com/contact",
+    "label": 0
+  },
+  {
+    "url": "https://online-bpi-secure.top/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.xyz/verify",
+    "label": 1
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.cf/verify",
+    "label": 1
+  },
+  {
+    "url": "http://gcash-rewards-claim-portal.xyz/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://online-bdo-account.tk/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://dilg-member-verification-portal.site/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.zoom.us/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://www.zoom.us/about",
+    "label": 0
+  },
+  {
+    "url": "https://www.reddit.com/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "https://philhealth.gov.ph/home",
+    "label": 0
+  },
+  {
+    "url": "https://www.ndmc.edu.ph/support/help",
+    "label": 0
+  },
+  {
+    "url": "http://update-service.cc/login",
+    "label": 1
+  },
+  {
+    "url": "http://sss-member-verification-portal.online/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.metrobank.com.ph/index.html",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-card-refund-claim-portal.xyz/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://service-bpi-secure-update.site/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.gov.ph/contact",
+    "label": 0
+  },
+  {
+    "url": "https://www.facebook.com/login",
+    "label": 0
+  },
+  {
+    "url": "https://online-bdo-refund-claim.cf/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://service-billing.gq/login",
+    "label": 1
+  },
+  {
+    "url": "http://sss-member-verification-portal.info/verify",
+    "label": 1
+  },
+  {
+    "url": "https://online-bpi-banking.cf/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://ndmc.edu.ph/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "https://shopee.ph/about",
+    "label": 0
+  },
+  {
+    "url": "http://update-update.tk/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.youtube.com/about",
+    "label": 0
+  },
+  {
+    "url": "https://ndmc.edu.ph",
+    "label": 0
+  },
+  {
+    "url": "http://paymaya-login-portal.cc/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://maya.ph/login",
+    "label": 0
+  },
+  {
+    "url": "https://bpiexpressonline.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://maya.ph/contact",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-portal-portal.cf/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://sss-member-verification-portal.xyz/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.gov.ph/login",
+    "label": 0
+  },
+  {
+    "url": "https://online-landbank-signin.ml/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.yahoo.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://online-bpi-portal.tk/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://billing-update.online/login",
+    "label": 1
+  },
+  {
+    "url": "http://maya-bdo-online-portal.club/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://bpiexpressonline.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "http://sss-member-verification-portal.cc/verify",
+    "label": 1
+  },
+  {
+    "url": "https://metrobank.com.ph/login",
+    "label": 0
+  },
+  {
+    "url": "https://www.sss.gov.ph/home",
+    "label": 0
+  },
+  {
+    "url": "https://www.bpiexpressonline.com/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "https://online-bpi-confirm.gq/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://update-service-verification.ml/login",
+    "label": 1
+  },
+  {
+    "url": "http://maya-portal-portal.site/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://twitter.com/home",
+    "label": 0
+  },
+  {
+    "url": "https://wikipedia.org/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://canva.com/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://www.maya.ph/",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-portal-portal.ml/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://online-landbank-bdo-online.online/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://gov.ph/home",
+    "label": 0
+  },
+  {
+    "url": "https://metrobank.com.ph/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://www.yahoo.com/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://online-bdo-gcash-activation.online/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.bpiexpressonline.com",
+    "label": 0
+  },
+  {
+    "url": "https://www.stackoverflow.com/login",
+    "label": 0
+  },
+  {
+    "url": "http://paymaya-gcash-activation-portal.gq/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://service-verify-update.club/login",
+    "label": 1
+  },
+  {
+    "url": "https://youtube.com/contact",
+    "label": 0
+  },
+  {
+    "url": "http://dilg-member-verification-portal.club/verify",
+    "label": 1
+  },
+  {
+    "url": "https://microsoft.com",
+    "label": 0
+  },
+  {
+    "url": "https://gov.ph/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.online/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.metrobank.com.ph/index.html",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-card-update-portal.tk/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://maya-update-portal.xyz/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.instagram.com",
+    "label": 0
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.ml/verify",
+    "label": 1
+  },
+  {
+    "url": "http://security-service.ml/login",
+    "label": 1
+  },
+  {
+    "url": "https://gcash.com/login",
+    "label": 0
+  },
+  {
+    "url": "http://update-portal.ml/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.netflix.com",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-activation-security.online/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.gov.ph/",
+    "label": 0
+  },
+  {
+    "url": "https://spotify.com",
+    "label": 0
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.club/verify",
+    "label": 1
+  },
+  {
+    "url": "http://update-signin-service.info/login",
+    "label": 1
+  },
+  {
+    "url": "http://service-update.club/login",
+    "label": 1
+  },
+  {
+    "url": "http://paymaya-gcash-activation-portal.site/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://dilg-member-verification-portal.gq/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.bpiexpressonline.com/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "http://dilg-member-verification-portal.cf/verify",
+    "label": 1
+  },
+  {
+    "url": "https://online-metrobank-verify.cf/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.stackoverflow.com/",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-card-rewards-claim-portal.club/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://zoom.us/contact",
+    "label": 0
+  },
+  {
+    "url": "https://online-bpi-refund-claim.xyz/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://online-landbank-update.cc/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://rewards-claim-update.cc/login",
+    "label": 1
+  },
+  {
+    "url": "https://lazada.com.ph/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "http://security-verify-update.cf/login",
+    "label": 1
+  },
+  {
+    "url": "https://youtube.com/",
+    "label": 0
+  },
+  {
+    "url": "https://online-bpi-bpi-secure.gq/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://sss-member-verification-portal.xyz/verify",
+    "label": 1
+  },
+  {
+    "url": "https://online-bdo-portal.online/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://spotify.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "http://maya-rewards-claim-portal.tk/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://online-bdo-update.site/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://service-security-update.site/login",
+    "label": 1
+  },
+  {
+    "url": "http://sss-member-verification-portal.tk/verify",
+    "label": 1
+  },
+  {
+    "url": "https://zoom.us/about",
+    "label": 0
+  },
+  {
+    "url": "https://www.microsoft.com/login",
+    "label": 0
+  },
+  {
+    "url": "http://maya-support-service-portal.cf/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://dilg-member-verification-portal.ml/verify",
+    "label": 1
+  },
+  {
+    "url": "http://maya-verification-portal.club/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://pagibigfund.gov.ph/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "http://service-update.club/login",
+    "label": 1
+  },
+  {
+    "url": "https://online-bdo-billing.site/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.bpiexpressonline.com/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "https://www.google.com/contact",
+    "label": 0
+  },
+  {
+    "url": "https://reddit.com",
+    "label": 0
+  },
+  {
+    "url": "http://service-security.site/login",
+    "label": 1
+  },
+  {
+    "url": "https://ndmc.edu.ph/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://www.medium.com",
+    "label": 0
+  },
+  {
+    "url": "https://www.gcash.com/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://online-metrobank-confirm.ml/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://security-confirm.ml/login",
+    "label": 1
+  },
+  {
+    "url": "https://youtube.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://bpiexpressonline.com/home",
+    "label": 0
+  },
+  {
+    "url": "https://www.facebook.com",
+    "label": 0
+  },
+  {
+    "url": "https://gcash.com",
+    "label": 0
+  },
+  {
+    "url": "https://www.shopee.ph/profile/user",
+    "label": 0
+  },
+  {
+    "url": "http://paymaya-activation-portal.cc/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.netflix.com/support/help",
+    "label": 0
+  },
+  {
+    "url": "http://update-security-support-service.site/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.spotify.com/about",
+    "label": 0
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.online/verify",
+    "label": 1
+  },
+  {
+    "url": "http://dilg-member-verification-portal.top/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.pagibigfund.gov.ph/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "http://security-service-update.online/login",
+    "label": 1
+  },
+  {
+    "url": "http://security-update.cc/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.gov.ph/contact",
+    "label": 0
+  },
+  {
+    "url": "https://online-metrobank-verify.cc/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://gcash-card-signin-portal.online/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://security-update.xyz/login",
+    "label": 1
+  },
+  {
+    "url": "https://spotify.com/about",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-signin-portal.site/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://microsoft.com/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://zoom.us/login",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-card-verification-portal.ml/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://service-update.gq/login",
+    "label": 1
+  },
+  {
+    "url": "http://update-gcash-activation-security.tk/login",
+    "label": 1
+  },
+  {
+    "url": "https://amazon.com/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://www.philhealth.gov.ph/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://www.yahoo.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://www.spotify.com/login",
+    "label": 0
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.site/verify",
+    "label": 1
+  },
+  {
+    "url": "https://lazada.com.ph/about",
+    "label": 0
+  },
+  {
+    "url": "https://www.medium.com/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://www.bdo.com.ph/about",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-card-rewards-claim-portal.ml/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://pagibigfund.gov.ph/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://yahoo.com/about",
+    "label": 0
+  },
+  {
+    "url": "http://security-service-confirm.gq/login",
+    "label": 1
+  },
+  {
+    "url": "https://reddit.com/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://gcash.com/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "http://dilg-member-verification-portal.tk/verify",
+    "label": 1
+  },
+  {
+    "url": "https://lazada.com.ph/about",
+    "label": 0
+  },
+  {
+    "url": "http://maya-update-portal.cc/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://metrobank.com.ph/support/help",
+    "label": 0
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.info/verify",
+    "label": 1
+  },
+  {
+    "url": "http://refund-claim-service-security.tk/login",
+    "label": 1
+  },
+  {
+    "url": "https://online-bdo-login.online/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://online-landbank-billing.xyz/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://gcash-card-secure-portal.cc/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.top/verify",
+    "label": 1
+  },
+  {
+    "url": "http://dilg-member-verification-portal.ml/verify",
+    "label": 1
+  },
+  {
+    "url": "https://metrobank.com.ph/login",
+    "label": 0
+  },
+  {
+    "url": "https://www.instagram.com/support/help",
+    "label": 0
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.site/verify",
+    "label": 1
+  },
+  {
+    "url": "https://pagibigfund.gov.ph/",
+    "label": 0
+  },
+  {
+    "url": "https://online-landbank-banking.ml/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://instagram.com/contact",
+    "label": 0
+  },
+  {
+    "url": "https://www.gcash.com/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "https://www.reddit.com/home",
+    "label": 0
+  },
+  {
+    "url": "https://www.shopee.ph/profile/user",
+    "label": 0
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.ml/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.wikipedia.org/contact",
+    "label": 0
+  },
+  {
+    "url": "https://www.ndmc.edu.ph/",
+    "label": 0
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.online/verify",
+    "label": 1
+  },
+  {
+    "url": "http://security-service-verification.xyz/login",
+    "label": 1
+  },
+  {
+    "url": "https://wikipedia.org/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "http://security-service-activation.club/login",
+    "label": 1
+  },
+  {
+    "url": "https://zoom.us/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "http://dilg-member-verification-portal.cc/verify",
+    "label": 1
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.club/verify",
+    "label": 1
+  },
+  {
+    "url": "http://verification-security.club/login",
+    "label": 1
+  },
+  {
+    "url": "https://youtube.com",
+    "label": 0
+  },
+  {
+    "url": "https://online-bdo-banking.cf/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://dilg-member-verification-portal.tk/verify",
+    "label": 1
+  },
+  {
+    "url": "http://service-rewards-claim-security.online/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.philhealth.gov.ph/",
+    "label": 0
+  },
+  {
+    "url": "https://twitter.com/",
+    "label": 0
+  },
+  {
+    "url": "https://reddit.com/about",
+    "label": 0
+  },
+  {
+    "url": "https://www.gcash.com/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://online-landbank-bdo-online.online/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://online-metrobank-gcash-activation.club/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://sss.gov.ph/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://bpiexpressonline.com",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-confirm-portal.xyz/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://billing-update.tk/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.bpiexpressonline.com/about",
+    "label": 0
+  },
+  {
+    "url": "https://www.wikipedia.org/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://gov.ph/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://www.netflix.com/about",
+    "label": 0
+  },
+  {
+    "url": "http://security-service-rewards-claim.cc/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.youtube.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.top/verify",
+    "label": 1
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.ml/verify",
+    "label": 1
+  },
+  {
+    "url": "https://pagibigfund.gov.ph",
+    "label": 0
+  },
+  {
+    "url": "https://www.shopee.ph/",
+    "label": 0
+  },
+  {
+    "url": "http://update-security-service.club/login",
+    "label": 1
+  },
+  {
+    "url": "http://portal-update-security.site/login",
+    "label": 1
+  },
+  {
+    "url": "https://ndmc.edu.ph/home",
+    "label": 0
+  },
+  {
+    "url": "https://lazada.com.ph/about",
+    "label": 0
+  },
+  {
+    "url": "https://online-bdo-login.cc/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.stackoverflow.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-card-banking-portal.site/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://microsoft.com/about",
+    "label": 0
+  },
+  {
+    "url": "http://dilg-member-verification-portal.cf/verify",
+    "label": 1
+  },
+  {
+    "url": "http://dilg-member-verification-portal.cc/verify",
+    "label": 1
+  },
+  {
+    "url": "http://service-security.top/login",
+    "label": 1
+  },
+  {
+    "url": "http://dilg-member-verification-portal.top/verify",
+    "label": 1
+  },
+  {
+    "url": "https://amazon.com/about",
+    "label": 0
+  },
+  {
+    "url": "http://dilg-member-verification-portal.xyz/verify",
+    "label": 1
+  },
+  {
+    "url": "http://service-security-update.cf/login",
+    "label": 1
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.xyz/verify",
+    "label": 1
+  },
+  {
+    "url": "https://online-bdo-banking.cc/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.top/verify",
+    "label": 1
+  },
+  {
+    "url": "https://ndmc.edu.ph/index.html",
+    "label": 0
+  },
+  {
+    "url": "http://maya-secure-portal.site/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://paymaya-signin-portal.online/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://service-security-update.tk/login",
+    "label": 1
+  },
+  {
+    "url": "https://online-landbank-update.info/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.netflix.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://medium.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "http://paymaya-portal-portal.cc/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.youtube.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://medium.com/contact",
+    "label": 0
+  },
+  {
+    "url": "https://bdo.com.ph/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://www.bdo.com.ph/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "http://security-service.xyz/login",
+    "label": 1
+  },
+  {
+    "url": "https://wikipedia.org/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "http://dilg-member-verification-portal.cf/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.wikipedia.org/contact",
+    "label": 0
+  },
+  {
+    "url": "https://online-landbank-bpi-secure.info/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://maya.ph",
+    "label": 0
+  },
+  {
+    "url": "https://online-landbank-login.site/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.maya.ph/index.html",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-card-banking-portal.gq/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://google.com/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://gcash.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://online-metrobank-banking.site/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://online-metrobank-banking.gq/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://gcash-card-secure-portal.club/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.online/verify",
+    "label": 1
+  },
+  {
+    "url": "https://online-bpi-verification.cc/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://billing-security.cf/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.zoom.us/home",
+    "label": 0
+  },
+  {
+    "url": "https://zoom.us",
+    "label": 0
+  },
+  {
+    "url": "https://yahoo.com/home",
+    "label": 0
+  },
+  {
+    "url": "https://www.bdo.com.ph/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.tk/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.reddit.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "http://update-security-service.ml/login",
+    "label": 1
+  },
+  {
+    "url": "https://github.com/contact",
+    "label": 0
+  },
+  {
+    "url": "https://online-landbank-secure.xyz/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://paymaya-secure-portal.online/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.maya.ph/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "https://gcash.com/about",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-card-refund-claim-portal.info/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.cc/verify",
+    "label": 1
+  },
+  {
+    "url": "https://google.com/",
+    "label": 0
+  },
+  {
+    "url": "http://security-update-service.top/login",
+    "label": 1
+  },
+  {
+    "url": "http://service-update-security.tk/login",
+    "label": 1
+  },
+  {
+    "url": "http://security-bdo-online.club/login",
+    "label": 1
+  },
+  {
+    "url": "https://gcash.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "http://service-update.info/login",
+    "label": 1
+  },
+  {
+    "url": "http://account-service-security.xyz/login",
+    "label": 1
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.top/verify",
+    "label": 1
+  },
+  {
+    "url": "http://sss-member-verification-portal.top/verify",
+    "label": 1
+  },
+  {
+    "url": "http://gcash-bdo-online-portal.gq/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://online-landbank-support-service.cf/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://paymaya-activation-portal.ml/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://dilg-member-verification-portal.cc/verify",
+    "label": 1
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.top/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.ndmc.edu.ph/about",
+    "label": 0
+  },
+  {
+    "url": "https://www.philhealth.gov.ph/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://www.reddit.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://wikipedia.org/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://online-bpi-signin.info/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.philhealth.gov.ph/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://medium.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://online-bpi-confirm.gq/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://google.com/home",
+    "label": 0
+  },
+  {
+    "url": "https://pagibigfund.gov.ph/contact",
+    "label": 0
+  },
+  {
+    "url": "https://bdo.com.ph/profile/user",
+    "label": 0
+  },
+  {
+    "url": "http://maya-account-portal.gq/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://service-security-billing.tk/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.canva.com/login",
+    "label": 0
+  },
+  {
+    "url": "https://www.canva.com/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://www.yahoo.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://gcash.com/about",
+    "label": 0
+  },
+  {
+    "url": "https://online-bdo-gcash-activation.cc/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://dilg-member-verification-portal.tk/verify",
+    "label": 1
+  },
+  {
+    "url": "http://gcash-billing-portal.gq/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://amazon.com/login",
+    "label": 0
+  },
+  {
+    "url": "https://metrobank.com.ph/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://www.netflix.com/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "https://online-landbank-account.gq/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.google.com/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "https://microsoft.com",
+    "label": 0
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.top/verify",
+    "label": 1
+  },
+  {
+    "url": "https://online-landbank-activation.club/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://online-bdo-billing.top/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://medium.com/about",
+    "label": 0
+  },
+  {
+    "url": "https://online-metrobank-portal.cf/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.ml/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.facebook.com/contact",
+    "label": 0
+  },
+  {
+    "url": "http://secure-security.top/login",
+    "label": 1
+  },
+  {
+    "url": "http://service-update-security.cc/login",
+    "label": 1
+  },
+  {
+    "url": "https://github.com/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://www.gov.ph/index.html",
+    "label": 0
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.ml/verify",
+    "label": 1
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.tk/verify",
+    "label": 1
+  },
+  {
+    "url": "http://sss-member-verification-portal.site/verify",
+    "label": 1
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.club/verify",
+    "label": 1
+  },
+  {
+    "url": "https://bpiexpressonline.com/about",
+    "label": 0
+  },
+  {
+    "url": "https://gcash.com",
+    "label": 0
+  },
+  {
+    "url": "http://bpi-secure-update.site/login",
+    "label": 1
+  },
+  {
+    "url": "http://service-update-gcash-activation.info/login",
+    "label": 1
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.cc/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.instagram.com/contact",
+    "label": 0
+  },
+  {
+    "url": "https://www.bpiexpressonline.com/about",
+    "label": 0
+  },
+  {
+    "url": "https://www.spotify.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-card-signin-portal.club/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://lazada.com.ph/",
+    "label": 0
+  },
+  {
+    "url": "http://maya-update-portal.info/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://online-bdo-billing.ml/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://paymaya-support-service-portal.cc/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://security-update.online/login",
+    "label": 1
+  },
+  {
+    "url": "http://dilg-member-verification-portal.club/verify",
+    "label": 1
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.cf/verify",
+    "label": 1
+  },
+  {
+    "url": "http://paymaya-support-service-portal.tk/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.netflix.com/",
+    "label": 0
+  },
+  {
+    "url": "http://security-refund-claim-service.xyz/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.sss.gov.ph/home",
+    "label": 0
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.xyz/verify",
+    "label": 1
+  },
+  {
+    "url": "http://sss-member-verification-portal.cf/verify",
+    "label": 1
+  },
+  {
+    "url": "https://zoom.us/about",
+    "label": 0
+  },
+  {
+    "url": "https://www.metrobank.com.ph/about",
+    "label": 0
+  },
+  {
+    "url": "https://online-metrobank-bdo-online.gq/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://online-bpi-support-service.info/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://security-service-update.ml/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.canva.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://www.amazon.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://online-landbank-confirm.top/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://online-bpi-account.xyz/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://medium.com/home",
+    "label": 0
+  },
+  {
+    "url": "https://lazada.com.ph",
+    "label": 0
+  },
+  {
+    "url": "https://yahoo.com/home",
+    "label": 0
+  },
+  {
+    "url": "https://www.shopee.ph/about",
+    "label": 0
+  },
+  {
+    "url": "http://paymaya-login-portal.gq/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://medium.com/about",
+    "label": 0
+  },
+  {
+    "url": "http://service-update.site/login",
+    "label": 1
+  },
+  {
+    "url": "https://sss.gov.ph/login",
+    "label": 0
+  },
+  {
+    "url": "https://canva.com/login",
+    "label": 0
+  },
+  {
+    "url": "https://online-landbank-bpi-secure.cc/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.pagibigfund.gov.ph/",
+    "label": 0
+  },
+  {
+    "url": "https://netflix.com/contact",
+    "label": 0
+  },
+  {
+    "url": "https://reddit.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://www.wikipedia.org/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://bpiexpressonline.com/contact",
+    "label": 0
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.ml/verify",
+    "label": 1
+  },
+  {
+    "url": "http://gcash-activation-service.site/login",
+    "label": 1
+  },
+  {
+    "url": "https://online-bdo-verify.cc/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://sss-member-verification-portal.site/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.youtube.com/login",
+    "label": 0
+  },
+  {
+    "url": "https://www.gov.ph",
+    "label": 0
+  },
+  {
+    "url": "https://pagibigfund.gov.ph/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://youtube.com/login",
+    "label": 0
+  },
+  {
+    "url": "https://bpiexpressonline.com/",
+    "label": 0
+  },
+  {
+    "url": "http://security-gcash-activation-service.info/login",
+    "label": 1
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.ml/verify",
+    "label": 1
+  },
+  {
+    "url": "https://shopee.ph/home",
+    "label": 0
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.cc/verify",
+    "label": 1
+  },
+  {
+    "url": "http://bdo-online-update-security.top/login",
+    "label": 1
+  },
+  {
+    "url": "http://service-security.ml/login",
+    "label": 1
+  },
+  {
+    "url": "https://twitter.com/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "https://online-landbank-verification.club/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://shopee.ph/home",
+    "label": 0
+  },
+  {
+    "url": "https://www.twitter.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://stackoverflow.com",
+    "label": 0
+  },
+  {
+    "url": "https://online-bdo-rewards-claim.club/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://gcash-signin-portal.top/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.ndmc.edu.ph/login",
+    "label": 0
+  },
+  {
+    "url": "http://support-service-security-update.gq/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.netflix.com/login",
+    "label": 0
+  },
+  {
+    "url": "https://www.microsoft.com/",
+    "label": 0
+  },
+  {
+    "url": "https://www.lazada.com.ph/login",
+    "label": 0
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.info/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.microsoft.com/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://maya.ph/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "http://security-update.top/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.zoom.us/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "https://zoom.us/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://www.philhealth.gov.ph/about",
+    "label": 0
+  },
+  {
+    "url": "https://spotify.com/home",
+    "label": 0
+  },
+  {
+    "url": "https://www.shopee.ph/login",
+    "label": 0
+  },
+  {
+    "url": "http://paymaya-update-portal.ml/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://signin-update-service.site/login",
+    "label": 1
+  },
+  {
+    "url": "https://online-bdo-refund-claim.xyz/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://ndmc.edu.ph/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.xyz/verify",
+    "label": 1
+  },
+  {
+    "url": "http://verification-service-security.club/login",
+    "label": 1
+  },
+  {
+    "url": "http://paymaya-verify-portal.online/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://service-security-update.gq/login",
+    "label": 1
+  },
+  {
+    "url": "https://online-metrobank-billing.top/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://online-bdo-verification.club/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://sss-member-verification-portal.tk/verify",
+    "label": 1
+  },
+  {
+    "url": "http://sss-member-verification-portal.top/verify",
+    "label": 1
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.top/verify",
+    "label": 1
+  },
+  {
+    "url": "https://philhealth.gov.ph/login",
+    "label": 0
+  },
+  {
+    "url": "https://maya.ph/support/help",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-card-activation-portal.online/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://online-bdo-billing.online/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://gov.ph/",
+    "label": 0
+  },
+  {
+    "url": "https://www.philhealth.gov.ph/home",
+    "label": 0
+  },
+  {
+    "url": "https://www.github.com/contact",
+    "label": 0
+  },
+  {
+    "url": "https://www.twitter.com/about",
+    "label": 0
+  },
+  {
+    "url": "http://security-update.cf/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.youtube.com/",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-card-update-portal.top/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://gcash-activation-service-security.online/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.instagram.com/",
+    "label": 0
+  },
+  {
+    "url": "https://www.twitter.com/contact",
+    "label": 0
+  },
+  {
+    "url": "https://stackoverflow.com/about",
+    "label": 0
+  },
+  {
+    "url": "https://www.reddit.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://www.youtube.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://www.wikipedia.org/home",
+    "label": 0
+  },
+  {
+    "url": "https://www.ndmc.edu.ph/profile/user",
+    "label": 0
+  },
+  {
+    "url": "http://dilg-member-verification-portal.top/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.reddit.com",
+    "label": 0
+  },
+  {
+    "url": "https://www.pagibigfund.gov.ph/contact",
+    "label": 0
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.site/verify",
+    "label": 1
+  },
+  {
+    "url": "http://security-update.info/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.youtube.com/contact",
+    "label": 0
+  },
+  {
+    "url": "https://online-metrobank-update.site/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.tk/verify",
+    "label": 1
+  },
+  {
+    "url": "https://lazada.com.ph/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "https://www.reddit.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://online-bpi-rewards-claim.online/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://metrobank.com.ph/about",
+    "label": 0
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.ml/verify",
+    "label": 1
+  },
+  {
+    "url": "https://online-landbank-signin.club/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.instagram.com/home",
+    "label": 0
+  },
+  {
+    "url": "http://security-support-service-update.cf/login",
+    "label": 1
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.gq/verify",
+    "label": 1
+  },
+  {
+    "url": "http://sss-member-verification-portal.ml/verify",
+    "label": 1
+  },
+  {
+    "url": "https://online-metrobank-support-service.cc/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://paymaya-bdo-online-portal.gq/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://update-service-security.xyz/login",
+    "label": 1
+  },
+  {
+    "url": "https://online-metrobank-support-service.gq/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://online-bpi-bdo-online.ml/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.site/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.sss.gov.ph/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "http://update-security-billing.cc/login",
+    "label": 1
+  },
+  {
+    "url": "http://sss-member-verification-portal.club/verify",
+    "label": 1
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.ml/verify",
+    "label": 1
+  },
+  {
+    "url": "https://netflix.com/",
+    "label": 0
+  },
+  {
+    "url": "https://www.netflix.com/",
+    "label": 0
+  },
+  {
+    "url": "https://www.github.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://www.google.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://online-metrobank-account.top/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.sss.gov.ph",
+    "label": 0
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.info/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.instagram.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://www.twitter.com/login",
+    "label": 0
+  },
+  {
+    "url": "http://paymaya-verify-portal.online/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://medium.com/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://medium.com",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-card-portal-portal.info/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.maya.ph/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://twitter.com/contact",
+    "label": 0
+  },
+  {
+    "url": "https://microsoft.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "http://security-gcash-activation.site/login",
+    "label": 1
+  },
+  {
+    "url": "https://online-landbank-refund-claim.cf/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://metrobank.com.ph/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://www.maya.ph/about",
+    "label": 0
+  },
+  {
+    "url": "https://www.stackoverflow.com/support/help",
+    "label": 0
+  },
+  {
+    "url": "http://paymaya-confirm-portal.cf/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://update-service.xyz/login",
+    "label": 1
+  },
+  {
+    "url": "https://shopee.ph/about",
+    "label": 0
+  },
+  {
+    "url": "https://netflix.com/contact",
+    "label": 0
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.xyz/verify",
+    "label": 1
+  },
+  {
+    "url": "https://medium.com/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://youtube.com/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://online-bdo-rewards-claim.site/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.metrobank.com.ph/profile/user",
+    "label": 0
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.site/verify",
+    "label": 1
+  },
+  {
+    "url": "https://online-metrobank-activation.xyz/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.lazada.com.ph/contact",
+    "label": 0
+  },
+  {
+    "url": "https://online-bpi-banking.cf/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.netflix.com/contact",
+    "label": 0
+  },
+  {
+    "url": "https://sss.gov.ph/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://www.youtube.com/",
+    "label": 0
+  },
+  {
+    "url": "https://online-metrobank-secure.cc/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://update-confirm-security.xyz/login",
+    "label": 1
+  },
+  {
+    "url": "https://online-bdo-support-service.xyz/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://amazon.com/login",
+    "label": 0
+  },
+  {
+    "url": "https://www.youtube.com/about",
+    "label": 0
+  },
+  {
+    "url": "https://shopee.ph/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://canva.com/home",
+    "label": 0
+  },
+  {
+    "url": "https://www.wikipedia.org/",
+    "label": 0
+  },
+  {
+    "url": "http://dilg-member-verification-portal.ml/verify",
+    "label": 1
+  },
+  {
+    "url": "https://wikipedia.org/home",
+    "label": 0
+  },
+  {
+    "url": "http://maya-portal-portal.online/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://yahoo.com/contact",
+    "label": 0
+  },
+  {
+    "url": "https://lazada.com.ph/index.html",
+    "label": 0
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.cf/verify",
+    "label": 1
+  },
+  {
+    "url": "http://sss-member-verification-portal.top/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.google.com",
+    "label": 0
+  },
+  {
+    "url": "http://service-verification.info/login",
+    "label": 1
+  },
+  {
+    "url": "https://google.com/",
+    "label": 0
+  },
+  {
+    "url": "https://www.ndmc.edu.ph/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "http://maya-banking-portal.online/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://maya-update-portal.site/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://paymaya-bpi-secure-portal.club/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://maya-verify-portal.tk/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://gcash-verification-portal.tk/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://lazada.com.ph/contact",
+    "label": 0
+  },
+  {
+    "url": "https://online-metrobank-bpi-secure.tk/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://dilg-member-verification-portal.cc/verify",
+    "label": 1
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.cc/verify",
+    "label": 1
+  },
+  {
+    "url": "https://online-bdo-account.cf/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://shopee.ph/home",
+    "label": 0
+  },
+  {
+    "url": "https://www.spotify.com/home",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-portal-portal.xyz/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://paymaya-account-portal.info/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://paymaya-verify-portal.ml/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://service-bdo-online.online/login",
+    "label": 1
+  },
+  {
+    "url": "https://canva.com",
+    "label": 0
+  },
+  {
+    "url": "https://www.philhealth.gov.ph/login",
+    "label": 0
+  },
+  {
+    "url": "http://update-service.site/login",
+    "label": 1
+  },
+  {
+    "url": "https://github.com/home",
+    "label": 0
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.tk/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.spotify.com/contact",
+    "label": 0
+  },
+  {
+    "url": "https://gov.ph/home",
+    "label": 0
+  },
+  {
+    "url": "https://www.youtube.com/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "https://gcash.com",
+    "label": 0
+  },
+  {
+    "url": "https://stackoverflow.com/home",
+    "label": 0
+  },
+  {
+    "url": "https://www.gov.ph/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "https://online-bdo-bpi-secure.club/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://sss.gov.ph/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://instagram.com/about",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-login-portal.cf/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://security-portal-service.tk/login",
+    "label": 1
+  },
+  {
+    "url": "http://paymaya-activation-portal.gq/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://sss-member-verification-portal.tk/verify",
+    "label": 1
+  },
+  {
+    "url": "https://online-landbank-support-service.club/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://pagibigfund.gov.ph/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "https://wikipedia.org/login",
+    "label": 0
+  },
+  {
+    "url": "http://paymaya-bpi-secure-portal.ml/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://gcash.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://online-metrobank-support-service.ml/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.philhealth.gov.ph/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://online-metrobank-update.cc/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.gcash.com/contact",
+    "label": 0
+  },
+  {
+    "url": "http://verify-service.online/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.reddit.com/login",
+    "label": 0
+  },
+  {
+    "url": "https://online-landbank-login.tk/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.zoom.us/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "http://maya-account-portal.club/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.instagram.com",
+    "label": 0
+  },
+  {
+    "url": "http://service-login.top/login",
+    "label": 1
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.online/verify",
+    "label": 1
+  },
+  {
+    "url": "https://gcash.com/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://stackoverflow.com/login",
+    "label": 0
+  },
+  {
+    "url": "https://online-bdo-refund-claim.gq/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://update-billing-service.site/login",
+    "label": 1
+  },
+  {
+    "url": "http://dilg-member-verification-portal.site/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.youtube.com/contact",
+    "label": 0
+  },
+  {
+    "url": "https://www.yahoo.com/",
+    "label": 0
+  },
+  {
+    "url": "https://online-bdo-support-service.cc/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.github.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-verify-portal.xyz/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://gcash.com/home",
+    "label": 0
+  },
+  {
+    "url": "http://update-security.tk/login",
+    "label": 1
+  },
+  {
+    "url": "https://online-bdo-billing.info/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://gcash-billing-portal.gq/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://gcash-rewards-claim-portal.cf/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://paymaya-update-portal.top/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://microsoft.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "http://paymaya-signin-portal.cc/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://online-metrobank-refund-claim.ml/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://sss-member-verification-portal.online/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.netflix.com/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "https://online-bpi-update.top/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://spotify.com/about",
+    "label": 0
+  },
+  {
+    "url": "http://dilg-member-verification-portal.cf/verify",
+    "label": 1
+  },
+  {
+    "url": "https://online-landbank-secure.online/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://bdo.com.ph/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-card-rewards-claim-portal.online/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://gcash-banking-portal.cc/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.instagram.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.online/verify",
+    "label": 1
+  },
+  {
+    "url": "https://zoom.us/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://online-bdo-portal.cf/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://twitter.com/contact",
+    "label": 0
+  },
+  {
+    "url": "http://service-security.cf/login",
+    "label": 1
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.club/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.google.com/login",
+    "label": 0
+  },
+  {
+    "url": "http://update-service-secure.xyz/login",
+    "label": 1
+  },
+  {
+    "url": "http://gcash-card-update-portal.top/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://netflix.com/",
+    "label": 0
+  },
+  {
+    "url": "https://online-metrobank-activation.tk/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.gcash.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://online-bpi-login.cf/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://gov.ph/login",
+    "label": 0
+  },
+  {
+    "url": "https://www.netflix.com/",
+    "label": 0
+  },
+  {
+    "url": "https://online-metrobank-confirm.online/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://online-landbank-update.tk/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.bpiexpressonline.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://bpiexpressonline.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "http://security-service-gcash-activation.cf/login",
+    "label": 1
+  },
+  {
+    "url": "https://gov.ph/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://github.com",
+    "label": 0
+  },
+  {
+    "url": "http://security-service.top/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.stackoverflow.com/contact",
+    "label": 0
+  },
+  {
+    "url": "https://github.com/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "https://www.stackoverflow.com/contact",
+    "label": 0
+  },
+  {
+    "url": "https://www.google.com/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "https://www.metrobank.com.ph/",
+    "label": 0
+  },
+  {
+    "url": "https://shopee.ph/login",
+    "label": 0
+  },
+  {
+    "url": "http://security-update.tk/login",
+    "label": 1
+  },
+  {
+    "url": "http://gcash-card-support-service-portal.site/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.bdo.com.ph/contact",
+    "label": 0
+  },
+  {
+    "url": "http://paymaya-billing-portal.ml/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://dilg-member-verification-portal.xyz/verify",
+    "label": 1
+  },
+  {
+    "url": "https://wikipedia.org/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://online-landbank-portal.tk/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://lazada.com.ph/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://www.netflix.com/login",
+    "label": 0
+  },
+  {
+    "url": "https://pagibigfund.gov.ph/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://www.zoom.us/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://facebook.com/",
+    "label": 0
+  },
+  {
+    "url": "https://www.gcash.com/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "http://sss-member-verification-portal.cc/verify",
+    "label": 1
+  },
+  {
+    "url": "http://paymaya-update-portal.site/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://security-update-service.ml/login",
+    "label": 1
+  },
+  {
+    "url": "https://wikipedia.org/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-gcash-activation-portal.info/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://paymaya-bpi-secure-portal.site/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://online-landbank-support-service.top/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://google.com/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "http://update-billing.tk/login",
+    "label": 1
+  },
+  {
+    "url": "https://canva.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://www.netflix.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://www.lazada.com.ph/about",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-account-portal.online/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.facebook.com/about",
+    "label": 0
+  },
+  {
+    "url": "http://dilg-member-verification-portal.ml/verify",
+    "label": 1
+  },
+  {
+    "url": "https://gov.ph/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://www.wikipedia.org",
+    "label": 0
+  },
+  {
+    "url": "https://www.bdo.com.ph/index.html",
+    "label": 0
+  },
+  {
+    "url": "http://service-account.cf/login",
+    "label": 1
+  },
+  {
+    "url": "https://reddit.com/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://shopee.ph/login",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-support-service-portal.cc/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.canva.com/contact",
+    "label": 0
+  },
+  {
+    "url": "https://www.metrobank.com.ph/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://www.pagibigfund.gov.ph/",
+    "label": 0
+  },
+  {
+    "url": "https://www.yahoo.com/home",
+    "label": 0
+  },
+  {
+    "url": "https://www.gcash.com/home",
+    "label": 0
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.gq/verify",
+    "label": 1
+  },
+  {
+    "url": "https://github.com/login",
+    "label": 0
+  },
+  {
+    "url": "https://www.spotify.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://shopee.ph/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://instagram.com/about",
+    "label": 0
+  },
+  {
+    "url": "https://wikipedia.org",
+    "label": 0
+  },
+  {
+    "url": "https://amazon.com/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "http://service-update-security.cc/login",
+    "label": 1
+  },
+  {
+    "url": "http://sss-member-verification-portal.site/verify",
+    "label": 1
+  },
+  {
+    "url": "http://gcash-refund-claim-portal.cc/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://gcash-billing-portal.info/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://security-update-gcash-activation.info/login",
+    "label": 1
+  },
+  {
+    "url": "https://facebook.com/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "http://maya-verify-portal.tk/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.ml/verify",
+    "label": 1
+  },
+  {
+    "url": "https://github.com/",
+    "label": 0
+  },
+  {
+    "url": "https://www.metrobank.com.ph/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-card-login-portal.gq/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://maya-update-portal.site/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.club/verify",
+    "label": 1
+  },
+  {
+    "url": "https://pagibigfund.gov.ph/profile/user",
+    "label": 0
+  },
+  {
+    "url": "http://sss-member-verification-portal.info/verify",
+    "label": 1
+  },
+  {
+    "url": "http://security-update-service.cf/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.ndmc.edu.ph/",
+    "label": 0
+  },
+  {
+    "url": "https://online-landbank-confirm.site/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.shopee.ph/home",
+    "label": 0
+  },
+  {
+    "url": "https://online-metrobank-rewards-claim.club/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.github.com/",
+    "label": 0
+  },
+  {
+    "url": "http://security-portal.xyz/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.medium.com/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://sss.gov.ph/login",
+    "label": 0
+  },
+  {
+    "url": "http://service-security.cc/login",
+    "label": 1
+  },
+  {
+    "url": "http://dilg-member-verification-portal.gq/verify",
+    "label": 1
+  },
+  {
+    "url": "http://gcash-bpi-secure-portal.top/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.gcash.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://online-bdo-update.club/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.stackoverflow.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.ml/verify",
+    "label": 1
+  },
+  {
+    "url": "http://dilg-member-verification-portal.cf/verify",
+    "label": 1
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.xyz/verify",
+    "label": 1
+  },
+  {
+    "url": "https://reddit.com",
+    "label": 0
+  },
+  {
+    "url": "https://zoom.us/index.html",
+    "label": 0
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.cc/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.amazon.com/home",
+    "label": 0
+  },
+  {
+    "url": "http://security-confirm.xyz/login",
+    "label": 1
+  },
+  {
+    "url": "https://canva.com/",
+    "label": 0
+  },
+  {
+    "url": "https://online-bpi-account.ml/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://gcash-verify-portal.gq/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://zoom.us",
+    "label": 0
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.tk/verify",
+    "label": 1
+  },
+  {
+    "url": "http://maya-portal-portal.info/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://online-bdo-confirm.xyz/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.gov.ph/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://www.zoom.us",
+    "label": 0
+  },
+  {
+    "url": "https://www.gov.ph/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://gov.ph/home",
+    "label": 0
+  },
+  {
+    "url": "http://security-update-confirm.online/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.yahoo.com/home",
+    "label": 0
+  },
+  {
+    "url": "https://online-landbank-bdo-online.site/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://lazada.com.ph",
+    "label": 0
+  },
+  {
+    "url": "http://maya-rewards-claim-portal.club/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://google.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://www.sss.gov.ph/index.html",
+    "label": 0
+  },
+  {
+    "url": "http://security-service.site/login",
+    "label": 1
+  },
+  {
+    "url": "http://dilg-member-verification-portal.cf/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.twitter.com/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-card-login-portal.site/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://sss-member-verification-portal.top/verify",
+    "label": 1
+  },
+  {
+    "url": "http://gcash-card-activation-portal.online/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://github.com/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://www.shopee.ph/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "http://security-update-service.ml/login",
+    "label": 1
+  },
+  {
+    "url": "https://online-bpi-banking.gq/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.twitter.com/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://www.instagram.com",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-card-gcash-activation-portal.site/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.yahoo.com/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "https://www.shopee.ph/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "https://metrobank.com.ph",
+    "label": 0
+  },
+  {
+    "url": "http://maya-bdo-online-portal.ml/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.club/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.wikipedia.org/contact",
+    "label": 0
+  },
+  {
+    "url": "https://canva.com/home",
+    "label": 0
+  },
+  {
+    "url": "https://pagibigfund.gov.ph/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://www.microsoft.com/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://online-bpi-verify.cc/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://gcash-card-billing-portal.cc/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.amazon.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://www.amazon.com/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "https://online-bpi-signin.info/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://online-metrobank-rewards-claim.club/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.canva.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-bdo-online-portal.cc/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://canva.com/contact",
+    "label": 0
+  },
+  {
+    "url": "https://pagibigfund.gov.ph/support/help",
+    "label": 0
+  },
+  {
+    "url": "http://confirm-service-update.cf/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.github.com/contact",
+    "label": 0
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.xyz/verify",
+    "label": 1
+  },
+  {
+    "url": "https://online-bpi-support-service.info/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://sss-member-verification-portal.club/verify",
+    "label": 1
+  },
+  {
+    "url": "http://update-service.club/login",
+    "label": 1
+  },
+  {
+    "url": "http://gcash-card-update-portal.info/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://bdo.com.ph/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://online-metrobank-update.top/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://online-landbank-refund-claim.info/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://gcash-card-signin-portal.tk/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.maya.ph",
+    "label": 0
+  },
+  {
+    "url": "http://paymaya-verify-portal.gq/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://dilg-member-verification-portal.tk/verify",
+    "label": 1
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.top/verify",
+    "label": 1
+  },
+  {
+    "url": "http://security-update.tk/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.metrobank.com.ph/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://online-bdo-update.club/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://dilg-member-verification-portal.tk/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.gcash.com/",
+    "label": 0
+  },
+  {
+    "url": "https://www.youtube.com/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "http://paymaya-bdo-online-portal.site/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.instagram.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://online-landbank-billing.online/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://bpiexpressonline.com/home",
+    "label": 0
+  },
+  {
+    "url": "https://canva.com/about",
+    "label": 0
+  },
+  {
+    "url": "https://philhealth.gov.ph/contact",
+    "label": 0
+  },
+  {
+    "url": "https://lazada.com.ph/login",
+    "label": 0
+  },
+  {
+    "url": "https://canva.com/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://www.metrobank.com.ph/contact",
+    "label": 0
+  },
+  {
+    "url": "https://philhealth.gov.ph/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://online-metrobank-activation.cc/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://dilg-member-verification-portal.ml/verify",
+    "label": 1
+  },
+  {
+    "url": "http://dilg-member-verification-portal.club/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.github.com/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://online-metrobank-gcash-activation.cf/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://maya-verification-portal.cf/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://youtube.com/contact",
+    "label": 0
+  },
+  {
+    "url": "https://www.sss.gov.ph/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "https://online-bpi-update.info/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://metrobank.com.ph/about",
+    "label": 0
+  },
+  {
+    "url": "https://netflix.com/support/help",
+    "label": 0
+  },
+  {
+    "url": "http://account-service.cc/login",
+    "label": 1
+  },
+  {
+    "url": "https://online-bpi-bpi-secure.club/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://youtube.com/about",
+    "label": 0
+  },
+  {
+    "url": "http://paymaya-support-service-portal.ml/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://medium.com/about",
+    "label": 0
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.xyz/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.maya.ph",
+    "label": 0
+  },
+  {
+    "url": "https://www.gov.ph/home",
+    "label": 0
+  },
+  {
+    "url": "https://netflix.com",
+    "label": 0
+  },
+  {
+    "url": "https://www.ndmc.edu.ph/login",
+    "label": 0
+  },
+  {
+    "url": "https://www.youtube.com/about",
+    "label": 0
+  },
+  {
+    "url": "https://www.pagibigfund.gov.ph/login",
+    "label": 0
+  },
+  {
+    "url": "https://www.reddit.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "http://update-billing.cc/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.youtube.com/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://www.facebook.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.cc/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.reddit.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://www.gcash.com/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "https://www.instagram.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://gov.ph/about",
+    "label": 0
+  },
+  {
+    "url": "https://canva.com/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://online-metrobank-rewards-claim.ml/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://zoom.us/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://online-landbank-bpi-secure.cc/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.gov.ph/about",
+    "label": 0
+  },
+  {
+    "url": "https://www.reddit.com",
+    "label": 0
+  },
+  {
+    "url": "http://paymaya-signin-portal.info/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://security-update-service.top/login",
+    "label": 1
+  },
+  {
+    "url": "https://online-bpi-activation.xyz/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://security-update-service.xyz/login",
+    "label": 1
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.gq/verify",
+    "label": 1
+  },
+  {
+    "url": "https://online-landbank-secure.gq/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.club/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.ndmc.edu.ph/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://www.canva.com/home",
+    "label": 0
+  },
+  {
+    "url": "http://paymaya-portal-portal.top/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://paymaya-bdo-online-portal.info/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://gcash-bpi-secure-portal.cf/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.zoom.us/home",
+    "label": 0
+  },
+  {
+    "url": "https://www.github.com/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "https://www.metrobank.com.ph/",
+    "label": 0
+  },
+  {
+    "url": "https://www.wikipedia.org/login",
+    "label": 0
+  },
+  {
+    "url": "http://update-security.cf/login",
+    "label": 1
+  },
+  {
+    "url": "http://sss-member-verification-portal.xyz/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.twitter.com/login",
+    "label": 0
+  },
+  {
+    "url": "https://www.spotify.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://www.canva.com/home",
+    "label": 0
+  },
+  {
+    "url": "https://online-metrobank-signin.ml/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://sss-member-verification-portal.club/verify",
+    "label": 1
+  },
+  {
+    "url": "https://zoom.us/about",
+    "label": 0
+  },
+  {
+    "url": "https://www.amazon.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-card-rewards-claim-portal.online/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://service-security.cf/login",
+    "label": 1
+  },
+  {
+    "url": "https://online-landbank-verification.online/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://lazada.com.ph/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-card-portal-portal.tk/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://dilg-member-verification-portal.online/verify",
+    "label": 1
+  },
+  {
+    "url": "http://security-update-secure.ml/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.zoom.us/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "http://dilg-member-verification-portal.tk/verify",
+    "label": 1
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.xyz/verify",
+    "label": 1
+  },
+  {
+    "url": "http://support-service-security.tk/login",
+    "label": 1
+  },
+  {
+    "url": "https://instagram.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://www.zoom.us/contact",
+    "label": 0
+  },
+  {
+    "url": "https://twitter.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-billing-portal.xyz/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.gov.ph",
+    "label": 0
+  },
+  {
+    "url": "https://maya.ph/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://www.netflix.com/",
+    "label": 0
+  },
+  {
+    "url": "http://update-gcash-activation.gq/login",
+    "label": 1
+  },
+  {
+    "url": "https://online-bdo-banking.top/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://service-portal.cc/login",
+    "label": 1
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.club/verify",
+    "label": 1
+  },
+  {
+    "url": "https://medium.com/about",
+    "label": 0
+  },
+  {
+    "url": "http://service-update-security.ml/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.github.com/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://www.metrobank.com.ph/contact",
+    "label": 0
+  },
+  {
+    "url": "https://www.lazada.com.ph",
+    "label": 0
+  },
+  {
+    "url": "https://reddit.com/login",
+    "label": 0
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.info/verify",
+    "label": 1
+  },
+  {
+    "url": "https://facebook.com/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "https://online-metrobank-update.xyz/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://gcash-card-support-service-portal.online/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://facebook.com/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://www.medium.com/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "http://update-security.tk/login",
+    "label": 1
+  },
+  {
+    "url": "http://paymaya-rewards-claim-portal.tk/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.bpiexpressonline.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "http://update-verify-security.cc/login",
+    "label": 1
+  },
+  {
+    "url": "https://microsoft.com/about",
+    "label": 0
+  },
+  {
+    "url": "http://maya-portal-portal.cc/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.ml/verify",
+    "label": 1
+  },
+  {
+    "url": "https://online-landbank-activation.tk/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.spotify.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://bpiexpressonline.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://www.amazon.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://philhealth.gov.ph/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://sss.gov.ph/about",
+    "label": 0
+  },
+  {
+    "url": "https://www.google.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://www.twitter.com/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://online-bdo-verify.ml/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://netflix.com",
+    "label": 0
+  },
+  {
+    "url": "https://www.microsoft.com/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://www.philhealth.gov.ph/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://www.bpiexpressonline.com/contact",
+    "label": 0
+  },
+  {
+    "url": "http://security-update.cf/login",
+    "label": 1
+  },
+  {
+    "url": "https://gcash.com/about",
+    "label": 0
+  },
+  {
+    "url": "https://www.sss.gov.ph/",
+    "label": 0
+  },
+  {
+    "url": "https://www.ndmc.edu.ph/about",
+    "label": 0
+  },
+  {
+    "url": "https://shopee.ph/contact",
+    "label": 0
+  },
+  {
+    "url": "http://paymaya-account-portal.online/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://update-bpi-secure-security.top/login",
+    "label": 1
+  },
+  {
+    "url": "https://sss.gov.ph/about",
+    "label": 0
+  },
+  {
+    "url": "https://gcash.com/about",
+    "label": 0
+  },
+  {
+    "url": "https://www.medium.com/about",
+    "label": 0
+  },
+  {
+    "url": "https://www.amazon.com/contact",
+    "label": 0
+  },
+  {
+    "url": "https://online-bdo-portal.tk/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.canva.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.site/verify",
+    "label": 1
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.ml/verify",
+    "label": 1
+  },
+  {
+    "url": "http://update-verify.ml/login",
+    "label": 1
+  },
+  {
+    "url": "https://online-bpi-support-service.tk/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://online-bdo-gcash-activation.cc/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://gcash.com/login",
+    "label": 0
+  },
+  {
+    "url": "https://pagibigfund.gov.ph/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://philhealth.gov.ph",
+    "label": 0
+  },
+  {
+    "url": "https://metrobank.com.ph/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://www.reddit.com/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://www.netflix.com/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "https://github.com",
+    "label": 0
+  },
+  {
+    "url": "http://update-signin.club/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.medium.com/home",
+    "label": 0
+  },
+  {
+    "url": "https://www.wikipedia.org/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-card-verification-portal.top/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://lazada.com.ph/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://twitter.com/login",
+    "label": 0
+  },
+  {
+    "url": "https://online-landbank-activation.cf/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.maya.ph/",
+    "label": 0
+  },
+  {
+    "url": "https://twitter.com/about",
+    "label": 0
+  },
+  {
+    "url": "http://sss-member-verification-portal.site/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.facebook.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://online-bpi-refund-claim.top/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.site/verify",
+    "label": 1
+  },
+  {
+    "url": "https://online-metrobank-verification.club/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.amazon.com/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "https://online-metrobank-account.ml/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://gcash-update-portal.club/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.instagram.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "http://sss-member-verification-portal.tk/verify",
+    "label": 1
+  },
+  {
+    "url": "https://philhealth.gov.ph/profile/user",
+    "label": 0
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.tk/verify",
+    "label": 1
+  },
+  {
+    "url": "http://service-verification.site/login",
+    "label": 1
+  },
+  {
+    "url": "https://facebook.com/login",
+    "label": 0
+  },
+  {
+    "url": "https://youtube.com/about",
+    "label": 0
+  },
+  {
+    "url": "http://update-security.online/login",
+    "label": 1
+  },
+  {
+    "url": "https://gov.ph/contact",
+    "label": 0
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.top/verify",
+    "label": 1
+  },
+  {
+    "url": "https://online-landbank-activation.club/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://twitter.com/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://online-bdo-update.top/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://online-bdo-banking.cf/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://reddit.com/login",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-verify-portal.cc/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://sss.gov.ph/support/help",
+    "label": 0
+  },
+  {
+    "url": "http://update-security.cc/login",
+    "label": 1
+  },
+  {
+    "url": "https://google.com/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://wikipedia.org/home",
+    "label": 0
+  },
+  {
+    "url": "http://security-service-update.cc/login",
+    "label": 1
+  },
+  {
+    "url": "http://maya-portal-portal.ml/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://maya-banking-portal.cf/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.metrobank.com.ph/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://philhealth.gov.ph/contact",
+    "label": 0
+  },
+  {
+    "url": "http://security-update.site/login",
+    "label": 1
+  },
+  {
+    "url": "http://sss-member-verification-portal.online/verify",
+    "label": 1
+  },
+  {
+    "url": "https://online-metrobank-confirm.site/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.lazada.com.ph/home",
+    "label": 0
+  },
+  {
+    "url": "http://rewards-claim-service.tk/login",
+    "label": 1
+  },
+  {
+    "url": "http://sss-member-verification-portal.cf/verify",
+    "label": 1
+  },
+  {
+    "url": "https://online-metrobank-confirm.cc/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://yahoo.com/contact",
+    "label": 0
+  },
+  {
+    "url": "https://www.instagram.com/login",
+    "label": 0
+  },
+  {
+    "url": "https://www.instagram.com/home",
+    "label": 0
+  },
+  {
+    "url": "https://spotify.com/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "http://service-update-security.site/login",
+    "label": 1
+  },
+  {
+    "url": "http://service-security-rewards-claim.cc/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.shopee.ph/about",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-card-bdo-online-portal.gq/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://maya-update-portal.gq/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://service-security.info/login",
+    "label": 1
+  },
+  {
+    "url": "https://maya.ph/home",
+    "label": 0
+  },
+  {
+    "url": "https://www.medium.com/about",
+    "label": 0
+  },
+  {
+    "url": "http://security-service-bpi-secure.gq/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.netflix.com",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-bdo-online-portal.info/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.bdo.com.ph/index.html",
+    "label": 0
+  },
+  {
+    "url": "http://maya-billing-portal.info/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.facebook.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://twitter.com/contact",
+    "label": 0
+  },
+  {
+    "url": "https://www.bpiexpressonline.com/support/help",
+    "label": 0
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.site/verify",
+    "label": 1
+  },
+  {
+    "url": "https://www.bdo.com.ph/contact",
+    "label": 0
+  },
+  {
+    "url": "https://www.facebook.com/",
+    "label": 0
+  },
+  {
+    "url": "http://service-verification-update.cc/login",
+    "label": 1
+  },
+  {
+    "url": "https://online-bdo-signin.ml/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://security-update.ml/login",
+    "label": 1
+  },
+  {
+    "url": "https://canva.com",
+    "label": 0
+  },
+  {
+    "url": "https://www.reddit.com/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://www.facebook.com/contact",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-card-portal-portal.tk/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.lazada.com.ph/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://www.github.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "http://security-verification-service.info/login",
+    "label": 1
+  },
+  {
+    "url": "https://lazada.com.ph/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://www.philhealth.gov.ph/home",
+    "label": 0
+  },
+  {
+    "url": "https://metrobank.com.ph/login",
+    "label": 0
+  },
+  {
+    "url": "https://www.twitter.com/support/help",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-card-account-portal.xyz/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://online-bpi-rewards-claim.online/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://instagram.com",
+    "label": 0
+  },
+  {
+    "url": "https://www.bdo.com.ph/login",
+    "label": 0
+  },
+  {
+    "url": "https://online-metrobank-banking.info/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://maya-confirm-portal.site/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.ml/verify",
+    "label": 1
+  },
+  {
+    "url": "https://wikipedia.org/",
+    "label": 0
+  },
+  {
+    "url": "https://online-landbank-bpi-secure.online/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://online-bpi-billing.info/login.html",
+    "label": 1
+  },
+  {
+    "url": "http://gcash-gcash-activation-portal.ml/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.bdo.com.ph/contact",
+    "label": 0
+  },
+  {
+    "url": "http://paymaya-verification-portal.xyz/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.instagram.com/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://www.gcash.com",
+    "label": 0
+  },
+  {
+    "url": "https://instagram.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-card-bdo-online-portal.gq/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.info/verify",
+    "label": 1
+  },
+  {
+    "url": "https://online-metrobank-activation.club/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://bpiexpressonline.com/contact",
+    "label": 0
+  },
+  {
+    "url": "http://service-security.gq/login",
+    "label": 1
+  },
+  {
+    "url": "http://pagibig-member-verification-portal.ml/verify",
+    "label": 1
+  },
+  {
+    "url": "https://philhealth.gov.ph",
+    "label": 0
+  },
+  {
+    "url": "http://security-update.tk/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.youtube.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "http://confirm-security.gq/login",
+    "label": 1
+  },
+  {
+    "url": "https://youtube.com/login",
+    "label": 0
+  },
+  {
+    "url": "http://paymaya-support-service-portal.tk/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://gcash-activation-portal.tk/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://stackoverflow.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://www.stackoverflow.com/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "https://stackoverflow.com/about",
+    "label": 0
+  },
+  {
+    "url": "http://update-service-gcash-activation.online/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.facebook.com/contact",
+    "label": 0
+  },
+  {
+    "url": "https://www.youtube.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "http://portal-service-update.tk/login",
+    "label": 1
+  },
+  {
+    "url": "https://netflix.com/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://netflix.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "http://maya-secure-portal.tk/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.yahoo.com",
+    "label": 0
+  },
+  {
+    "url": "http://paymaya-activation-portal.ml/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://www.canva.com/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://facebook.com/login",
+    "label": 0
+  },
+  {
+    "url": "https://www.gov.ph",
+    "label": 0
+  },
+  {
+    "url": "https://www.gov.ph",
+    "label": 0
+  },
+  {
+    "url": "https://yahoo.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://www.bdo.com.ph/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://sss.gov.ph/",
+    "label": 0
+  },
+  {
+    "url": "http://dilg-member-verification-portal.gq/verify",
+    "label": 1
+  },
+  {
+    "url": "http://update-service.cc/login",
+    "label": 1
+  },
+  {
+    "url": "https://github.com/home",
+    "label": 0
+  },
+  {
+    "url": "https://www.google.com/contact",
+    "label": 0
+  },
+  {
+    "url": "https://www.twitter.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "http://service-security.gq/login",
+    "label": 1
+  },
+  {
+    "url": "https://online-bdo-signin.cc/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.ndmc.edu.ph/contact",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-card-confirm-portal.cf/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://zoom.us/profile/user",
+    "label": 0
+  },
+  {
+    "url": "http://update-billing-service.tk/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.bpiexpressonline.com/home",
+    "label": 0
+  },
+  {
+    "url": "http://paymaya-bpi-secure-portal.top/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://maya-account-portal.gq/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://security-verification-update.top/login",
+    "label": 1
+  },
+  {
+    "url": "https://online-metrobank-support-service.tk/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://wikipedia.org/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://microsoft.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "https://www.amazon.com/",
+    "label": 0
+  },
+  {
+    "url": "http://paymaya-gcash-activation-portal.cc/index.php",
+    "label": 1
+  },
+  {
+    "url": "https://online-metrobank-verify.xyz/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://medium.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "http://gcash-bpi-secure-portal.cc/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://philhealth-member-verification-portal.tk/verify",
+    "label": 1
+  },
+  {
+    "url": "https://gcash.com/contact",
+    "label": 0
+  },
+  {
+    "url": "http://security-account-service.cc/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.instagram.com/profile/user",
+    "label": 0
+  },
+  {
+    "url": "https://www.youtube.com/index.html",
+    "label": 0
+  },
+  {
+    "url": "http://maya-verify-portal.cf/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://security-update-update.online/login",
+    "label": 1
+  },
+  {
+    "url": "https://www.pagibigfund.gov.ph/contact",
+    "label": 0
+  },
+  {
+    "url": "https://microsoft.com/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://www.metrobank.com.ph/",
+    "label": 0
+  },
+  {
+    "url": "https://instagram.com/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://online-landbank-account.tk/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://gov.ph/about",
+    "label": 0
+  },
+  {
+    "url": "https://www.shopee.ph/contact",
+    "label": 0
+  },
+  {
+    "url": "http://paymaya-verification-portal.online/index.php",
+    "label": 1
+  },
+  {
+    "url": "http://security-activation-update.gq/login",
+    "label": 1
+  },
+  {
+    "url": "http://sss-member-verification-portal.ml/verify",
+    "label": 1
+  },
+  {
+    "url": "http://security-update-secure.top/login",
+    "label": 1
+  },
+  {
+    "url": "https://online-bdo-update.cc/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://shopee.ph/support/help",
+    "label": 0
+  },
+  {
+    "url": "https://sss.gov.ph/docs/v1/guide",
+    "label": 0
+  },
+  {
+    "url": "https://online-metrobank-banking.ml/login.html",
+    "label": 1
+  },
+  {
+    "url": "https://www.reddit.com/search?q=query",
+    "label": 0
+  },
+  {
+    "url": "http://update-service.info/login",
+    "label": 1
+  }
+]
