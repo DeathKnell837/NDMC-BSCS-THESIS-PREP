@@ -5,7 +5,7 @@
   "description": "Proactive character-level phishing URL interception using hybrid neural network logic.",
   "action": {
     "default_popup": "popup.html",
-    "default_icon": "icon.svg"
+    "default_icon": "icon.png"
   },
   "permissions": [
     "activeTab"
