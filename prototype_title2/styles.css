@@ -25,7 +25,6 @@ body {
     position: relative;
 }
 
-/* Background gradient blobs */
 .background-glow {
     position: absolute;
     top: -10%;
@@ -77,7 +76,6 @@ header h1 {
     line-height: 1.5;
 }
 
-/* Scanner Input Card */
 .scanner-card {
     background: var(--card-bg);
     border: 1px solid var(--border-color);
@@ -171,7 +169,6 @@ header h1 {
     border-color: rgba(255, 255, 255, 0.2);
 }
 
-/* Results section */
 .results-container {
     display: flex;
     flex-direction: column;
@@ -182,7 +179,6 @@ header h1 {
     display: none !important;
 }
 
-/* Redirect Resolve Box */
 .redirect-card {
     background: rgba(0, 242, 254, 0.03);
     border: 1px solid rgba(0, 242, 254, 0.2);
@@ -230,7 +226,6 @@ header h1 {
     color: var(--text-secondary);
 }
 
-/* Grid layout for results */
 .results-grid {
     display: grid;
     grid-template-columns: 1fr 1.5fr;
@@ -259,7 +254,6 @@ header h1 {
     color: #a5bdfd;
 }
 
-/* Prediction gauge */
 .score-card {
     display: flex;
     flex-direction: column;
@@ -314,7 +308,6 @@ header h1 {
     line-height: 1.4;
 }
 
-/* Heatmap deconstruction */
 .heatmap-card {
     grid-column: span 1;
 }
@@ -347,7 +340,6 @@ header h1 {
     cursor: help;
 }
 
-/* Legend */
 .legend {
     display: flex;
     align-items: center;
@@ -364,7 +356,6 @@ header h1 {
     margin: 0 15px;
 }
 
-/* Metrics List */
 .features-card {
     grid-column: span 2;
 }
@@ -404,7 +395,6 @@ header h1 {
     font-weight: 700;
 }
 
-/* Footer styling */
 footer {
     text-align: center;
     margin-top: 60px;

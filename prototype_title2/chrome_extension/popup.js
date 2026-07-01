@@ -10,8 +10,6 @@ document.addEventListener("DOMContentLoaded", () => {
   const suspiciousTlds = ["tk", "ml", "cf", "gq", "cc", "xyz", "club", "online", "site", "top"];
   const keywords = ["gcash", "paymaya", "maya", "login", "verify", "verification", "activation", "bdo", "bpi"];
 
-  // Fetch current tab URL automatically on popup open
-  // If chrome.tabs is not available (running in standard browser test), use window location mock
   if (typeof chrome !== 'undefined' && chrome.tabs && chrome.tabs.query) {
     chrome.tabs.query({active: true, currentWindow: true}, (tabs) => {
       if (tabs && tabs[0]) {
@@ -20,7 +18,6 @@ document.addEventListener("DOMContentLoaded", () => {
       }
     });
   } else {
-    // Mock URL for local browser preview testing
     const mockUrl = "https://secure-login-portal-gcash.xyz/activation";
     urlInput.value = mockUrl;
     runScan(mockUrl);

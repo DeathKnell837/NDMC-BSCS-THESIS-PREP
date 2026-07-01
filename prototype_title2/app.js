@@ -11,14 +11,12 @@ document.addEventListener("DOMContentLoaded", () => {
     const verdictDesc = document.getElementById("verdict-desc");
     const heatmapText = document.getElementById("heatmap-text");
     
-    // Metrics
     const mLength = document.getElementById("metric-length");
     const mDigits = document.getElementById("metric-digits");
     const mKeywords = document.getElementById("metric-keywords");
     const mTld = document.getElementById("metric-tld");
     const mEntropy = document.getElementById("metric-entropy");
 
-    // Suspicious substrings weights
     const maliciousPatterns = {
         "gcash": 0.95,
         "paymaya": 0.90,
@@ -41,7 +39,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const suspiciousTlds = ["tk", "ml", "cf", "gq", "cc", "xyz", "club", "online", "site", "top"];
 
-    // 1. Redirect Resolver Mock Simulation
     function checkRedirects(url) {
         const lowers = url.toLowerCase();
         if (lowers.includes("bit.ly/") || lowers.includes("tinyurl.com/") || lowers.includes("t.co/")) {
@@ -54,7 +51,6 @@ document.addEventListener("DOMContentLoaded", () => {
         return { redirected: false, resolved: url };
     }
 
-    // 2. Shannon Entropy Calculation
     function calculateEntropy(str) {
         let freq = {};
         for (let i=0; i<str.length; i++) {
@@ -69,18 +65,15 @@ document.addEventListener("DOMContentLoaded", () => {
         return entropy;
     }
 
-    // 3. Scan Process
     function runScan(rawUrl) {
         if (!rawUrl.trim()) return;
 
-        // Reset visual state
         resultSection.classList.add("hidden");
         redirectBox.classList.add("hidden");
 
         const redirectResult = checkRedirects(rawUrl);
         const urlToScan = redirectResult.resolved;
 
-        // Show redirect logger if redirected
         if (redirectResult.redirected) {
             flowOrig.textContent = rawUrl;
             flowResolved.textContent = redirectResult.resolved;
@@ -92,7 +85,6 @@ document.addEventListener("DOMContentLoaded", () => {
         resultSection.classList.remove("hidden");
     }
 
-    // 4. Score logic based on character structure
     function scoreURL(url) {
         const lowerUrl = url.toLowerCase();
         let score = 0.05;
@@ -140,7 +132,6 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     }
 
-    // 5. Render dashboard with animations
     function renderDashboard(url, scanResult) {
         const probPct = Math.round(scanResult.probability * 100);
         
@@ -159,7 +150,6 @@ document.addEventListener("DOMContentLoaded", () => {
         verdict.textContent = labelText;
         verdictDesc.textContent = labelDesc;
 
-        // Clear previous interval if any
         if (window.progressInterval) {
             clearInterval(window.progressInterval);
         }
@@ -188,7 +178,6 @@ document.addEventListener("DOMContentLoaded", () => {
         mEntropy.textContent = calculateEntropy(url).toFixed(2);
     }
 
-    // 6. Draw Heatmap (Explainable feature representation)
     function renderHeatmap(url) {
         heatmapText.innerHTML = "";
         const lowerUrl = url.toLowerCase();
