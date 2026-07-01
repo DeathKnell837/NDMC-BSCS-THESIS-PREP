@@ -26,7 +26,7 @@ We must present exactly **3 thesis titles** at the Week 4 title defense. The pan
 | **Title 1** | **Automated Structural Health Monitoring** | Computer Vision / Civil Safety |
 | **Title 2** | **Proactive Phishing Interception** | NLP / Cybersecurity |
 | **Title 3** | **Digital Authenticity Verification** | Image Forensics / Multimedia Security |
-| **Title 4 (Backup)** | **Vehicle Schedule Optimization** | Algorithmic Optimization |
+
 
 
 ---
