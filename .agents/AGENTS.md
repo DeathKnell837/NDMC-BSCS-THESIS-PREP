@@ -40,25 +40,30 @@ This workspace customizations file provides context and instructions to the Anti
 > * Do NOT use any guidelines, formats, or agendas meant for BSIT, BSIS, or Engineering programs.
 > * Do NOT recommend or use any topics related to Rogie's OJT at CENRO DENR. Focus strictly on core BSCS topics.
 
+> [!IMPORTANT]
+> **Rule 4: Algorithm-Focused Titles for 100% CS Alignment**
+> All thesis titles must contain the specific algorithms or mathematical models directly in the text (e.g., *Explainable Transfer Learning*, *Hybrid Neural Networks*, *Multi-Engine Neural Networks*, *Steganography*, *Genetic Algorithms*). This ensures that the topic is classified as **100% Computer Science** rather than Information Technology (IT) capstones. Avoid generic prefixes like "Automated System" or "Monitoring".
+
 ---
 
 ## 3. Currently Planned Thesis Titles
 
-1. **Title 1:** Automated Structural Health Monitoring: Concrete Crack Classification and Millimetric Severity Profiling Using Explainable Transfer Learning
+1. **Title 1:** Concrete Crack Classification and Millimetric Severity Profiling Using Explainable Transfer Learning
    * **Domain:** Computer Vision / Civil Safety & Structural Health Monitoring
-   * **Scope:** Analyze concrete surface images $\rightarrow$ detect cracks $\rightarrow$ classify severity (minor, moderate, severe) $\rightarrow$ estimate physical width in mm using calibration reference $\rightarrow$ aggregate multiple damage photos into building safety index (Safe, Caution, Danger) $\rightarrow$ generate Grad-CAM explanation heatmap.
+   * **Scope:** Analyze concrete surface images -> detect cracks -> classify severity (minor, moderate, severe) -> estimate physical width in mm using calibration reference -> aggregate multiple damage photos into building safety index (Safe, Caution, Danger) -> generate Grad-CAM explanation heatmap.
 2. **Title 2:** Proactive Phishing Interception: Deconstructing Malicious URL Patterns in Real-Time Using Hybrid Neural Networks
    * **Domain:** Cybersecurity / Natural Language Processing
-   * **Scope:** Input raw URL string $\rightarrow$ trace and resolve redirect paths (unmask shortened URLs like `bit.ly`) $\rightarrow$ extract character sequence embeddings $\rightarrow$ classify as benign or malicious using hybrid CNN-LSTM network $\rightarrow$ highlight malicious sub-components using attention mechanisms.
+   * **Scope:** Input raw URL string -> trace and resolve redirect paths (unmask shortened URLs like `bit.ly`) -> extract character sequence embeddings -> classify as benign or malicious using hybrid CNN-LSTM network -> highlight malicious sub-components using attention mechanisms.
 3. **Title 3:** Digital Authenticity Verification: Classifying GAN and Diffusion-Generated Image Artifacts via Multi-Engine Neural Networks
    * **Domain:** Image Forensics / Cybersecurity & Multimedia Security
-   * **Scope:** Input user image files $\rightarrow$ detect facial landmark regions $\rightarrow$ inspect microscopic pixel anomalies and frequency artifacts $\rightarrow$ classify image as real or synthetic and identify the origin generator engine (e.g., GAN vs. Diffusion) $\rightarrow$ visualize artifacts using Grad-CAM heatmaps.
+   * **Scope:** Input user image files -> detect facial landmark regions -> inspect microscopic pixel anomalies and frequency artifacts -> classify image as real or synthetic and identify the origin generator engine (e.g., GAN vs. Diffusion) -> visualize artifacts using Grad-CAM heatmaps.
 
 ---
 
 ## 4. Key Project Files
 Refer to these files in the workspace for details:
-* [student_info.md](file:///c:/Users/USER/Desktop/THESIS/student_info.md) — Student profile and schedule
-* [bscs_thesis_guidelines.md](file:///c:/Users/USER/Desktop/THESIS/bscs_thesis_guidelines.md) — Formatted BSCS thesis outline and formatting rules
-* [implementation_plan.md](file:///c:/Users/USER/Desktop/THESIS/implementation_plan.md) — Complete 10-phase thesis preparation plan
-* [summary_for_daniela.md](file:///c:/Users/USER/Desktop/THESIS/summary_for_daniela.md) — Summary sheet for Daniela's review
+* [student_info.md](file:///C:/Users/ADMIN/OneDrive/Desktop/THESIS/NDMC-BSCS-THESIS-PREP/student_info.md) — Student profile and schedule
+* [bscs_thesis_guidelines.md](file:///C:/Users/ADMIN/OneDrive/Desktop/THESIS/NDMC-BSCS-THESIS-PREP/bscs_thesis_guidelines.md) — Formatted BSCS thesis outline and formatting rules
+* [implementation_plan.md](file:///C:/Users/ADMIN/OneDrive/Desktop/THESIS/NDMC-BSCS-THESIS-PREP/implementation_plan.md) — Complete 10-phase thesis preparation plan
+* [summary_for_daniela.md](file:///C:/Users/ADMIN/OneDrive/Desktop/THESIS/NDMC-BSCS-THESIS-PREP/summary_for_daniela.md) — Summary sheet for Daniela's review
+* [README.md](file:///C:/Users/ADMIN/OneDrive/Desktop/THESIS/NDMC-BSCS-THESIS-PREP/README.md) — Central project status and links hub
