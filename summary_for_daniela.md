@@ -107,3 +107,28 @@ The rise of generative AI makes it easy to create highly realistic fake profile 
 
 *   **AI Assistant:** Writes all code, trains the model templates, drafts thesis chapters, and compiles verified references.
 *   **Rogie & Daniela:** Run the training on Google Colab (just click "Run"), collect some local test samples, study the concepts for the defense, and present the slides.
+
+---
+
+## 🛡️ Appendix: Verified Backup Titles & Algorithms
+If the panel rejects any of our primary 3 titles, we can instantly pivot to one of these backups. They all include specific algorithms (100% CS) and solve high-value, real-world problems:
+
+### Backup 1: Source Code Vulnerability Detection
+*   **Algorithm:** Abstract Syntax Tree (AST) Parsing + Bidirectional LSTM (RNN).
+*   **CITE Agenda:** Agenda 4 (Cybersecurity Threat Detection).
+*   **Real-world Usefulness:** Automates security auditing for local software development teams. It highlights vulnerabilities (like SQL injection or buffer overflows) in code before it is compiled, preventing data breaches in local government portals or school websites.
+
+### Backup 2: Medical Steganography & Chaotic Cryptography
+*   **Algorithm:** Chaotic Maps (Logistic Map) Encryption + Least Significant Bit (LSB) Steganography.
+*   **CITE Agenda:** Agenda 4 (Cybersecurity Threat Detection).
+*   **Real-world Usefulness:** Protects patient privacy. It allows remote rural health clinics in Cotabato to securely transmit sensitive medical images (like X-Rays/MRIs) to major hospitals in Midsayap by hiding encrypted diagnostic data invisibly inside the image pixels, preventing interception by hackers.
+
+### Backup 3: Hybrid Genetic-Tabu Route Optimization
+*   **Algorithm:** Hybrid Genetic Algorithm (GA) + Tabu Search (TS).
+*   **CITE Agenda:** Agenda 2 (Big Data Analytics) or Agenda 1 (Emerging Tech).
+*   **Real-world Usefulness:** Saves lives during emergencies. It uses historic accident data to optimize the location of municipal ambulance stations and fire houses in Cotabato to reduce emergency response times down to the absolute minimum.
+
+### Backup 4: Generative Multispectral Crop Health Mapping
+*   **Algorithm:** Conditional Generative Adversarial Networks (cGAN).
+*   **CITE Agenda:** Agenda 1 (Emerging Technologies).
+*   **Real-world Usefulness:** Helps local farmers in Cotabato. Instead of purchasing expensive multispectral cameras or hiring drone services to analyze crop health, a farmer takes a standard smartphone photo of their field, and the cGAN reconstructs a synthetic NDVI health map to detect nutrient deficiencies.
