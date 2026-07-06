@@ -9,6 +9,8 @@ Welcome to the central information center for the BS Computer Science (BSCS) the
     *   **Rogie P. Bacanto** (BSCS-4)
     *   **Daniela S. Ungab** (BSCS-4)
 *   **Adviser:** **Ms. Doris Ann Mariano**
+*   **Research Teacher / Research Coordinator:** **Mr. Nero L. Hontiveros**
+*   **Dean:** **Engr. Mark Bryan C. Tenebroso, PCPE, ME-CPE**
 *   **Subject:** CS Thesis Writing 1 (Enrolled, June 2026)
 
 ---
@@ -19,54 +21,73 @@ Our target is the **Title Defense in Week 4**, where we will present three resea
 
 | Week | Dates | Milestone / Task | Description |
 |---|---|---|---|
-| **Week 1** | June 22-28 | **Topic Exploration** | Brainstormed domains, researched guidelines, and draft structures. (Completed) |
-| **Week 2** | June 29 - July 5 | **Reference Compilation** | Finalizing titles, matching references, and drafting Chapter 1.1. (NOW) |
-| **Week 3** | July 6-12 | **Defense Submission & Prep** | **🚨 Submit Topic & SOP proposals by July 8** (5 days before defense). Prepare slides. |
+| **Week 1** | June 22-28 | **Topic Exploration** | Brainstormed domains, researched guidelines, and draft structures. ✅ |
+| **Week 2** | June 29 - July 5 | **Reference Compilation** | Finalizing titles, matching references, and drafting Chapter 1.1. ✅ |
+| **Week 3** | July 6-12 | **Defense Submission & Prep** | **🚨 Submit Topic & SOP proposals by July 8** (5 days before defense). Prepare slides. (NOW) |
 | **Week 4** | **July 13-19, 2026** | **🚨 TITLE DEFENSE** | Presenting 3 robust titles to the panel for approval. |
 | **Week 5+** | July 20 onwards | **Proposal Writing** | Writing Chapters 1 & 2 of the approved title. |
 
 ---
 
 ## 🏆 The 3 Thesis Titles for Defense
-We have finalized exactly **3 distinct, non-repetitive titles** aligned with the CITE Research Agenda. All topics leverage advanced Artificial Intelligence (AI) but apply to completely different domains.
 
-### 🏚️ Title 1: Concrete Crack Classification & Width Profiling
-*   **Robust Title:** **"Concrete Crack Classification and Millimetric Severity Profiling Using Explainable Transfer Learning"**
-*   **Domain:** Computer Vision / Civil Safety & Structural Health Monitoring
-*   **Research Agenda:** Agenda 1: Emerging Technologies in Computer Science
-*   **SDGs:** SDG 9 (Industry & Infrastructure), SDG 11 (Sustainable Cities)
-*   **Core Problem:** Manual visual structural inspections are slow, subjective, and prone to human error, especially after disasters like earthquakes when structural engineers are scarce.
-*   **Unique Features:**
-    *   **Explainable AI (Grad-CAM):** Visualizes exactly where the AI is looking to verify it is analyzing the crack and not wall shadows or dirt.
-    *   **Millimetric Estimation:** Calibrates image pixels to physical millimeters using a reference object to grade crack severity (minor, moderate, severe) objectively.
-    *   **Building Safety Index:** Aggregates multiple wall/column damage reports to calculate an overall building safety category (Safe, Caution, Danger).
+We have finalized exactly **3 distinct, non-repetitive titles** aligned with the CITE Research Agenda. All topics leverage advanced Artificial Intelligence (AI) but apply to completely different domains. Full Chapter 1 drafts (Background, Objectives, Scope, References) are available in the `title_proposals/` folder.
 
 ---
 
-### 🔍 Title 2: Zero-Day Phishing Interception
-*   **Robust Title:** **"Proactive Phishing Interception: Deconstructing Malicious URL Patterns in Real-Time Using Hybrid Neural Networks"**
+### #1 🔍 Phishing Detection & Interception (Browser Extension)
+*   **Final Title:** **"Proactive Phishing Detection and Interception via a Character-Level Hybrid CNN-LSTM Model"**
+*   **Alternative:** *"Real-Time Phishing URL Interception Using a Hybrid CNN-LSTM Neural Network"*
+*   **Algorithms:** Hybrid CNN-LSTM (character-level embedding)
 *   **Domain:** Cybersecurity / Natural Language Processing (NLP)
 *   **Research Agenda:** Agenda 4: Cybersecurity Threat Detection and Mitigation
 *   **SDGs:** SDG 16 (Peace, Justice, and Strong Institutions)
-*   **Core Problem:** Traditional database-driven blocklists (like Google Safe Browsing) cannot detect brand-new, "zero-day" phishing links. Scammers frequently spoof local mobile wallets (e.g., GCash) and banking sites with these short-lived URLs.
-*   **Unique Features:**
-    *   **Character-Level Embedding:** Analyzes structural raw character patterns to predict phishing potential without needing a database.
-    *   **Redirect Resolver:** Traces shortened URLs (e.g., `bit.ly`) to expose the final target domain before classification.
-    *   **Explainability Heatmaps:** Highlights specific substring tokens (e.g., `login`, `verification`) that triggered the security alert.
-    *   **Chrome Extension:** Runs the model locally in milliseconds inside a lightweight browser extension.
+*   **Core Problem:** Traditional database-driven blocklists cannot detect brand-new, "zero-day" phishing links. Philippine phishing websites surged 423% in a single year (2024-2025). Over 3.4 billion phishing emails sent daily worldwide.
+*   **Deliverable:** A Google Chrome browser extension performing real-time, client-side inference via TensorFlow.js
+*   **Chapter 1 Draft:** [`#1 PHISHING.docx`](title_proposals/%231%20PHISHING.docx) — Complete Background, Objectives, Scope & Delimitations, and References
 
 ---
 
-### 🛡️ Title 3: AI-Generated Image & Deepfake Forensics
-*   **Robust Title:** **"Digital Authenticity Verification: Classifying GAN and Diffusion-Generated Image Artifacts via Multi-Engine Neural Networks"**
+### #2 🛡️ AI-Generated Image Detection (Comparative Study)
+*   **Final Title:** **"Digital Fingerprints: A Comparative Evaluation of Neural Networks in Detecting GAN and Diffusion Image Artifacts"**
+*   **Alternatives:**
+    *   *"Catch Me If You GAN: Benchmarking Neural Networks Against Generative Image Artifacts"*
+    *   *"Pixels Don't Lie (Or Do They?): A Comparative Study on Detecting AI-Generated Image Artifacts"*
+    *   *"Seeing Isn't Believing: Benchmarking Neural Networks for AI-Generated Image Detection"*
+    *   *"Beyond the Naked Eye: A Comparative Analysis of Neural Network Algorithms for AI-Generated Image Detection"*
+*   **Algorithms:** ResNet vs. EfficientNet vs. Vision Transformer (ViT) — **Comparative evaluation of 3 architectures**
 *   **Domain:** Image Forensics / Cybersecurity & Multimedia Security
 *   **Research Agenda:** Agenda 4: Cybersecurity Threat Detection and Mitigation
 *   **SDGs:** SDG 16 (Peace, Justice, and Strong Institutions)
-*   **Core Problem:** Generative AI tools (GANs, Midjourney, DALL-E) make creating hyper-realistic fake images effortless. Scammers use fake selfies to bypass online bank KYC checks, create scam accounts, and propagate visual fake news that is indistinguishable to human eyes.
-*   **Unique Features:**
-    *   **Generative Artifact Detector:** Focuses on microscopic pixel anomalies and frequency artifacts left behind by generative networks.
-    *   **Explainable AI (Grad-CAM):** Highlights specific facial regions (e.g., hair blending, ear asymmetries, pupillary reflection errors) that expose the image as fake.
-    *   **Multi-Engine Classification:** Identifies which generator model created the image (GAN vs. Diffusion) to help digital forensic investigators.
+*   **Core Problem:** 500 million AI-generated images created daily. Philippines saw 4,500% increase in deepfake-related fraud in 2023. Government officials themselves circulated deepfake videos.
+*   **Deliverable:** A tool that benchmarks which neural network algorithm is best at detecting AI-generated images (accuracy vs. speed trade-off)
+*   **Chapter 1 Draft:** [`#2 AI GENERATED IMAGES.docx`](title_proposals/%232%20AI%20GENERATED%20IMAGES.docx) — Complete Background, Objectives, and References
+
+---
+
+### #3 🏚️ Concrete Crack Classification & Severity Grading
+*   **Final Title:** **"Concrete Crack Classification and Severity Grading Using Explainable Transfer Learning"**
+*   **Alternative:** *"Concrete Crack Classification and Millimetric Severity Profiling Using Explainable Transfer Learning"*
+*   **Algorithms:** Transfer Learning (pretrained CNN fine-tuning) + Grad-CAM (explainability)
+*   **Domain:** Computer Vision / Civil Safety & Structural Health Monitoring
+*   **Research Agenda:** Agenda 1: Emerging Technologies in Computer Science
+*   **SDGs:** SDG 9 (Industry & Infrastructure), SDG 11 (Sustainable Cities)
+*   **Core Problem:** Manual visual structural inspections are slow and subjective. Magnitude 7.8 earthquake hit Mindanao in June 2026. DPWH assessed 21,000+ buildings in 2025 alone.
+*   **Deliverable:** A model that classifies cracks AND grades severity (hairline → minor → moderate → severe) with visual Grad-CAM explanations
+*   **Chapter 1 Draft:** [`#3 CRACK GRADING.docx`](title_proposals/%233%20CRACK%20GRADING.docx) — Complete Background, Objectives, and References
+
+---
+
+## 🔄 Backup Titles
+If any of the 3 primary titles are rejected by the panel:
+
+1. **"Improving Scheduling Efficiency Using Constraint Satisfaction Programming"**
+   *   Algorithm: Constraint Satisfaction Programming (CSP)
+   *   Use case: Automating exam proctor scheduling and room assignments at NDMC
+
+2. **"Machine Learning-Based Phishing Email Detection: A Comparative Analysis of Classification Algorithms"**
+   *   Algorithms: Comparative analysis of multiple ML classifiers (e.g., Random Forest, SVM, Naive Bayes)
+   *   Use case: Email-level phishing detection (complementary to URL-level Title #1)
 
 ---
 
@@ -76,23 +97,32 @@ To ensure the project is easy to build and test locally:
 *   **Model Training:** Google Colab (utilizing free cloud GPUs via the browser)
 *   **Languages & Frameworks:** Python, Keras/TensorFlow, TensorFlow.js
 *   **Web App Frontend:** React or Next.js (fully hosted for free on Vercel)
+*   **Browser Extension:** Chrome Manifest V3 + TensorFlow.js (client-side inference)
 *   **Mobile Testing:** Running model inference client-side in phone browsers via WebRTC camera APIs.
 
 ---
 
 ## 📁 Key Project Files
 All critical documents are stored in the root folder of this repository:
-*   [student_info.md](file:///C:/Users/ADMIN/OneDrive/Desktop/THESIS/NDMC-BSCS-THESIS-PREP/student_info.md) — Student profiles and timeline checklists.
-*   [bscs_thesis_guidelines.md](file:///C:/Users/ADMIN/OneDrive/Desktop/THESIS/NDMC-BSCS-THESIS-PREP/bscs_thesis_guidelines.md) — Recap of formatting styles and CITE research agenda details.
-*   [thesis_defense_prep.md](file:///C:/Users/ADMIN/OneDrive/Desktop/THESIS/NDMC-BSCS-THESIS-PREP/thesis_defense_prep.md) — Defense prep document containing SOPs, loopholes, and draft Backgrounds.
-*   [summary_for_daniela.md](file:///C:/Users/ADMIN/OneDrive/Desktop/THESIS/NDMC-BSCS-THESIS-PREP/summary_for_daniela.md) — Quick summary sheet for Daniela.
-*   [implementation_plan.md](file:///C:/Users/ADMIN/OneDrive/Desktop/THESIS/NDMC-BSCS-THESIS-PREP/implementation_plan.md) — Step-by-step model training and proposal coding plan.
-*   [title1_proposal_draft.md](file:///C:/Users/ADMIN/OneDrive/Desktop/THESIS/NDMC-BSCS-THESIS-PREP/title1_proposal_draft.md) — Structural Crack Detection draft proposal text.
+
+### 📝 Chapter 1 Drafts (Full Proposals)
+*   [`title_proposals/`](title_proposals/) — **Contains the finalized Chapter 1 drafts for all 3 titles** (Background, Objectives, Scope, References)
+*   [`TITLES.docx`](title_proposals/TITLES.docx) — Master title list with alternatives and backups
+*   [`ADVISER PROPOSAL.docx`](title_proposals/ADVISER%20PROPOSAL.docx) — Adviser assignment form (Ms. Doris Ann Mariano)
+
+### 📋 Planning & Prep Documents
+*   [student_info.md](student_info.md) — Student profiles and timeline checklists.
+*   [bscs_thesis_guidelines.md](bscs_thesis_guidelines.md) — Recap of formatting styles and CITE research agenda details.
+*   [thesis_defense_prep.md](thesis_defense_prep.md) — Defense prep document containing SOPs, loopholes, and draft Backgrounds.
+*   [summary_for_daniela.md](summary_for_daniela.md) — Quick summary sheet for Daniela.
 
 ### 📚 Official CITE Guidelines (PDFs)
-*   [NDMC Thesis Guidelines v5 - 2025.pdf](file:///C:/Users/ADMIN/OneDrive/Desktop/THESIS/NDMC-BSCS-THESIS-PREP/NDMC%20Thesis%20Guidelines%20v5%20-%202025.pdf) — Academic writing format, margins, and chapter details.
-*   [CITE Research Agenda for 2024-2030.pdf](file:///C:/Users/ADMIN/OneDrive/Desktop/THESIS/NDMC-BSCS-THESIS-PREP/CITE%20Research%20Agenda%20for%202024-2030.pdf) — Official agenda listing (Emerging Tech & Cybersecurity alignment).
-*   [Research Outline for CITE 2024.pdf](file:///C:/Users/ADMIN/OneDrive/Desktop/THESIS/NDMC-BSCS-THESIS-PREP/Research%20Outline%20for%20CITE%202024.pdf) — Specific outline guidelines.
+*   [NDMC Thesis Guidelines v5 - 2025.pdf](NDMC%20Thesis%20Guidelines%20v5%20-%202025.pdf) — Academic writing format, margins, and chapter details.
+*   [CITE Research Agenda for 2024-2030.pdf](CITE%20Research%20Agenda%20for%202024-2030.pdf) — Official agenda listing (Emerging Tech & Cybersecurity alignment).
+*   [Research Outline for CITE 2024.pdf](Research%20Outline%20for%20CITE%202024.pdf) — Specific outline guidelines.
+
+### 🎨 Prototype
+*   [`prototype_title2/`](prototype_title2/) — Interactive phishing detection dashboard & Chrome extension mockup.
 
 ---
 
