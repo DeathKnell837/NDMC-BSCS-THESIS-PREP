@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proactive Phishing Interception System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="background-glow"></div>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="icon.png" alt="Cyber-Shield Logo" class="logo-img">
+                <span>CYBER-SHIELD AI</span>
+            </div>
+            <h1>PROACTIVE PHISHING INTERCEPTION</h1>
+            <p class="subtitle">Deconstructing Malicious URL Patterns in Real-Time Using Hybrid Neural Networks</p>
+        </header>
+
+        <main>
+            <section class="scanner-card">
+                <div class="card-glow"></div>
+                <div class="card-content">
+                    <p class="section-desc">Enter any URL string to deconstruct its character patterns and evaluate malicious probability.</p>
+                    <div class="input-group">
+                        <input type="text" id="url-input" placeholder="e.g., https://secure-login-portal-gcash.xyz/activation" autocomplete="off">
+                        <button id="scan-btn">Scan Network Link</button>
+                    </div>
+                    
+                    <div class="quick-examples">
+                        <span class="example-label">Try standard examples:</span>
+                        <button class="example-btn safe-ex" data-url="https://ndmc.edu.ph/academics/enrollment">NDMC Portal (Safe)</button>
+                        <button class="example-btn danger-ex" data-url="http://secure-gcash-verify-login.cc/login.php">GCash Phishing (Threat)</button>
+                        <button class="example-btn short-ex" data-url="https://bit.ly/secure-bdo-update">Shortened BDO URL (Redirect)</button>
+                    </div>
+                </div>
+            </section>
+
+            <section id="result-section" class="results-container hidden">
+                <!-- Redirect Box -->
+                <div class="result-card redirect-card hidden" id="redirect-box">
+                    <h3>[Redirect Resolver Log]</h3>
+                    <div class="redirect-flow">
+                        <span class="url-badge original-url" id="flow-orig">http://bit.ly/3xyz</span>
+                        <span class="flow-arrow">-></span>
+                        <span class="url-badge resolved-url" id="flow-resolved">https://secure-gcash-portal.tk</span>
+                    </div>
+                </div>
+
+                <div class="results-grid">
+                    <!-- Main Score Card -->
+                    <div class="result-card score-card">
+                        <h3>Model Prediction</h3>
+                        <div class="gauge-container">
+                            <div class="circular-progress">
+                                <span class="progress-value">0%</span>
+                            </div>
+                        </div>
+                        <div class="verdict-label" id="verdict">SECURE</div>
+                        <div class="verdict-desc" id="verdict-desc">This URL displays typical benign lexical patterns.</div>
+                    </div>
+
+                    <!-- Explainability / Heatmap Card -->
+                    <div class="result-card heatmap-card">
+                        <h3>[Character-Level Pattern Deconstruction]</h3>
+                        <p class="card-desc">The heatmap below highlights the specific characters and substrings that triggered the model's classifications (Red represents high malicious weight).</p>
+                        <div class="heatmap-output" id="heatmap-text">
+                            <!-- Token spans go here -->
+                        </div>
+                        <div class="legend">
+                            <span>Safe Patterns</span>
+                            <div class="legend-gradient"></div>
+                            <span>Malicious Patterns</span>
+                        </div>
+                    </div>
+
+                    <!-- Features Card -->
+                    <div class="result-card features-card">
+                        <h3>[Lexical & Structural Metrics]</h3>
+                        <div class="metrics-list">
+                            <div class="metric-item">
+                                <span class="m-label">URL Length</span>
+                                <span class="m-val" id="metric-length">0</span>
+                            </div>
+                            <div class="metric-item">
+                                <span class="m-label">Digit-to-Letter Ratio</span>
+                                <span class="m-val" id="metric-digits">0.0%</span>
+                            </div>
+                            <div class="metric-item">
+                                <span class="m-label">Suspicious Substrings</span>
+                                <span class="m-val" id="metric-keywords">0</span>
+                            </div>
+                            <div class="metric-item">
+                                <span class="m-label">Top-Level Domain (TLD)</span>
+                                <span class="m-val" id="metric-tld">com</span>
+                            </div>
+                            <div class="metric-item">
+                                <span class="m-label">Character Shannon Entropy</span>
+                                <span class="m-val" id="metric-entropy">0.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Notre Dame of Midsayap College - BSCS Thesis Prep 2026</p>
+            <p class="developers">Developed by: Rogie P. Bacanto & Daniela S. Ungab | Adviser: Ms. Doris Ann Mariano</p>
+        </footer>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

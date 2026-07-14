@@ -11,6 +11,8 @@ Welcome to the central information center for the BS Computer Science (BSCS) the
     *   **Rogie P. Bacanto** (BSCS-4)
     *   **Daniela S. Ungab** (BSCS-4)
 *   **Adviser:** **Ms. Doris Ann Mariano**
+*   **Research Teacher / Research Coordinator:** **Mr. Nero L. Hontiveros**
+*   **Dean:** **Engr. Mark Bryan C. Tenebroso, PCPE, ME-CPE**
 *   **Subject:** CS Thesis Writing 1 (Enrolled, June 2026)
 
 ---

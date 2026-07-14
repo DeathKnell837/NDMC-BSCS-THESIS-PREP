@@ -1,13 +1,15 @@
 # Robust Thesis Title Proposals & Defense Prep
 
-This document contains the robust title formulations, research questions, unique features, loopholes, theoretical frameworks, and full draft **Background of the Study (1.1)** sections for both confirmed thesis topics.
+This document contains the robust title formulations, research questions, unique features, loopholes, theoretical frameworks, and full draft **Background of the Study (1.1)** sections for the 3 confirmed thesis topics.
+
+> **CRITICAL DEADLINE:** Under school regulations, the finalized thesis topic proposals and Statement of the Problem (SOP) must be prepared and submitted to the CITE Dean/Panel at least **5 days prior to the title defense date** (Submission deadline: **July 8, 2026**).
 
 ---
 
 # Topic 1: Concrete Crack Detection & Severity Classification
 
 ## 1. Robust Title
-> **"Automated Structural Health Monitoring: Concrete Crack Classification and Millimetric Severity Profiling Using Explainable Transfer Learning"**
+> **"Concrete Crack Classification and Millimetric Severity Profiling Using Explainable Transfer Learning"**
 
 ## 2. Research Questions (Statement of the Problem)
 The study aims to develop a deep learning-based system to detect and classify concrete cracks for building safety assessment. Specifically, it seeks to answer the following:
@@ -202,4 +204,5 @@ While deepfake detection research has advanced, most existing models are restric
 1. S.-Y. Wang, O. Wang, R. Zhang, A. Owens, and A. A. Efros, "CNN-Generated Images Are Surprisingly Easy to Spot... Currently," in *2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)*, Jun. 2020. [Online]. Available: https://doi.org/10.1109/CVPR42600.2020.00872
 2. D. Afchar, V. Nozick, J. Yamagishi, and I. Echizen, "MesoNet: a Compact Facial Video Forgery Detection Network," in *2018 IEEE International Workshop on Information Forensics and Security (WIFS)*, Dec. 2018. [Online]. Available: https://doi.org/10.1109/WIFS.2018.8630761
 3. J. J. Bird and A. Lotfi, "CIFAKE: Image Classification and Explainable Identification of AI-Generated Synthetic Images," *IEEE Access*, vol. 12, pp. 15641-15650, 2024. [Online]. Available: https://doi.org/10.1109/ACCESS.2024.3356122
+
 
