@@ -1,39 +1,32 @@
-# Student Profile: Rogie P. Bacanto
+# Student Profile: Rogie P. Bacanto & Daniela S. Ungab
 
 ## Personal Information
-* **Name**: Rogie P. Bacanto
+* **Names**: Rogie P. Bacanto & Daniela S. Ungab
 * **Year Level**: BSCS-4 (4th-year Bachelor of Science in Computer Science)
 * **School**: Notre Dame of Midsayap College (NDMC), Pigcawayan, Cotabato, Philippines
 * **Current Status**: Enrolled (as of June 2026)
 
-## On-the-Job Training (OJT)
-* **Status**: Completed (Note: Do not use OJT domain/projects for thesis topic selection)
-
 ## Thesis Details (CS Thesis Writing 1)
 * **Subject**: CS Thesis Writing 1 (Enrolled)
 * **Adviser**: Ms. Doris Ann Mariano
+* **Research Teacher**: Mr. Nero L. Hontiveros
+* **Dean**: Engr. Mark Bryan C. Tenebroso, PCPE, ME-CPE
 * **Current Stage**: Proposal Writing (Chapters 1 & 2)
 
-### Approved & Current Titles
-1. **Title I (✅ Approved):** *"Proactive Phishing URL Detection Using Feature-Based Machine Learning Classifiers"*
-2. **Title II (✅ Approved):** *"Digital Fingerprints: A Comparative Evaluation of Neural Networks in Detecting GAN and Diffusion Image Artifacts"*
-3. **Title III (🆕 New):** *"Accuracy Evaluation of a Fine-Tuned Convolutional Neural Network for Forgery Detection in Mobile Wallet Receipts"*
+### Current Titles (as of July 19, 2026)
+1. **Title 1:** *"Digital Fingerprints: A Comparative Evaluation of Neural Networks in Detecting GAN and Diffusion Image Artifacts"*
+2. **Title 2 (⭐ MAIN):** *"Digital Deception in Your Pocket: A Comparative Evaluation of CNN Architectures in Detecting Mobile Wallet Receipt Forgery"*
+3. **Title 3:** *"Proactive Phishing URL Detection Using Feature-Based Machine Learning Classifiers"*
 
 ### Rejected Titles
-* ~~"Automated Structural Health Monitoring: Concrete Crack Classification and Millimetric Severity Profiling Using Explainable Transfer Learning"~~ (Rejected — too complex, hardware dependent)
 * ~~"Learning-Based Algorithm Selection for Lossless File Compression"~~ (Rejected — no clear victim/respondents)
+* ~~"Accuracy Evaluation of a Fine-Tuned Convolutional Neural Network for Forgery Detection in Mobile Wallet Receipts"~~ (Replaced by comparative version)
 
-### Group Members
-
-
-* Rogie P. Bacanto (BSCS-4)
-* Daniela S. Ungab (BSCS-4)
-
-### Timeline (Thesis Writing 1, 2025-2026)
+### Timeline (Thesis Writing 1)
 | Week | Task | Status |
 |---|---|---|
 | Weeks 1-3 | Research and Topic Selection | ✅ Done |
-| Week 4 | Thesis Title Defense (3 titles presented) | ✅ Done (2 approved, 1 rejected) |
+| Week 4 | Thesis Title Defense (3 titles presented) | ✅ Done |
 | Week 5+ | Proposal Writing (Chapters 1 & 2) | 🔄 In Progress |
 
 ### Google Drive
