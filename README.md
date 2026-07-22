@@ -94,5 +94,6 @@ There is no significant difference in the classification accuracy among the Basi
 ---
 
 ## 💻 Repository & Links
-*   **Repository:** [DeathKnell837/NDMC-BSCS-THESIS-PREP](https://github.com/DeathKnell837/NDMC-BSCS-THESIS-PREP)
+*   **Thesis Documents:** [DeathKnell837/NDMC-BSCS-THESIS-PREP](https://github.com/DeathKnell837/NDMC-BSCS-THESIS-PREP)
+*   **🔒 ForgeGuard System Code:** [DeathKnell837/ForgeGuard](https://github.com/DeathKnell837/ForgeGuard)
 *   **Google Drive:** [Shared Folder](https://drive.google.com/drive/folders/1bzRsI6Ywo2yRni5Ij7InCLh0CL0OO90_?usp=drive_link)
