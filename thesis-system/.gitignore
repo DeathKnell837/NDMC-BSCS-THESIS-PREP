@@ -1,0 +1,49 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+
+# IDE
+.idea/
+.vscode/
+*.sw?
+
+# OS metadata
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Dataset images (too large for git)
+dataset/raw/
+dataset/processed/
+
+# Trained model weights
+*.h5
+*.hdf5
+*.tflite
+*.pb
+saved_models/
+checkpoints/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs & results
+logs/
+results/
+*.log
+
+# Google Colab temp
+sample_data/
