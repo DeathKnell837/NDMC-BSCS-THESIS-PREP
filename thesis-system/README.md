@@ -59,9 +59,22 @@ ForgeGuard/
 
 * 📄 **Thesis Documents & Proposals:** [NDMC-BSCS-THESIS-PREP](https://github.com/DeathKnell837/NDMC-BSCS-THESIS-PREP)
 
+## 🚀 Quick Start — Running the Web Demo
+
+```bash
+# 1. Navigate to the thesis-system directory
+cd thesis-system
+
+# 2. Run the Streamlit web application
+python -m streamlit run webapp/app.py
+```
+
 ## 📅 Status
 
-🔄 **In Development** — Dataset generator phase
+✅ **Web Application Demo (`webapp/app.py`)** — Custom styled Streamlit interface (Dark glassmorphism, live ELA calculation, 3-column forensics view, multi-model evaluation comparison matrix)
+✅ **Error Level Analysis (ELA) Engine (`preprocessing/ela.py`)** — Live JPEG error difference heatmap generation
+✅ **Forgery Generator Tools (`tools/`)** — Receipt generator and forgery editor tools built
+🔄 **In Progress** — Dataset collection & CNN model training pipeline
 
 ---
 
