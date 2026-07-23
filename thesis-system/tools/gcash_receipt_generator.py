@@ -46,7 +46,7 @@ RECEIPT_HEIGHT = 1920
 FONTS_DIR = os.path.join(os.environ.get('WINDIR', 'C:\\Windows'), 'Fonts')
 
 def get_font(name, size):
-    """Load a font, fall back to default if not found."""
+    """Load a font cross-platform (Windows/Linux), falling back to sized default."""
     font_map = {
         'bold': 'arialbd.ttf',
         'regular': 'arial.ttf',
@@ -55,10 +55,49 @@ def get_font(name, size):
         'segoe': 'segoeui.ttf',
         'segoe_bold': 'segoeuib.ttf',
     }
+    
+    font_filename = font_map.get(name, 'arial.ttf')
+    is_bold = 'bold' in name
+    
+    # Common Linux font search paths
+    search_paths = [
+        FONTS_DIR,
+        '/usr/share/fonts/truetype/dejavu',
+        '/usr/share/fonts/truetype/liberation',
+        '/usr/share/fonts/truetype/freefont',
+        '/usr/share/fonts/TTF',
+        '/usr/share/fonts'
+    ]
+    
+    # 1. Try exact font filename across search paths
+    for s_dir in search_paths:
+        if not s_dir or not os.path.exists(s_dir):
+            continue
+        p = os.path.join(s_dir, font_filename)
+        if os.path.exists(p):
+            try:
+                return ImageFont.truetype(p, size)
+            except Exception:
+                pass
+                
+    # 2. Try Linux DejaVu or Liberation fallback
+    fallback_fonts = ['DejaVuSans-Bold.ttf' if is_bold else 'DejaVuSans.ttf',
+                      'LiberationSans-Bold.ttf' if is_bold else 'LiberationSans-Regular.ttf']
+    for s_dir in search_paths:
+        if not s_dir or not os.path.exists(s_dir):
+            continue
+        for ff in fallback_fonts:
+            p = os.path.join(s_dir, ff)
+            if os.path.exists(p):
+                try:
+                    return ImageFont.truetype(p, size)
+                except Exception:
+                    pass
+
+    # 3. Modern Pillow load_default(size=size)
     try:
-        path = os.path.join(FONTS_DIR, font_map.get(name, 'arial.ttf'))
-        return ImageFont.truetype(path, size)
-    except (OSError, IOError):
+        return ImageFont.load_default(size=size)
+    except Exception:
         return ImageFont.load_default()
 
 # ============================================================
