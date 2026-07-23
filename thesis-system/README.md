@@ -1,81 +1,69 @@
-# 🔒 ForgeGuard
+# 🔒 ForgeGuard — Digital Receipt Forgery Detection System
 
-**CNN-Based Digital Receipt Forgery Detection System**
+[![Live Demo](https://img.shields.io/badge/Live_Demo-forgeguard.streamlit.app-0284c7?style=for-the-badge&logo=streamlit)](https://forgeguard.streamlit.app)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg?style=for-the-badge)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-2.13%2B-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://www.tensorflow.org/)
 
-> BSCS Thesis: *"Securing Mobile Transaction: A Comparative Evaluation of CNN Architectures in Detecting Digital Receipt Forgery"*
+**Official BSCS Thesis Project** — Notre Dame of Midsayap College (NDMC) | College of Information Technology and Engineering (CITE)  
+**Authors:** Rogie P. Bacanto & Daniela S. Ungab  
+**Adviser:** Ms. Doris Ann Mariano  
+**Title:** *"Securing Mobile Transaction: A Comparative Evaluation of CNN Architectures in Detecting Digital Receipt Forgery"*
 
 ---
 
-## 📖 About
+## 🌐 Live Mobile & Web Demo
 
-ForgeGuard is an AI-powered system that detects forged mobile wallet transaction receipts (GCash, Maya) using Convolutional Neural Networks. It comparatively evaluates **Basic CNN**, **ResNet50**, and **MobileNetV2** architectures to determine the most effective model for receipt forgery detection.
+Access the live cloud-deployed system on any mobile phone, tablet, or desktop browser:
+👉 **[https://forgeguard.streamlit.app](https://forgeguard.streamlit.app)**
 
-## 👥 Team
+---
 
-* **Rogie P. Bacanto** (BSCS-4)
-* **Daniela S. Ungab** (BSCS-4)
-* **Adviser:** Ms. Doris Ann Mariano
-* **School:** Notre Dame of Midsayap College (NDMC), CITE
+## 📌 Overview
 
-## 🛠️ Tech Stack
+ForgeGuard is an automated image forensics and deep learning detection system designed to identify digital forgery in mobile wallet receipts (GCash and Maya). 
 
-| Component | Technology |
-|---|---|
-| Language | Python 3.10+ |
-| Deep Learning | TensorFlow / Keras |
-| Image Processing | OpenCV, Pillow |
-| Preprocessing | Error Level Analysis (ELA) |
-| ML Utilities | scikit-learn, SciPy |
-| Training | Google Colab (free GPU) |
-| Web Demo | Streamlit |
-| Statistical Testing | ANOVA / Kruskal-Wallis |
+It evaluates three Convolutional Neural Network (CNN) architectures head-to-head using **Error Level Analysis (ELA)** to highlight pixel-level compression anomalies and text manipulation artifacts.
 
-## 🏗️ Project Structure
+---
 
-```
-ForgeGuard/
-├── dataset/                # Dataset generation & storage
-│   ├── generator/          # Receipt forgery generation scripts
-│   │   ├── config.py
-│   │   ├── authentic_generator.py
-│   │   ├── forgery_generator.py
-│   │   └── batch_generate.py
-│   ├── raw/                # Generated images (gitignored)
-│   └── processed/          # ELA-processed images (gitignored)
-├── preprocessing/          # ELA + augmentation pipeline
-├── models/                 # CNN architectures
-│   ├── basic_cnn.py
-│   ├── resnet50.py
-│   └── mobilenetv2.py
-├── training/               # Training scripts
-├── evaluation/             # Metrics, stats, visualization
-├── explainability/         # Grad-CAM heatmaps
-├── webapp/                 # Streamlit demo app
-├── notebooks/              # Google Colab notebooks
-└── requirements.txt
-```
+## 🧠 Evaluated CNN Architectures
 
-## 📚 Related Repository
+| Architecture | Paradigm | Parameters | Description |
+|---|---|---|---|
+| **Basic CNN** | Baseline (Scratch) | ~2.1 M | Custom 4-block Conv2D network trained from scratch. |
+| **ResNet50** | Transfer Learning | ~23.5 M | Deep residual benchmark network. |
+| **MobileNetV2** | Transfer Learning | ~3.4 M | Lightweight mobile-optimized architecture for edge deployment. |
 
-* 📄 **Thesis Documents & Proposals:** [NDMC-BSCS-THESIS-PREP](https://github.com/DeathKnell837/NDMC-BSCS-THESIS-PREP)
+---
 
-## 🚀 Quick Start — Running the Web Demo
+## 🛠️ System Modules
+
+* **`webapp/`**: Responsive Streamlit Web Application (`app.py`) featuring ELA Forensic Detector and interactive Live Receipt Forgery Generator.
+* **`preprocessing/`**: Error Level Analysis (ELA) re-compression difference engine (`ela.py`).
+* **`tools/`**: Receipt Forgery Editor & Dataset Generator (`receipt_forger.py`, `gcash_receipt_generator.py`).
+* **`dataset/`**: Authentic and forged mobile wallet receipt images categorized by forgery type (amount alteration, reference number fabrication, name modification).
+* **`models/`**: CNN model definitions and saved `.h5` weight files.
+
+---
+
+## 🚀 Quick Start (Local Run)
 
 ```bash
-# 1. Navigate to the thesis-system directory
-cd thesis-system
+# 1. Clone the repository
+git clone https://github.com/DeathKnell837/ForgeGuard.git
+cd ForgeGuard
 
-# 2. Run the Streamlit web application
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Launch the web application
 python -m streamlit run webapp/app.py
 ```
 
-## 📅 Status
-
-✅ **Web Application Demo (`webapp/app.py`)** — Custom styled Streamlit interface (Dark glassmorphism, live ELA calculation, 3-column forensics view, multi-model evaluation comparison matrix)
-✅ **Error Level Analysis (ELA) Engine (`preprocessing/ela.py`)** — Live JPEG error difference heatmap generation
-✅ **Forgery Generator Tools (`tools/`)** — Receipt generator and forgery editor tools built
-🔄 **In Progress** — Dataset collection & CNN model training pipeline
+Open `http://localhost:8501` in your browser.
 
 ---
 
-*Notre Dame of Midsayap College — College of Information Technology and Engineering (CITE)*
+## 📄 License
+This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
