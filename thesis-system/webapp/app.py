@@ -16,13 +16,16 @@ import time
 import io
 import datetime
 
-# Ensure user site packages and parent directory are in sys.path
-if hasattr(site, 'USER_SITE') and site.USER_SITE not in sys.path:
-    sys.path.append(site.USER_SITE)
+# Ensure user site packages and project root directory are in sys.path
+APP_DIR = os.path.dirname(os.path.abspath(__file__))
+SYS_DIR = os.path.abspath(os.path.join(APP_DIR, ".."))
 
-SYS_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 if SYS_DIR not in sys.path:
     sys.path.insert(0, SYS_DIR)
+if APP_DIR not in sys.path:
+    sys.path.insert(0, APP_DIR)
+if hasattr(site, 'USER_SITE') and site.USER_SITE not in sys.path:
+    sys.path.append(site.USER_SITE)
 
 import numpy as np
 from PIL import Image, ImageEnhance, ImageFilter
