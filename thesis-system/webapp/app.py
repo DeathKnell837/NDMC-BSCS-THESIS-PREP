@@ -903,10 +903,10 @@ with main_tab1:
                 <div class="banner-forged">
                     <div>
                         <div class="verdict-heading-forged">
-                            {SVG_SHIELD_ALERT} FORGED RECEIPT DETECTED
+                            {SVG_SHIELD_ALERT} DIGITAL FORGERY DETECTED
                         </div>
                         <div style="color: #94a3b8; font-size: 0.86rem; margin-top: 4px;">
-                            Pixel-level manipulation and JPEG compression error anomalies detected.
+                            {'[Pre-Training ELA Heuristic] High pixel contrast & compression variance detected.' if is_demo else 'Pixel-level manipulation and JPEG compression error anomalies detected.'}
                         </div>
                     </div>
                     <div style="text-align: right;">
