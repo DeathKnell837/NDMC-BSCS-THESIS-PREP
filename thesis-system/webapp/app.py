@@ -373,7 +373,6 @@ def draw_express_send_receipt(receipt_data, add_artifacts=False, artifact_type=N
     draw.line([3 * W // 4 - 15, nav_y + 45, 3 * W // 4 + 15, nav_y + 65], fill=(180, 180, 180), width=4)
     
     return img
-  return img
 
 def draw_gcash_receipt(receipt_data, add_artifacts=False, artifact_type=None):
     """Self-contained Express Send receipt renderer."""
@@ -388,11 +387,35 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+import base64
+
+def get_base64_image(image_path):
+    if os.path.exists(image_path):
+        try:
+            with open(image_path, "rb") as img_file:
+                return base64.b64encode(img_file.read()).decode()
+        except Exception:
+            pass
+    return ""
+
+bg_image_path = os.path.join(APP_DIR, "cyber_background.jpg")
+bg_b64 = get_base64_image(bg_image_path)
+
+if bg_b64:
+    bg_style_rule = f""".stApp {{
+        background: linear-gradient(135deg, rgba(6, 10, 18, 0.82) 0%, rgba(11, 19, 43, 0.88) 100%),
+                    url("data:image/jpeg;base64,{bg_b64}") no-repeat center center fixed !important;
+        background-size: cover !important;
+    }}"""
+else:
+    bg_style_rule = """.stApp {
+        background: radial-gradient(circle at 50% 0%, #1c2541 0%, #0b132b 75%) !important;
+    }"""
+
 # ============================================================
 # ADVANCED CSS OVERHAUL — ZERO STREAMLIT RED ACCENTS & NO TOASTS
 # ============================================================
-CUSTOM_CSS = """
-<style>
+CUSTOM_CSS = "<style>\n" + bg_style_rule + """
 /* Import Inter & JetBrains Mono Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;600;700&display=swap');
 
@@ -415,6 +438,11 @@ div[class*="stToast"],
     visibility: hidden !important;
 }
 
+/* Page container constraints */
+.block-container {
+    padding-top: 1rem !important;
+    padding-bottom: 2rem !important;
+    max-width: 1400px !important;
 /* Page container constraints */
 .block-container {
     padding-top: 1rem !important;
