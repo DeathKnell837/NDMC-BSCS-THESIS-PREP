@@ -206,23 +206,23 @@ def format_time(dt):
 # ============================================================
 
 def mask_name_gcash(full_name):
-    """Format name in GCash Express Send style: GW******N D."""
+    """Format name in GCash Express Send style: GW••••••N D."""
     parts = str(full_name).strip().split()
     if len(parts) >= 2:
         first = parts[0]
         last = parts[-1]
         if len(first) >= 2:
-            masked_first = first[:2] + "******" + first[-1]
+            masked_first = first[:2] + "\u2022\u2022\u2022\u2022\u2022\u2022" + first[-1]
         else:
-            masked_first = first + "******"
+            masked_first = first + "\u2022\u2022\u2022\u2022\u2022\u2022"
         return f"{masked_first.upper()} {last[0].upper()}."
-    return f"{str(full_name)[:2].upper()}******{str(full_name)[-1].upper()}"
+    return f"{str(full_name)[:2].upper()}\u2022\u2022\u2022\u2022\u2022\u2022{str(full_name)[-1].upper()}"
 
 
 def draw_express_send_receipt(receipt_data, add_artifacts=False, artifact_type=None):
     """
     Draw 1:1 pixel-perfect GCash 'Express Send' receipt image matching authentic screenshots (908x2048).
-    Includes vector leaf icon, sawtooth tear line, and download tray icon.
+    Dynamic tight card bottom calculation, solid bullet dots, Peso symbol, and vector leaf icon.
     """
     W, H = 908, 2048
     GCASH_BLUE = (0, 110, 235)
@@ -261,37 +261,23 @@ def draw_express_send_receipt(receipt_data, add_artifacts=False, artifact_type=N
     tw = bbox[2] - bbox[0]
     draw.text(((W - tw) // 2, y + 20), title, fill=GCASH_WHITE, font=font_header_title)
     
-    # 3. WHITE RECEIPT CARD
     card_x1 = 45
     card_x2 = W - 45
     card_top = 260
-    card_bottom = 1580
     
-    draw.rounded_rectangle([card_x1, card_top, card_x2, card_bottom], radius=36, fill=GCASH_WHITE)
+    # Measure vertical positions for tight bottom calculation
+    y = card_top + 52 + 45 # Checkmark circle offset
     
-    # 4. CHECKMARK CIRCLE (OVERLAPPING TOP BORDER OF WHITE CARD)
-    cx = W // 2
-    circle_cy = card_top
-    circle_r = 52
-    draw.ellipse([cx - circle_r, circle_cy - circle_r, cx + circle_r, circle_cy + circle_r], fill=(0, 105, 230))
-    draw.line([cx - 20, circle_cy + 2, cx - 4, circle_cy + 18], fill=GCASH_WHITE, width=7)
-    draw.line([cx - 4, circle_cy + 18, cx + 22, circle_cy - 16], fill=GCASH_WHITE, width=7)
-    
-    y = circle_cy + circle_r + 45
-    
-    # 5. RECIPIENT MASKED NAME
+    # Masked name with solid bullet dots
     raw_name = receipt_data.get('recipient_name', 'Angel N. Soriano')
     masked_name_str = mask_name_gcash(raw_name)
     if add_artifacts and artifact_type == 'name_modification':
-        masked_name_str = mask_name_gcash("Daniela S. Ungab")
+        masked_name_str = "JU\u2022\u2022\u2022\u2022\u2022\u2022N R."
         
-    bbox = draw.textbbox((0, 0), masked_name_str, font=font_name_large)
-    tw = bbox[2] - bbox[0]
-    draw.text(((W - tw) // 2, y), masked_name_str, fill=(0, 65, 175), font=font_name_large)
-    
+    name_y = y
     y += 75
     
-    # 6. PHONE NUMBER PILL
+    # Phone pill
     phone_raw = receipt_data.get('recipient_phone', '+63 975 343 9451')
     if not str(phone_raw).startswith('+63'):
         phone_clean = str(phone_raw).replace(' ', '')
@@ -301,58 +287,24 @@ def draw_express_send_receipt(receipt_data, add_artifacts=False, artifact_type=N
             phone_raw = f"+63 {phone_raw}"
             
     phone_str = str(phone_raw)
-    bbox = draw.textbbox((0, 0), phone_str, font=font_phone)
-    tw = bbox[2] - bbox[0]
-    pill_w = tw + 70
-    pill_h = 64
-    pill_x1 = (W - pill_w) // 2
-    pill_y1 = y
-    draw.rounded_rectangle([pill_x1, pill_y1, pill_x1 + pill_w, pill_y1 + pill_h], radius=32, fill=(235, 243, 255))
-    draw.text(((W - tw) // 2, pill_y1 + 12), phone_str, fill=(0, 65, 170), font=font_phone)
+    pill_y = y
+    y += 64 + 16
     
-    y += pill_h + 16
+    sub_y = y
+    y += 55 + 35
     
-    # SUBTITLE
-    sub_str = "Sent via GCash"
-    bbox = draw.textbbox((0, 0), sub_str, font=font_sub)
-    tw = bbox[2] - bbox[0]
-    draw.text(((W - tw) // 2, y), sub_str, fill=(150, 155, 165), font=font_sub)
-    
-    y += 55
-    
-    # DIVIDER 1
-    left_m = card_x1 + 50
-    right_m = card_x2 - 50
-    draw.line([left_m, y, right_m, y], fill=(230, 235, 242), width=2)
-    y += 35
-    
-    # 7. AMOUNT ROW
-    draw.text((left_m, y), "Amount", fill=(30, 35, 50), font=font_label)
+    amt_y = y
     amt_val = receipt_data.get('amount', 100.0)
     amt_str = f"{amt_val:,.2f}" if isinstance(amt_val, (int, float)) else str(amt_val)
     if add_artifacts and artifact_type == 'amount_alteration':
         amt_str = "5,000.00"
         
-    bbox = draw.textbbox((0, 0), amt_str, font=font_val)
-    tw = bbox[2] - bbox[0]
-    draw.text((right_m - tw, y), amt_str, fill=(30, 35, 50), font=font_val)
+    y += 75 + 35
     
-    y += 75
-    
-    # DIVIDER 2
-    draw.line([left_m, y, right_m, y], fill=(230, 235, 242), width=2)
-    y += 35
-    
-    # 8. TOTAL AMOUNT SENT ROW
-    draw.text((left_m, y + 6), "Total Amount Sent", fill=(20, 25, 40), font=font_total_label)
-    total_str = f"P{amt_str}"
-    bbox = draw.textbbox((0, 0), total_str, font=font_total_val)
-    tw = bbox[2] - bbox[0]
-    draw.text((right_m - tw, y), total_str, fill=(0, 65, 175), font=font_total_val)
-    
+    total_y = y
     y += 110
     
-    # 9. REF NO & TIMESTAMP SECTION
+    ref_y = y
     ref_num = receipt_data.get('ref_number', '2043 210 185624')
     if add_artifacts and artifact_type == 'ref_fabrication':
         ref_num = '3890 838 637940'
@@ -360,42 +312,103 @@ def draw_express_send_receipt(receipt_data, add_artifacts=False, artifact_type=N
         clean_ref = str(ref_num).replace(' ', '')
         ref_num = f"{clean_ref[:4]} {clean_ref[4:7]} {clean_ref[7:]}"
         
-    ref_str = f"Ref No. {ref_num}"
-    bbox = draw.textbbox((0, 0), ref_str, font=font_ref)
-    tw = bbox[2] - bbox[0]
-    draw.text(((W - tw) // 2, y), ref_str, fill=(70, 85, 110), font=font_ref)
-    
     y += 45
-    date_str = dt_val.strftime("%b %d, %Y %I:%M %p").replace(" 0", " ")
-    bbox = draw.textbbox((0, 0), date_str, font=font_date)
-    tw = bbox[2] - bbox[0]
-    draw.text(((W - tw) // 2, y), date_str, fill=(120, 130, 150), font=font_date)
+    date_y = y
+    y += 75
     
-    y += 85
-    
-    # 10. GREEN CARBON FOOTPRINT CARD (gCO2e) WITH VECTOR LEAF ICON
+    # Green carbon card
     eco_x1 = card_x1 + 40
     eco_x2 = card_x2 - 40
     eco_y1 = y
     eco_h = 195
+    
+    # Dynamic tight card bottom directly below green carbon card
+    card_bottom = eco_y1 + eco_h + 15
+    
+    # 3. DRAW WHITE RECEIPT CARD TIGHTLY
+    draw.rounded_rectangle([card_x1, card_top, card_x2, card_bottom], radius=36, fill=GCASH_WHITE)
+    
+    # 4. CHECKMARK CIRCLE
+    cx = W // 2
+    circle_cy = card_top
+    circle_r = 52
+    draw.ellipse([cx - circle_r, circle_cy - circle_r, cx + circle_r, circle_cy + circle_r], fill=(0, 105, 230))
+    draw.line([cx - 20, circle_cy + 2, cx - 4, circle_cy + 18], fill=GCASH_WHITE, width=7)
+    draw.line([cx - 4, circle_cy + 18, cx + 22, circle_cy - 16], fill=GCASH_WHITE, width=7)
+    
+    # 5. RECIPIENT MASKED NAME
+    try:
+        bbox = draw.textbbox((0, 0), masked_name_str, font=font_name_large)
+        tw = bbox[2] - bbox[0]
+        draw.text(((W - tw) // 2, name_y), masked_name_str, fill=(0, 65, 175), font=font_name_large)
+    except Exception:
+        draw.text((W // 4, name_y), masked_name_str, fill=(0, 65, 175), font=font_name_large)
+        
+    # 6. PHONE NUMBER PILL
+    bbox = draw.textbbox((0, 0), phone_str, font=font_phone)
+    tw = bbox[2] - bbox[0]
+    pill_w = tw + 70
+    pill_x1 = (W - pill_w) // 2
+    draw.rounded_rectangle([pill_x1, pill_y, pill_x1 + pill_w, pill_y + 64], radius=32, fill=(235, 243, 255))
+    draw.text(((W - tw) // 2, pill_y + 12), phone_str, fill=(0, 65, 170), font=font_phone)
+    
+    # SUBTITLE
+    sub_str = "Sent via GCash"
+    bbox = draw.textbbox((0, 0), sub_str, font=font_sub)
+    tw = bbox[2] - bbox[0]
+    draw.text(((W - tw) // 2, sub_y), sub_str, fill=(150, 155, 165), font=font_sub)
+    
+    # DIVIDERS
+    left_m = card_x1 + 50
+    right_m = card_x2 - 50
+    draw.line([left_m, pill_y + 64 + 16 + 55, right_m, pill_y + 64 + 16 + 55], fill=(230, 235, 242), width=2)
+    
+    # 7. AMOUNT ROW
+    draw.text((left_m, amt_y), "Amount", fill=(30, 35, 50), font=font_label)
+    bbox = draw.textbbox((0, 0), amt_str, font=font_val)
+    tw = bbox[2] - bbox[0]
+    draw.text((right_m - tw, amt_y), amt_str, fill=(30, 35, 50), font=font_val)
+    
+    draw.line([left_m, amt_y + 75, right_m, amt_y + 75], fill=(230, 235, 242), width=2)
+    
+    # 8. TOTAL AMOUNT SENT ROW WITH PESO SIGN
+    draw.text((left_m, total_y + 6), "Total Amount Sent", fill=(20, 25, 40), font=font_total_label)
+    total_str = f"\u20b1{amt_str}"
+    try:
+        bbox = draw.textbbox((0, 0), total_str, font=font_total_val)
+        tw = bbox[2] - bbox[0]
+        draw.text((right_m - tw, total_y), total_str, fill=(0, 65, 175), font=font_total_val)
+    except Exception:
+        draw.text((right_m - 220, total_y), f"P{amt_str}", fill=(0, 65, 175), font=font_total_val)
+        
+    # 9. REF NO & TIMESTAMP SECTION
+    ref_str = f"Ref No. {ref_num}"
+    bbox = draw.textbbox((0, 0), ref_str, font=font_ref)
+    tw = bbox[2] - bbox[0]
+    draw.text(((W - tw) // 2, ref_y), ref_str, fill=(70, 85, 110), font=font_ref)
+    
+    date_str = dt_val.strftime("%b %d, %Y %I:%M %p").replace(" 0", " ")
+    bbox = draw.textbbox((0, 0), date_str, font=font_date)
+    tw = bbox[2] - bbox[0]
+    draw.text(((W - tw) // 2, date_y), date_str, fill=(120, 130, 150), font=font_date)
+    
+    # 10. GREEN CARBON FOOTPRINT CARD (gCO2e) WITH VECTOR LEAF ICON
     draw.rounded_rectangle([eco_x1, eco_y1, eco_x2, eco_y1 + eco_h], radius=20, fill=(166, 233, 206))
+    draw.rounded_rectangle([eco_x1, eco_y1, eco_x1 + 16, eco_y1 + eco_h], radius=8, fill=(35, 160, 110))
     
-    # Leaf icon circle & leaf outline
-    lc_x, lc_y, lc_r = eco_x1 + 50, eco_y1 + 42, 22
-    draw.ellipse([lc_x - lc_r, lc_y - lc_r, lc_x + lc_r, lc_y + lc_r], outline=(10, 110, 60), width=3)
-    draw.arc([lc_x - 12, lc_y - 12, lc_x + 12, lc_y + 12], start=45, end=225, fill=(10, 110, 60), width=3)
-    draw.line([lc_x - 8, lc_y + 10, lc_x + 10, lc_y - 8], fill=(10, 110, 60), width=3)
+    # Vector Leaf Icon
+    lx, ly = eco_x1 + 55, eco_y1 + 45
+    draw.arc([lx - 16, ly - 16, lx + 16, ly + 16], start=45, end=225, fill=(10, 110, 60), width=4)
+    draw.arc([lx - 16, ly - 16, lx + 16, ly + 16], start=225, end=45, fill=(10, 110, 60), width=4)
+    draw.line([lx - 10, ly + 12, lx + 12, ly - 10], fill=(10, 110, 60), width=3)
     
-    draw.text((eco_x1 + 84, eco_y1 + 25), "279g (gCO2e)", fill=(10, 75, 45), font=font_eco_bold)
-    eco_caption1 = "By going digital, you reduce your carbon footprint"
-    eco_caption2 = "from transportation, paper, and plastic."
-    draw.text((eco_x1 + 30, eco_y1 + 82), eco_caption1, fill=(15, 85, 50), font=font_eco_text)
-    draw.text((eco_x1 + 30, eco_y1 + 120), eco_caption2, fill=(15, 85, 50), font=font_eco_text)
+    draw.text((eco_x1 + 90, eco_y1 + 25), "279g (gCO2e)", fill=(10, 75, 45), font=font_eco_bold)
+    draw.text((eco_x1 + 30, eco_y1 + 82), "By going digital, you reduce your carbon footprint", fill=(15, 85, 50), font=font_eco_text)
+    draw.text((eco_x1 + 30, eco_y1 + 120), "from transportation, paper, and plastic.", fill=(15, 85, 50), font=font_eco_text)
     
-    # 11. SAWTOOTH TEAR LINE AT BOTTOM OF WHITE CARD
+    # 11. SAWTOOTH TEAR LINE DIRECTLY AT BOTTOM OF WHITE CARD
     tear_y = card_bottom
-    saw_w = 26
-    saw_h = 20
+    saw_w, saw_h = 26, 20
     for x_pos in range(card_x1, card_x2, saw_w):
         poly = [
             (x_pos, tear_y),
@@ -404,15 +417,14 @@ def draw_express_send_receipt(receipt_data, add_artifacts=False, artifact_type=N
         ]
         draw.polygon(poly, fill=GCASH_BLUE)
         
-    # 12. DOWNLOAD PILL BUTTON WITH VECTOR TRAY ICON
+    # 12. DOWNLOAD PILL BUTTON TIGHTLY BELOW SAWTOOTH LINE
     btn_y = card_bottom + 85
-    btn_w = 360
-    btn_h = 75
+    btn_w, btn_h = 360, 75
     btn_x1 = (W - btn_w) // 2
     btn_x2 = btn_x1 + btn_w
     draw.rounded_rectangle([btn_x1, btn_y, btn_x2, btn_y + btn_h], radius=38, outline=GCASH_WHITE, width=3)
     
-    # Draw download tray icon
+    # Download tray icon
     tx = btn_x1 + 65
     ty = btn_y + 38
     draw.line([tx, ty - 15, tx, ty + 8], fill=GCASH_WHITE, width=4)
