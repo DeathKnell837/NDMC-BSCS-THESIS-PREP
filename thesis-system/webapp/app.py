@@ -119,7 +119,6 @@ def get_font(name, size):
         return ImageFont.load_default(size=size)
     except Exception:
         return ImageFont.load_default()
-
 def mask_name_gcash(full_name):
     """Format name in GCash Express Send style: GW••••••N D."""
     parts = str(full_name).strip().split()
@@ -136,7 +135,7 @@ def mask_name_gcash(full_name):
 def draw_express_send_receipt(receipt_data, add_artifacts=False, artifact_type=None):
     """
     Draw 1:1 pixel-perfect GCash 'Express Send' receipt image matching authentic screenshots (908x2048).
-    Dynamic tight card bottom calculation, solid bullet dots, Peso symbol, and vector leaf icon.
+    Includes vector bullet dots, double-bar Peso symbol, and vector leaf icon for cross-platform Linux servers.
     """
     W, H = 908, 2048
     GCASH_BLUE = (0, 110, 235)
@@ -180,18 +179,10 @@ def draw_express_send_receipt(receipt_data, add_artifacts=False, artifact_type=N
     card_top = 260
     
     # Measure vertical positions for tight bottom calculation
-    y = card_top + 52 + 45 # Checkmark circle offset
-    
-    # Masked name with solid bullet dots
-    raw_name = receipt_data.get('recipient_name', 'Angel N. Soriano')
-    masked_name_str = mask_name_gcash(raw_name)
-    if add_artifacts and artifact_type == 'name_modification':
-        masked_name_str = "JU\u2022\u2022\u2022\u2022\u2022\u2022N R."
-        
+    y = card_top + 52 + 45
     name_y = y
     y += 75
     
-    # Phone pill
     phone_raw = receipt_data.get('recipient_phone', '+63 975 343 9451')
     if not str(phone_raw).startswith('+63'):
         phone_clean = str(phone_raw).replace(' ', '')
@@ -230,13 +221,11 @@ def draw_express_send_receipt(receipt_data, add_artifacts=False, artifact_type=N
     date_y = y
     y += 75
     
-    # Green carbon card
     eco_x1 = card_x1 + 40
     eco_x2 = card_x2 - 40
     eco_y1 = y
     eco_h = 195
     
-    # Dynamic tight card bottom directly below green carbon card
     card_bottom = eco_y1 + eco_h + 15
     
     # 3. DRAW WHITE RECEIPT CARD TIGHTLY
@@ -250,13 +239,35 @@ def draw_express_send_receipt(receipt_data, add_artifacts=False, artifact_type=N
     draw.line([cx - 20, circle_cy + 2, cx - 4, circle_cy + 18], fill=GCASH_WHITE, width=7)
     draw.line([cx - 4, circle_cy + 18, cx + 22, circle_cy - 16], fill=GCASH_WHITE, width=7)
     
-    # 5. RECIPIENT MASKED NAME
-    try:
-        bbox = draw.textbbox((0, 0), masked_name_str, font=font_name_large)
-        tw = bbox[2] - bbox[0]
-        draw.text(((W - tw) // 2, name_y), masked_name_str, fill=(0, 65, 175), font=font_name_large)
-    except Exception:
-        draw.text((W // 4, name_y), masked_name_str, fill=(0, 65, 175), font=font_name_large)
+    # 5. RECIPIENT MASKED NAME (WITH CLEAN VECTOR BULLET DOTS)
+    raw_name = receipt_data.get('recipient_name', 'Angel N. Soriano')
+    parts = str(raw_name).strip().split()
+    if len(parts) >= 2:
+        prefix = parts[0][:2].upper()
+        suffix = f"{parts[0][-1].upper()} {parts[-1][0].upper()}."
+    else:
+        prefix = str(raw_name)[:2].upper()
+        suffix = str(raw_name)[-1].upper()
+        
+    if add_artifacts and artifact_type == 'name_modification':
+        prefix = 'JU'
+        suffix = 'N R.'
+
+    b_pre = draw.textbbox((0, 0), prefix, font=font_name_large)
+    w_pre = b_pre[2] - b_pre[0]
+    b_suf = draw.textbbox((0, 0), suffix, font=font_name_large)
+    w_suf = b_suf[2] - b_suf[0]
+    
+    dots_w = 6 * 18
+    total_name_w = w_pre + 10 + dots_w + 10 + w_suf
+    start_x = (W - total_name_w) // 2
+    
+    draw.text((start_x, name_y), prefix, fill=(0, 65, 175), font=font_name_large)
+    dot_cx = start_x + w_pre + 16
+    for _ in range(6):
+        draw.ellipse([dot_cx - 5, name_y + 24 - 5, dot_cx + 5, name_y + 24 + 5], fill=(0, 65, 175))
+        dot_cx += 18
+    draw.text((dot_cx + 8, name_y), suffix, fill=(0, 65, 175), font=font_name_large)
         
     # 6. PHONE NUMBER PILL
     bbox = draw.textbbox((0, 0), phone_str, font=font_phone)
@@ -285,15 +296,18 @@ def draw_express_send_receipt(receipt_data, add_artifacts=False, artifact_type=N
     
     draw.line([left_m, amt_y + 75, right_m, amt_y + 75], fill=(230, 235, 242), width=2)
     
-    # 8. TOTAL AMOUNT SENT ROW WITH PESO SIGN
+    # 8. TOTAL AMOUNT SENT ROW WITH VECTOR DOUBLE-BAR PESO SIGN
     draw.text((left_m, total_y + 6), "Total Amount Sent", fill=(20, 25, 40), font=font_total_label)
-    total_str = f"\u20b1{amt_str}"
-    try:
-        bbox = draw.textbbox((0, 0), total_str, font=font_total_val)
-        tw = bbox[2] - bbox[0]
-        draw.text((right_m - tw, total_y), total_str, fill=(0, 65, 175), font=font_total_val)
-    except Exception:
-        draw.text((right_m - 220, total_y), f"P{amt_str}", fill=(0, 65, 175), font=font_total_val)
+    
+    amt_total_str = f"P{amt_str}"
+    bbox = draw.textbbox((0, 0), amt_total_str, font=font_total_val)
+    tw = bbox[2] - bbox[0]
+    total_x = right_m - tw
+    draw.text((total_x, total_y), amt_total_str, fill=(0, 65, 175), font=font_total_val)
+    
+    # Draw double horizontal bar over the letter P to guarantee Peso sign rendering
+    draw.line([total_x + 3, total_y + 24, total_x + 32, total_y + 24], fill=(0, 65, 175), width=4)
+    draw.line([total_x + 3, total_y + 32, total_x + 32, total_y + 32], fill=(0, 65, 175), width=4)
         
     # 9. REF NO & TIMESTAMP SECTION
     ref_str = f"Ref No. {ref_num}"
@@ -346,8 +360,7 @@ def draw_express_send_receipt(receipt_data, add_artifacts=False, artifact_type=N
     draw.line([tx + 10, ty - 2, tx, ty + 8], fill=GCASH_WHITE, width=4)
     draw.line([tx - 14, ty + 16, tx + 14, ty + 16], fill=GCASH_WHITE, width=4)
     
-    down_str = "Download"
-    draw.text((btn_x1 + 105, btn_y + 18), down_str, fill=GCASH_WHITE, font=font_download)
+    draw.text((btn_x1 + 105, btn_y + 18), "Download", fill=GCASH_WHITE, font=font_download)
     
     # 13. ANDROID BOTTOM NAVIGATION BAR
     nav_y = H - 90
@@ -360,6 +373,7 @@ def draw_express_send_receipt(receipt_data, add_artifacts=False, artifact_type=N
     draw.line([3 * W // 4 - 15, nav_y + 45, 3 * W // 4 + 15, nav_y + 65], fill=(180, 180, 180), width=4)
     
     return img
+  return img
 
 def draw_gcash_receipt(receipt_data, add_artifacts=False, artifact_type=None):
     """Self-contained Express Send receipt renderer."""
