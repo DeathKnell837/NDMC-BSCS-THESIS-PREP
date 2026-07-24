@@ -387,29 +387,27 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-import base64
+try:
+    from bg_data import BG_BASE64
+except Exception:
+    BG_BASE64 = ""
 
-def get_base64_image(image_path):
-    if os.path.exists(image_path):
-        try:
-            with open(image_path, "rb") as img_file:
-                return base64.b64encode(img_file.read()).decode()
-        except Exception:
-            pass
-    return ""
-
-bg_image_path = os.path.join(APP_DIR, "cyber_background.jpg")
-bg_b64 = get_base64_image(bg_image_path)
-
-if bg_b64:
+if BG_BASE64:
     bg_style_rule = f""".stApp {{
-        background: linear-gradient(135deg, rgba(6, 10, 18, 0.82) 0%, rgba(11, 19, 43, 0.88) 100%),
-                    url("data:image/jpeg;base64,{bg_b64}") no-repeat center center fixed !important;
+        background: linear-gradient(135deg, rgba(6, 10, 18, 0.78) 0%, rgba(11, 19, 43, 0.85) 100%),
+                    url("data:image/jpeg;base64,{BG_BASE64}") no-repeat center center fixed !important;
         background-size: cover !important;
     }}"""
 else:
     bg_style_rule = """.stApp {
-        background: radial-gradient(circle at 50% 0%, #1c2541 0%, #0b132b 75%) !important;
+        background-color: #060a14 !important;
+        background-image: 
+            radial-gradient(circle at 50% 20%, rgba(14, 165, 233, 0.15) 0%, transparent 50%),
+            radial-gradient(circle at 80% 80%, rgba(99, 102, 241, 0.12) 0%, transparent 45%),
+            linear-gradient(rgba(56, 189, 248, 0.05) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(56, 189, 248, 0.05) 1px, transparent 1px) !important;
+        background-size: 100% 100%, 100% 100%, 40px 40px, 40px 40px !important;
+        background-position: center, center, -1px -1px, -1px -1px !important;
     }"""
 
 # ============================================================
