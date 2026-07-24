@@ -156,6 +156,19 @@ div[data-testid="stRadio"] div[role="radiogroup"] div[style*="background"] {
     background-color: #38bdf8 !important;
 }
 
+/* HIDE STREAMLIT FOOTER & HOSTED BADGES */
+#MainMenu {visibility: hidden !important;}
+footer {visibility: hidden !important;}
+header {visibility: hidden !important;}
+div[data-testid="stDecoration"] {display: none !important;}
+div[data-testid="stStatusWidget"] {display: none !important;}
+.stAppDeployButton {display: none !important;}
+div[data-testid="stViewerBadge"] {display: none !important;}
+div[class*="viewerBadge"] {display: none !important;}
+div[class*="styles_viewerBadge"] {display: none !important;}
+.viewerBadge_container__1t55n {display: none !important;}
+footer:after {content: "" !important; display: none !important;}
+
 /* HEADER BRAND BAR */
 .navbar-brand {
     display: flex;
@@ -191,6 +204,7 @@ div[data-testid="stRadio"] div[role="radiogroup"] div[style*="background"] {
     font-weight: 700;
     letter-spacing: 0.8px;
     text-transform: uppercase;
+    white-space: nowrap;
 }
 
 /* HERO DASHBOARD BANNER */
@@ -223,7 +237,8 @@ div[data-testid="stRadio"] div[role="radiogroup"] div[style*="background"] {
 .author-meta {
     display: flex;
     align-items: center;
-    gap: 16px;
+    flex-wrap: wrap;
+    gap: 12px;
     font-size: 0.82rem;
     color: #64748b;
     font-weight: 500;
@@ -231,6 +246,43 @@ div[data-testid="stRadio"] div[role="radiogroup"] div[style*="background"] {
 
 .author-meta strong {
     color: #cbd5e1;
+}
+
+/* MOBILE RESPONSIVE MEDIA QUERIES */
+@media (max-width: 768px) {
+    .navbar-brand {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        padding: 0.9rem 1rem;
+        text-align: center;
+    }
+    .brand-text {
+        font-size: 1.3rem;
+    }
+    .badge-pill {
+        font-size: 0.68rem;
+        padding: 4px 10px;
+    }
+    .hero-box {
+        padding: 1.2rem 1.1rem;
+    }
+    .hero-title {
+        font-size: 1.35rem;
+    }
+    .hero-subtitle {
+        font-size: 0.84rem;
+        line-height: 1.45;
+    }
+    .author-meta {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 6px;
+        font-size: 0.78rem;
+    }
+    .author-meta span:nth-child(2), .author-meta span:nth-child(4) {
+        display: none;
+    }
 }
 
 /* GLASSMORPHISM PANELS */
