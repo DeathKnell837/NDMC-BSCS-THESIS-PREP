@@ -165,6 +165,13 @@ div[data-testid="stRadio"] div[role="radiogroup"] div[style*="background"] {
     background-color: #38bdf8 !important;
 }
 
+/* REMOVE DEFAULT STREAMLIT TOP PADDING */
+.block-container {
+    padding-top: 1rem !important;
+    padding-bottom: 2rem !important;
+    max-width: 1400px !important;
+}
+
 /* HIDE STREAMLIT FOOTER & HOSTED BADGES */
 #MainMenu {visibility: hidden !important;}
 footer {visibility: hidden !important;}
@@ -185,14 +192,14 @@ footer:after {content: "" !important; display: none !important;}
     justify-content: space-between;
     background: linear-gradient(135deg, rgba(15, 23, 42, 0.95) 0%, rgba(30, 41, 59, 0.8) 100%);
     border: 1px solid rgba(56, 189, 248, 0.22);
-    border-radius: 16px;
-    padding: 1.1rem 2rem;
-    margin-bottom: 1.25rem;
+    border-radius: 14px;
+    padding: 0.85rem 1.6rem;
+    margin-bottom: 1rem;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.45);
 }
 
 .brand-text {
-    font-size: 1.6rem;
+    font-size: 1.45rem;
     font-weight: 800;
     letter-spacing: -0.5px;
     background: linear-gradient(135deg, #38bdf8 0%, #818cf8 100%);
@@ -207,54 +214,13 @@ footer:after {content: "" !important; display: none !important;}
     background: rgba(56, 189, 248, 0.12);
     color: #38bdf8;
     border: 1px solid rgba(56, 189, 248, 0.3);
-    padding: 6px 14px;
+    padding: 5px 12px;
     border-radius: 30px;
-    font-size: 0.75rem;
+    font-size: 0.72rem;
     font-weight: 700;
     letter-spacing: 0.8px;
     text-transform: uppercase;
     white-space: nowrap;
-}
-
-/* HERO DASHBOARD BANNER */
-.hero-box {
-    background: radial-gradient(circle at top right, rgba(56, 189, 248, 0.1) 0%, transparent 65%),
-                linear-gradient(135deg, rgba(15, 23, 42, 0.9) 0%, rgba(20, 30, 55, 0.75) 100%);
-    border: 1px solid rgba(56, 189, 248, 0.22);
-    border-radius: 18px;
-    padding: 1.8rem 2.2rem;
-    margin-bottom: 1.75rem;
-    box-shadow: 0 10px 32px rgba(0, 0, 0, 0.4);
-}
-
-.hero-title {
-    font-size: 2rem;
-    font-weight: 800;
-    color: #f8fafc;
-    margin-bottom: 0.5rem;
-    line-height: 1.2;
-}
-
-.hero-subtitle {
-    font-size: 0.95rem;
-    color: #94a3b8;
-    line-height: 1.6;
-    margin-bottom: 1.1rem;
-    max-width: 900px;
-}
-
-.author-meta {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    gap: 12px;
-    font-size: 0.82rem;
-    color: #64748b;
-    font-weight: 500;
-}
-
-.author-meta strong {
-    color: #cbd5e1;
 }
 
 /* MOBILE RESPONSIVE MEDIA QUERIES */
