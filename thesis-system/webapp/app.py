@@ -37,11 +37,8 @@ def masked_phone(phone):
         return f"{p[:4]} *** {p[-4:]}"
     return p
 
-try:
-    from preprocessing.ela import generate_ela_image, evaluate_ela_forgery_risk
-    from tools.gcash_receipt_generator import draw_gcash_receipt
-except ImportError:
-    pass
+from preprocessing.ela import generate_ela_image, evaluate_ela_forgery_risk
+from tools.gcash_receipt_generator import draw_gcash_receipt
 
 # ============================================================
 # PAGE CONFIGURATION
