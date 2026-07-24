@@ -1,6 +1,4 @@
 """
-Preprocessing package for ForgeGuard receipt forgery detection.
+Preprocessing package for ForgeGuard system.
 """
-from .ela import compute_ela, convert_ela_to_array
-
-__all__ = ['compute_ela', 'convert_ela_to_array']
+from preprocessing.ela import compute_ela, generate_ela_image, evaluate_ela_forgery_risk

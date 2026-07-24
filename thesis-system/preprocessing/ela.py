@@ -55,17 +55,29 @@ def compute_ela(image: Image.Image, quality: int = 90, scale: float = 15.0) -> I
     
     return ela_image
 
-def convert_ela_to_array(ela_image: Image.Image, target_size: tuple = (224, 224)) -> np.ndarray:
+def generate_ela_image(image: Image.Image, quality: int = 90, scale: float = 15.0) -> Image.Image:
+    """Alias for compute_ela."""
+    return compute_ela(image, quality=quality, scale=scale)
+
+
+def evaluate_ela_forgery_risk(ela_image: Image.Image) -> dict:
     """
-    Resizes and normalizes ELA image for CNN model input.
+    Evaluates pixel variance and error level distribution to estimate forgery risk.
     
-    Args:
-        ela_image: PIL Image returned by compute_ela.
-        target_size: Target tuple (height, width), default (224, 224).
-        
     Returns:
-        np.ndarray: Normalized array of shape (target_size[0], target_size[1], 3) in range [0, 1].
+        dict: {'mean': float, 'variance': float, 'max': float, 'is_suspicious': bool}
     """
-    resized = ela_image.resize(target_size, Image.Resampling.BILINEAR)
-    arr = np.array(resized, dtype=np.float32) / 255.0
-    return arr
+    arr = np.array(ela_image, dtype=np.float32)
+    mean_val = float(np.mean(arr))
+    var_val = float(np.var(arr))
+    max_val = float(np.max(arr))
+    
+    # Suspicious threshold: high variance in re-compression error
+    is_suspicious = var_val > 185.0 or max_val > 210.0
+    
+    return {
+        'mean': mean_val,
+        'variance': var_val,
+        'max': max_val,
+        'is_suspicious': is_suspicious
+    }
