@@ -37,8 +37,37 @@ def masked_phone(phone):
         return f"{p[:4]} *** {p[-4:]}"
     return p
 
-from preprocessing.ela import generate_ela_image, evaluate_ela_forgery_risk
-from tools.gcash_receipt_generator import draw_gcash_receipt
+try:
+    from preprocessing.ela import generate_ela_image, evaluate_ela_forgery_risk
+except Exception:
+    def generate_ela_image(image: Image.Image, quality: int = 90, scale: float = 15.0) -> Image.Image:
+        """Fallback ELA generator."""
+        if image.mode != 'RGB':
+            image = image.convert('RGB')
+        buf = io.BytesIO()
+        image.save(buf, format='JPEG', quality=quality)
+        buf.seek(0)
+        resaved = Image.open(buf).convert('RGB')
+        ela_diff = ImageChops.difference(image, resaved)
+        return ImageEnhance.Brightness(ela_diff).enhance(scale)
+
+    def evaluate_ela_forgery_risk(ela_image: Image.Image) -> dict:
+        """Fallback ELA risk evaluator."""
+        arr = np.array(ela_image, dtype=np.float32)
+        mean_val = float(np.mean(arr))
+        var_val = float(np.var(arr))
+        max_val = float(np.max(arr))
+        return {
+            'mean': mean_val,
+            'variance': var_val,
+            'max': max_val,
+            'is_suspicious': var_val > 185.0 or max_val > 210.0
+        }
+
+try:
+    from tools.gcash_receipt_generator import draw_gcash_receipt
+except Exception:
+    pass
 
 # ============================================================
 # PAGE CONFIGURATION
