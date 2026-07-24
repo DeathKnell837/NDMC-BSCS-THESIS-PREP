@@ -206,9 +206,7 @@ def format_time(dt):
 # ============================================================
 
 def mask_name_gcash(full_name):
-    """
-    Format name in GCash Express Send style: GW******N D.
-    """
+    """Format name in GCash Express Send style: GW******N D."""
     parts = str(full_name).strip().split()
     if len(parts) >= 2:
         first = parts[0]
@@ -224,6 +222,7 @@ def mask_name_gcash(full_name):
 def draw_express_send_receipt(receipt_data, add_artifacts=False, artifact_type=None):
     """
     Draw 1:1 pixel-perfect GCash 'Express Send' receipt image matching authentic screenshots (908x2048).
+    Includes vector leaf icon, sawtooth tear line, and download tray icon.
     """
     W, H = 908, 2048
     GCASH_BLUE = (0, 110, 235)
@@ -266,7 +265,7 @@ def draw_express_send_receipt(receipt_data, add_artifacts=False, artifact_type=N
     card_x1 = 45
     card_x2 = W - 45
     card_top = 260
-    card_bottom = 1660
+    card_bottom = 1580
     
     draw.rounded_rectangle([card_x1, card_top, card_x2, card_bottom], radius=36, fill=GCASH_WHITE)
     
@@ -356,7 +355,7 @@ def draw_express_send_receipt(receipt_data, add_artifacts=False, artifact_type=N
     # 9. REF NO & TIMESTAMP SECTION
     ref_num = receipt_data.get('ref_number', '2043 210 185624')
     if add_artifacts and artifact_type == 'ref_fabrication':
-        ref_num = '9948 102 773819'
+        ref_num = '3890 838 637940'
     elif len(str(ref_num).replace(' ', '')) == 13:
         clean_ref = str(ref_num).replace(' ', '')
         ref_num = f"{clean_ref[:4]} {clean_ref[4:7]} {clean_ref[7:]}"
@@ -374,15 +373,20 @@ def draw_express_send_receipt(receipt_data, add_artifacts=False, artifact_type=N
     
     y += 85
     
-    # 10. GREEN CARBON FOOTPRINT CARD (gCO2e)
+    # 10. GREEN CARBON FOOTPRINT CARD (gCO2e) WITH VECTOR LEAF ICON
     eco_x1 = card_x1 + 40
     eco_x2 = card_x2 - 40
     eco_y1 = y
-    eco_h = 190
+    eco_h = 195
     draw.rounded_rectangle([eco_x1, eco_y1, eco_x2, eco_y1 + eco_h], radius=20, fill=(166, 233, 206))
     
-    draw.ellipse([eco_x1 + 30, eco_y1 + 25, eco_x1 + 65, eco_y1 + 60], fill=(10, 110, 60))
-    draw.text((eco_x1 + 78, eco_y1 + 25), "279g (gCO2e)", fill=(10, 75, 45), font=font_eco_bold)
+    # Leaf icon circle & leaf outline
+    lc_x, lc_y, lc_r = eco_x1 + 50, eco_y1 + 42, 22
+    draw.ellipse([lc_x - lc_r, lc_y - lc_r, lc_x + lc_r, lc_y + lc_r], outline=(10, 110, 60), width=3)
+    draw.arc([lc_x - 12, lc_y - 12, lc_x + 12, lc_y + 12], start=45, end=225, fill=(10, 110, 60), width=3)
+    draw.line([lc_x - 8, lc_y + 10, lc_x + 10, lc_y - 8], fill=(10, 110, 60), width=3)
+    
+    draw.text((eco_x1 + 84, eco_y1 + 25), "279g (gCO2e)", fill=(10, 75, 45), font=font_eco_bold)
     eco_caption1 = "By going digital, you reduce your carbon footprint"
     eco_caption2 = "from transportation, paper, and plastic."
     draw.text((eco_x1 + 30, eco_y1 + 82), eco_caption1, fill=(15, 85, 50), font=font_eco_text)
@@ -400,17 +404,24 @@ def draw_express_send_receipt(receipt_data, add_artifacts=False, artifact_type=N
         ]
         draw.polygon(poly, fill=GCASH_BLUE)
         
-    # 12. DOWNLOAD PILL BUTTON AT BOTTOM
+    # 12. DOWNLOAD PILL BUTTON WITH VECTOR TRAY ICON
     btn_y = card_bottom + 85
-    btn_w = 340
+    btn_w = 360
     btn_h = 75
     btn_x1 = (W - btn_w) // 2
     btn_x2 = btn_x1 + btn_w
     draw.rounded_rectangle([btn_x1, btn_y, btn_x2, btn_y + btn_h], radius=38, outline=GCASH_WHITE, width=3)
+    
+    # Draw download tray icon
+    tx = btn_x1 + 65
+    ty = btn_y + 38
+    draw.line([tx, ty - 15, tx, ty + 8], fill=GCASH_WHITE, width=4)
+    draw.line([tx - 10, ty - 2, tx, ty + 8], fill=GCASH_WHITE, width=4)
+    draw.line([tx + 10, ty - 2, tx, ty + 8], fill=GCASH_WHITE, width=4)
+    draw.line([tx - 14, ty + 16, tx + 14, ty + 16], fill=GCASH_WHITE, width=4)
+    
     down_str = "Download"
-    bbox = draw.textbbox((0, 0), down_str, font=font_download)
-    tw = bbox[2] - bbox[0]
-    draw.text(((W - tw) // 2, btn_y + 16), down_str, fill=GCASH_WHITE, font=font_download)
+    draw.text((btn_x1 + 105, btn_y + 18), down_str, fill=GCASH_WHITE, font=font_download)
     
     # 13. ANDROID BOTTOM NAVIGATION BAR
     nav_y = H - 90
