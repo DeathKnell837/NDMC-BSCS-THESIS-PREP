@@ -27,12 +27,21 @@ if APP_DIR not in sys.path:
 if hasattr(site, 'USER_SITE') and site.USER_SITE not in sys.path:
     sys.path.append(site.USER_SITE)
 
-import numpy as np
-from PIL import Image, ImageEnhance, ImageFilter
-import streamlit as st
+def masked_phone(phone):
+    """Mask middle digits of phone number e.g. 0976 *** 7835"""
+    p = str(phone).strip()
+    parts = p.split()
+    if len(parts) == 3:
+        return f"{parts[0]} *** {parts[2]}"
+    if len(p) >= 11:
+        return f"{p[:4]} *** {p[-4:]}"
+    return p
 
-from preprocessing.ela import compute_ela, convert_ela_to_array
-from tools.gcash_receipt_generator import draw_gcash_receipt, masked_phone
+try:
+    from preprocessing.ela import generate_ela_image, evaluate_ela_forgery_risk
+    from tools.gcash_receipt_generator import draw_gcash_receipt
+except ImportError:
+    pass
 
 # ============================================================
 # PAGE CONFIGURATION
