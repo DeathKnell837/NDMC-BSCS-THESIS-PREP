@@ -207,18 +207,18 @@ def format_time(dt):
 
 def mask_name_gcash(full_name):
     """
-    Format name in GCash Express Send style: GW••••••N D.
+    Format name in GCash Express Send style: GW******N D.
     """
     parts = full_name.split()
     if len(parts) >= 2:
         first = parts[0]
         last = parts[-1]
         if len(first) >= 2:
-            masked_first = first[:2] + "••••••" + first[-1]
+            masked_first = first[:2] + "******" + first[-1]
         else:
-            masked_first = first + "••••••"
+            masked_first = first + "******"
         return f"{masked_first.upper()} {last[0].upper()}."
-    return f"{full_name[:2].upper()}••••••{full_name[-1].upper()}"
+    return f"{full_name[:2].upper()}******{full_name[-1].upper()}"
 
 
 def draw_express_send_receipt(receipt_data, add_artifacts=False, artifact_type=None):
@@ -250,14 +250,14 @@ def draw_express_send_receipt(receipt_data, add_artifacts=False, artifact_type=N
     draw.rectangle([0, 0, RECEIPT_WIDTH, 80], fill=GCASH_BLUE)
     status_time = receipt_data['datetime'].strftime("%I:%M").lstrip('0')
     draw.text((50, 20), status_time, fill=GCASH_WHITE, font=get_font('segoe_bold', 32))
-    draw.text((RECEIPT_WIDTH - 240, 20), "86.5 KB/s 📶 4G  66%", fill=GCASH_WHITE, font=get_font('regular', 26))
+    draw.text((RECEIPT_WIDTH - 240, 20), "86.5 KB/s  4G  66%", fill=GCASH_WHITE, font=get_font('regular', 26))
     
     y = 80
     
     # --- HEADER BAR ---
     header_h = 130
     # Close icon X on left
-    draw.text((60, y + 25), "✕", fill=GCASH_WHITE, font=get_font('bold', 48))
+    draw.text((60, y + 25), "X", fill=GCASH_WHITE, font=get_font('bold', 44))
     # Title centered
     title = "Express Send"
     bbox = draw.textbbox((0, 0), title, font=font_header_title)
@@ -282,8 +282,9 @@ def draw_express_send_receipt(receipt_data, add_artifacts=False, artifact_type=N
     circle_r = 65
     # Outer blue circle
     draw.ellipse([cx - circle_r, circle_y, cx + circle_r, circle_y + circle_r * 2], fill=(0, 105, 230))
-    # White check mark
-    draw.text((cx - 24, circle_y + 22), "✓", fill=GCASH_WHITE, font=get_font('bold', 70))
+    # White check mark vector lines
+    draw.line([cx - 25, circle_y + 65, cx - 5, circle_y + 85], fill=GCASH_WHITE, width=8)
+    draw.line([cx - 5, circle_y + 85, cx + 30, circle_y + 40], fill=GCASH_WHITE, width=8)
     
     y = circle_y + circle_r * 2 + 50
     
@@ -359,7 +360,7 @@ def draw_express_send_receipt(receipt_data, add_artifacts=False, artifact_type=N
     # --- TOTAL AMOUNT SENT ROW ---
     draw.text((left_m, y + 8), "Total Amount Sent", fill=(20, 30, 55), font=font_total_label)
     
-    # Format amount with 'P' prefix safely to avoid missing glyph box [?] on Linux
+    # Format amount with 'P' prefix safely to avoid missing glyph box on Linux
     total_str = f"P{amt_str}"
     bbox = draw.textbbox((0, 0), total_str, font=font_total_val)
     tw = bbox[2] - bbox[0]
@@ -398,7 +399,7 @@ def draw_express_send_receipt(receipt_data, add_artifacts=False, artifact_type=N
     draw.rounded_rectangle([eco_x1, eco_y1, eco_x2, eco_y1 + eco_h], radius=24, fill=(162, 232, 206))
     
     # Eco text content
-    draw.text((eco_x1 + 40, eco_y1 + 30), "🍃 279g (gCO2e)", fill=(10, 80, 50), font=font_eco_bold)
+    draw.text((eco_x1 + 40, eco_y1 + 30), "279g (gCO2e)", fill=(10, 80, 50), font=font_eco_bold)
     
     eco_caption1 = "By going digital, you reduce your carbon footprint"
     eco_caption2 = "from transportation, paper, and plastic."
@@ -419,7 +420,7 @@ def draw_express_send_receipt(receipt_data, add_artifacts=False, artifact_type=N
         
     # --- DOWNLOAD BUTTON AT BOTTOM ---
     btn_y = card_bottom + 100
-    down_str = "⤓  Download"
+    down_str = "Download"
     bbox = draw.textbbox((0, 0), down_str, font=font_download)
     tw = bbox[2] - bbox[0]
     draw.text(((RECEIPT_WIDTH - tw) // 2, btn_y), down_str, fill=GCASH_WHITE, font=font_download)
